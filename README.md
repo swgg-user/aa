@@ -36,7 +36,7 @@ the greatest app in the world!
 
 
 # cdn download
-- [https://kaizhu256.github.io/node-sandbox2/build..beta..travis-ci.org/app/assets.sandbox2.rollup.js](https://kaizhu256.github.io/node-sandbox2/build..beta..travis-ci.org/app/assets.sandbox2.rollup.js)
+- [https://kaizhu256.github.io/node-sandbox2/build..beta..travis-ci.org/app/assets.jslint.js](https://kaizhu256.github.io/node-sandbox2/build..beta..travis-ci.org/app/assets.jslint.js)
 
 
 
