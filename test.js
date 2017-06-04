@@ -47,11 +47,11 @@
             break;
         // re-init local from example.js
         case 'node':
-            local = (local.global.utility2_rollup || require('utility2'))
-                .requireReadme();
+            local = (local.global.utility2_rollup ||
+                require('utility2')).requireReadme();
             break;
         }
-        // export local
+        // init exports
         local.global.local = local;
     }());
 
@@ -93,15 +93,27 @@
             onError
         ) {
         /*
-         * this function will test browsers's null-case handling-behavior-behavior
+         * this function will test browser's null-case handling-behavior-behavior
          */
             onError(null, options);
         };
 
+        local.utility2.ajaxForwardProxyUrlTest = local.utility2.ajaxForwardProxyUrlTest ||
+            function (url, location) {
+            /*
+             * this function will test if the url requires forward-proxy
+             */
+                // jslint-hack
+                local.nop(url);
+                return local.env.npm_package_nameAlias && (/\bgithub.io$/).test(location.host)
+                    ? 'https://h1-' + local.env.npm_package_nameAlias + '-alpha.herokuapp.com'
+                    : location.protocol + '//' + location.host;
+            };
+
         // run tests
-        local.nop(local.modeTest &&
-            document.querySelector('#testRunButton1') &&
-            document.querySelector('#testRunButton1').click());
+        if (local.modeTest && document.querySelector('#testRunButton1')) {
+            document.querySelector('#testRunButton1').click();
+        }
         break;
 
 
