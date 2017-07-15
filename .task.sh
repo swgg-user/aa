@@ -8,15 +8,16 @@
 # [$ /bin/sh .task.sh]
 # shCryptoTravisEncrypt scrapeitall
 #!! [
-    #!! '2017.05.20 swgg',
-    #!! '2017.05.20 uglifyjs-lite',
-    #!! '2017.05.25 db-lite',
-    #!! '2017.05.27 jslint-lite',
-    #!! '2017.05.27 istanbul-lite',
-    #!! '2017.05.29 electron-lite',
-    #!! '2017.05.30 apidoc-lite',
-    #!! '2017.05.30 swagger-ui-lite',
-    #!! '2017.05.20 utility2'
+  #!! '2017.05.25 db-lite',
+  #!! '2017.05.27 istanbul-lite',
+  #!! '2017.05.27 jslint-lite',
+  #!! '2017.05.30 apidoc-lite',
+  #!! '2017.05.30 swagger-ui-lite',
+  #!! '2017.06.02 elasticsearch-lite',
+  #!! '2017.07.01 swgg',
+  #!! '2017.07.15 electron-lite',
+  #!! '2017.07.15 uglifyjs-lite',
+  #!! '2017.07.15 utility2'
 #!! ]
 
 shInitCustomOrg() {
