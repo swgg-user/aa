@@ -1,3 +1,4 @@
+# shCryptoWithGithubOrg kaizhu256 shCustomOrgRepoListCreate kaizhu256/sandbox3
 # shCryptoWithGithubOrg kaizhu256 /bin/sh "$HOME/src/sandbox2/.task.sh"
 # shCryptoWithGithubOrg kaizhu256 shTravisTaskPush "$HOME/src/sandbox2/.task.sh"
 # TRAVIS_REPO_CREATE_FORCE=1 shCryptoWithGithubOrg npmtest shCustomOrgRepoListCreate npmtest/node-npmtest-sandbox2
@@ -8,15 +9,16 @@
 # [$ /bin/sh .task.sh]
 # shCryptoTravisEncrypt scrapeitall
 #!! [
-  #!! '2017.05.25 db-lite',
   #!! '2017.05.27 istanbul-lite',
   #!! '2017.05.27 jslint-lite',
   #!! '2017.05.30 apidoc-lite',
   #!! '2017.05.30 swagger-ui-lite',
-  #!! '2017.06.02 elasticsearch-lite',
-  #!! '2017.07.01 swgg',
-  #!! '2017.07.15 electron-lite',
   #!! '2017.07.15 uglifyjs-lite',
+  #!! '2017.08.30 electron-lite',
+
+  #!! '2017.07.24 db-lite',
+  #!! '2017.07.24 swgg',
+  #!! '2017.07.25 elasticsearch-lite',
   #!! '2017.07.15 utility2'
 #!! ]
 
