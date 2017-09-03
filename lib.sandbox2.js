@@ -45,6 +45,12 @@
         if (local.modeJs === 'browser') {
             local.global.utility2_sandbox2 = local;
         } else {
+            // init builtins
+            Object.keys(process.binding('natives')).forEach(function (key) {
+                if (!local[key] && !(/^_|\/|^sys$/).test(key)) {
+                    local[key] = require(key);
+                }
+            });
             module.exports = local;
             module.exports.__dirname = __dirname;
             module.exports.module = module;
