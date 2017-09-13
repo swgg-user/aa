@@ -1,9 +1,14 @@
 # sandbox2
 the greatest app in the world!
 
-[![screenshot](https://kaizhu256.github.io/node-sandbox2/build/screenshot.testExampleSh.browser.%252F.png)](https://kaizhu256.github.io/node-sandbox2/build/app/assets.example.html)
+# live demo
+- [https://kaizhu256.github.io/node-sandbox2/build..beta..travis-ci.org/app](https://kaizhu256.github.io/node-sandbox2/build..beta..travis-ci.org/app)
 
-[![travis-ci.org build-status](https://api.travis-ci.org/kaizhu256/node-sandbox2.svg)](https://travis-ci.org/kaizhu256/node-sandbox2) [![coverage](https://kaizhu256.github.io/node-sandbox2/build/coverage.badge.svg)](https://kaizhu256.github.io/node-sandbox2/build/coverage.html/index.html)
+[![github.com test-server](https://kaizhu256.github.io/node-sandbox2/build/screenshot.deployGithub.browser.%252Fnode-sandbox2%252Fbuild%252Fapp.png)](https://kaizhu256.github.io/node-sandbox2/build..beta..travis-ci.org/app)
+
+
+
+[![travis-ci.org build-status](https://api.travis-ci.org/kaizhu256/node-sandbox2.svg)](https://travis-ci.org/kaizhu256/node-sandbox2) [![coverage](https://kaizhu256.github.io/node-sandbox2/build/coverage.badge.svg)](https://kaizhu256.github.io/node-sandbox2/build/coverage.html/index.html) [![snyk.io vulnerabilities](https://snyk.io/test/github/kaizhu256/node-sandbox2/badge.svg)](https://snyk.io/test/github/kaizhu256/node-sandbox2)
 
 [![NPM](https://nodei.co/npm/sandbox2.png?downloads=true)](https://www.npmjs.com/package/sandbox2)
 
@@ -25,7 +30,6 @@ the greatest app in the world!
 
 # table of contents
 1. [cdn download](#cdn-download)
-1. [live demo](#live-demo)
 1. [documentation](#documentation)
 1. [quickstart standalone app](#quickstart-standalone-app)
 1. [quickstart example.js](#quickstart-examplejs)
@@ -42,14 +46,10 @@ the greatest app in the world!
 
 
 
-# live demo
-- [https://kaizhu256.github.io/node-sandbox2/build..beta..travis-ci.org/app](https://kaizhu256.github.io/node-sandbox2/build..beta..travis-ci.org/app)
-
-[![github.com test-server](https://kaizhu256.github.io/node-sandbox2/build/screenshot.deployGithub.browser.%252Fnode-sandbox2%252Fbuild%252Fapp.png)](https://kaizhu256.github.io/node-sandbox2/build..beta..travis-ci.org/app)
-
-
-
 # documentation
+#### cli help
+![screenshot](https://kaizhu256.github.io/node-sandbox2/build/screenshot.npmPackageCliHelp.svg)
+
 #### apidoc
 - [https://kaizhu256.github.io/node-sandbox2/build..beta..travis-ci.org/apidoc.html](https://kaizhu256.github.io/node-sandbox2/build..beta..travis-ci.org/apidoc.html)
 
@@ -255,9 +255,9 @@ instruction
     case 'node':
         // init exports
         module.exports = local;
-        // init builtins
+        // require builtins
         Object.keys(process.binding('natives')).forEach(function (key) {
-            if (!local[key] && !(/^_|\/|^sys$/).test(key)) {
+            if (!local[key] && !(/\/|^_|^sys$/).test(key)) {
                 local[key] = require(key);
             }
         });
@@ -297,7 +297,7 @@ instruction
                     return match0;
                 }
             });
-        // run the cli
+        // init cli
         if (module !== require.main || local.global.utility2_rollup) {
             break;
         }

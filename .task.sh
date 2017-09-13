@@ -9,32 +9,16 @@
 # [$ /bin/sh .task.sh]
 # shCryptoTravisEncrypt scrapeitall
 #!! [
-    #!! ' electron-onload-test',
-    #!! '2017.05.27 istanbul-lite',
-    #!! '2017.05.27 jslint-lite',
-    #!! '2017.05.30 apidoc-lite',
-    #!! '2017.05.30 swagger-ui-lite',
     #!! '2017.07.15 uglifyjs-lite',
-
+    #!! '2017.07.24 db-lite', master
+    #!! '2017.07.24 swgg', master
+    #!! '2017.07.25 elasticsearch-lite', master
     #!! '2017.08.30 electron-lite',
+    #!! '2017.09.01 istanbul-lite',
+    #!! '2017.09.06 jslint-lite',
+    #!! '2017.09.12 apidoc-lite', master
+    #!! '2017.09.14 swagger-ui-lite',
     #!! '2017.09.01 utility2'
-
-    #!! '2017.07.24 db-lite',
-    #!! '2017.07.24 swgg',
-    #!! '2017.07.25 elasticsearch-lite',
-#!! ]
-#!! [
-  #!! '2017.05.27 istanbul-lite',
-  #!! '2017.05.27 jslint-lite',
-  #!! '2017.05.30 apidoc-lite',
-  #!! '2017.05.30 swagger-ui-lite',
-  #!! '2017.07.15 uglifyjs-lite',
-  #!! '2017.08.30 electron-lite',
-
-  #!! '2017.07.24 db-lite',
-  #!! '2017.07.24 swgg',
-  #!! '2017.07.25 elasticsearch-lite',
-  #!! '2017.07.15 utility2'
 #!! ]
 
 shInitCustomOrg() {

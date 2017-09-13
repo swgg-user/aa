@@ -45,9 +45,9 @@
         if (local.modeJs === 'browser') {
             local.global.utility2_sandbox2 = local;
         } else {
-            // init builtins
+            // require builtins
             Object.keys(process.binding('natives')).forEach(function (key) {
-                if (!local[key] && !(/^_|\/|^sys$/).test(key)) {
+                if (!local[key] && !(/\/|^_|^sys$/).test(key)) {
                     local[key] = require(key);
                 }
             });
