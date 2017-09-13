@@ -451,6 +451,7 @@ shBuildCiAfter() {(set -e
 shBuildCiBefore() {(set -e
     npm install -g electron-lite
     #!! shNpmTestPublished
+touch tmp/build/screenshot.npmTestPublished.browser.%2F.png
     shReadmeTest example.js
 )}
 

@@ -17,7 +17,7 @@
     #!! '2017.09.01 istanbul-lite',
     #!! '2017.09.06 jslint-lite',
     #!! '2017.09.12 apidoc-lite', master
-    #!! '2017.09.14 swagger-ui-lite',
+    #!! '2017.09.14 swagger-ui-lite', master
     #!! '2017.09.01 utility2'
 #!! ]
 
