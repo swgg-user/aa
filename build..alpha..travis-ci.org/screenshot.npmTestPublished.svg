@@ -1,16 +1,16 @@
-<svg height="11662" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="11662" fill="#555" width="720"></rect>
+<svg height="11694" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="11694" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26">(re)starting shNpmTest test.js</tspan>
 <tspan x="10" y="42"></tspan>
-<tspan x="10" y="58">[MODE_BUILD=npmTestPublished] - 2017-09-16T15:18:39.648Z - npm-testing /tmp/npmTestPublished/nod\</tspan>
+<tspan x="10" y="58">[MODE_BUILD=npmTestPublished] - 2017-09-16T15:27:48.080Z - npm-testing /tmp/npmTestPublished/nod\</tspan>
 <tspan x="10" y="74">e_modules/sandbox2</tspan>
 <tspan x="10" y="90"></tspan>
 <tspan x="10" y="106"></tspan>
 <tspan x="10" y="122">covering $ /home/travis/.nvm/versions/node/v6.11.3/bin/node /tmp/npmTestPublished/node_modules/s\</tspan>
 <tspan x="10" y="138">andbox2/test.js</tspan>
-<tspan x="10" y="154">&gt; repl-server listening on tcp-port 65228</tspan>
-<tspan x="10" y="170">server listening on http-port 39192</tspan>
+<tspan x="10" y="154">&gt; repl-server listening on tcp-port 43141</tspan>
+<tspan x="10" y="170">server listening on http-port 37307</tspan>
 <tspan x="10" y="186">[node test-case 1 of 82 passed] - testCase_FormData_error</tspan>
 <tspan x="10" y="202">[node test-case 2 of 82 passed] - testCase_ajaxProgressUpdate_misc</tspan>
 <tspan x="10" y="218">[node test-case 3 of 82 passed] - testCase_ajax_abort</tspan>
@@ -50,26 +50,26 @@
 <tspan x="10" y="762">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 <tspan x="10" y="778"></tspan>
 <tspan x="10" y="794">browserTest - created electron entry-page /tmp/npmTestPublished/node_modules/sandbox2/tmp/electr\</tspan>
-<tspan x="10" y="810">on.15e8b4536f70.b0d8c7f97511d.html</tspan>
+<tspan x="10" y="810">on.15e8b4d93df0.0ee799106f814.html</tspan>
 <tspan x="10" y="826"></tspan>
 <tspan x="10" y="842">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="858">[4538:0916/151842.855284:WARNING:audio_manager.cc(317)] Multiple instances of AudioManager detec\</tspan>
+<tspan x="10" y="858">[4522:0916/152750.932924:WARNING:audio_manager.cc(317)] Multiple instances of AudioManager detec\</tspan>
 <tspan x="10" y="874">ted</tspan>
-<tspan x="10" y="890">[4538:0916/151842.855367:WARNING:audio_manager.cc(278)] Multiple instances of AudioManager detec\</tspan>
+<tspan x="10" y="890">[4522:0916/152750.932996:WARNING:audio_manager.cc(278)] Multiple instances of AudioManager detec\</tspan>
 <tspan x="10" y="906">ted</tspan>
-<tspan x="10" y="922">[4605:0916/151842.893920:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple t\</tspan>
+<tspan x="10" y="922">[4589:0916/152750.944305:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple t\</tspan>
 <tspan x="10" y="938">hreads in process gpu-process. </tspan>
-<tspan x="10" y="954">[4538:0916/151842.910088:ERROR:bus.cc(427)] Failed to connect to the bus: //bin/dbus-launch term\</tspan>
+<tspan x="10" y="954">[4522:0916/152750.968128:ERROR:bus.cc(427)] Failed to connect to the bus: //bin/dbus-launch term\</tspan>
 <tspan x="10" y="970">inated abnormally without any error message</tspan>
-<tspan x="10" y="986">[4538:0916/151843.020826:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="986">[4522:0916/152751.083444:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
 <tspan x="10" y="1002">l.</tspan>
-<tspan x="10" y="1018">[4538:0916/151843.021580:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="1018">[4522:0916/152751.084164:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
 <tspan x="10" y="1034">l.</tspan>
-<tspan x="10" y="1050">[4538:0916/151843.022680:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="1050">[4522:0916/152751.085012:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
 <tspan x="10" y="1066">l.</tspan>
-<tspan x="10" y="1082">[4538:0916/151843.023619:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="1082">[4522:0916/152751.086997:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
 <tspan x="10" y="1098">l.</tspan>
-<tspan x="10" y="1114">[4538:0916/151843.025194:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="1114">[4522:0916/152751.088145:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
 <tspan x="10" y="1130">l.</tspan>
 <tspan x="10" y="1146">created apidoc file /home/travis/build/kaizhu256/node-sandbox2/tmp/build/apidoc.html</tspan>
 <tspan x="10" y="1162"></tspan>
@@ -129,10 +129,10 @@
 <tspan x="10" y="2026">[node test-case 63 of 82 passed] - testCase_taskCreate_upsert</tspan>
 <tspan x="10" y="2042">[node test-case 64 of 82 passed] - testCase_ajax_timeout</tspan>
 <tspan x="10" y="2058">[node test-case 65 of 82 passed] - testCase_taskCreateCached_default</tspan>
-<tspan x="10" y="2074">[node test-case 66 of 82 passed] - testCase_FormData_default</tspan>
-<tspan x="10" y="2090">[node test-case 67 of 82 passed] - testCase_FormData_nullCase</tspan>
-<tspan x="10" y="2106">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="2122">0.08902453498531182</tspan>
+<tspan x="10" y="2074">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="2090">[node test-case 66 of 82 passed] - testCase_FormData_default</tspan>
+<tspan x="10" y="2106">[node test-case 67 of 82 passed] - testCase_FormData_nullCase</tspan>
+<tspan x="10" y="2122">0.03252591822933848</tspan>
 <tspan x="10" y="2138">&gt; TypeError: undefined is not a function</tspan>
 <tspan x="10" y="2154">    at repl:1:1</tspan>
 <tspan x="10" y="2170">    at ContextifyScript.Script.runInThisContext (vm.js:25:33)</tspan>
@@ -145,588 +145,590 @@
 <tspan x="10" y="2282">    at emitOne (events.js:96:13)</tspan>
 <tspan x="10" y="2298">    at REPLServer.emit (events.js:188:7)</tspan>
 <tspan x="10" y="2314">    at REPLServer.Interface._onLine (readline.js:233:10)</tspan>
-<tspan x="10" y="2330">&gt; file modified - /tmp/npmTestPublished/node_modules/sandbox2/README.md</tspan>
-<tspan x="10" y="2346"></tspan>
-<tspan x="10" y="2362">browserTest - opened http://127.0.0.1:39192/assets.recurse1</tspan>
-<tspan x="10" y="2378"></tspan>
-<tspan x="10" y="2394">file modified - /tmp/npmTestPublished/node_modules/sandbox2/README.md</tspan>
-<tspan x="10" y="2410">file modified - /tmp/npmTestPublished/node_modules/sandbox2/lib.utility2.js</tspan>
-<tspan x="10" y="2426">file modified - /tmp/npmTestPublished/node_modules/sandbox2/lib.utility2.js</tspan>
-<tspan x="10" y="2442">file modified - /tmp/npmTestPublished/node_modules/sandbox2/package.json</tspan>
-<tspan x="10" y="2458">file modified - /tmp/npmTestPublished/node_modules/sandbox2/package.json</tspan>
-<tspan x="10" y="2474">file modified - /tmp/npmTestPublished/node_modules/sandbox2/test.js</tspan>
-<tspan x="10" y="2490">file modified - /tmp/npmTestPublished/node_modules/sandbox2/test.js</tspan>
-<tspan x="10" y="2506">[node test-case 68 of 82 passed] - testCase_ajax_error</tspan>
-<tspan x="10" y="2522">[node test-case 69 of 82 passed] - testCase_httpRequest_default</tspan>
-<tspan x="10" y="2538">[node test-case 70 of 82 passed] - testCase_replStart_tcp</tspan>
-<tspan x="10" y="2554"></tspan>
-<tspan x="10" y="2570">browserTest - created electron entry-page /tmp/npmTestPublished/node_modules/sandbox2/tmp/electr\</tspan>
-<tspan x="10" y="2586">on.15e8b457fc70.236e0b05542de.html</tspan>
-<tspan x="10" y="2602"></tspan>
+<tspan x="10" y="2330">&gt; </tspan>
+<tspan x="10" y="2346">browserTest - opened http://127.0.0.1:37307/assets.recurse1</tspan>
+<tspan x="10" y="2362"></tspan>
+<tspan x="10" y="2378">[node test-case 68 of 82 passed] - testCase_ajax_error</tspan>
+<tspan x="10" y="2394">[node test-case 69 of 82 passed] - testCase_replStart_tcp</tspan>
+<tspan x="10" y="2410"></tspan>
+<tspan x="10" y="2426">browserTest - created electron entry-page /tmp/npmTestPublished/node_modules/sandbox2/tmp/electr\</tspan>
+<tspan x="10" y="2442">on.15e8b4ddb900.759b6be22533b.html</tspan>
+<tspan x="10" y="2458"></tspan>
+<tspan x="10" y="2474">[node test-case 70 of 82 passed] - testCase_httpRequest_default</tspan>
+<tspan x="10" y="2490">file modified - /tmp/npmTestPublished/node_modules/sandbox2/README.md</tspan>
+<tspan x="10" y="2506">file modified - /tmp/npmTestPublished/node_modules/sandbox2/README.md</tspan>
+<tspan x="10" y="2522">file modified - /tmp/npmTestPublished/node_modules/sandbox2/lib.utility2.js</tspan>
+<tspan x="10" y="2538">file modified - /tmp/npmTestPublished/node_modules/sandbox2/lib.utility2.js</tspan>
+<tspan x="10" y="2554">file modified - /tmp/npmTestPublished/node_modules/sandbox2/package.json</tspan>
+<tspan x="10" y="2570">file modified - /tmp/npmTestPublished/node_modules/sandbox2/package.json</tspan>
+<tspan x="10" y="2586">file modified - /tmp/npmTestPublished/node_modules/sandbox2/test.js</tspan>
+<tspan x="10" y="2602">file modified - /tmp/npmTestPublished/node_modules/sandbox2/test.js</tspan>
 <tspan x="10" y="2618">[node test-case 71 of 82 passed] - testCase_ajax_cache</tspan>
 <tspan x="10" y="2634">{ type: 'ajaxResponse',</tspan>
-<tspan x="10" y="2650">  time: '2017-09-16T15:19:00.468Z',</tspan>
+<tspan x="10" y="2650">  time: '2017-09-16T15:28:08.514Z',</tspan>
 <tspan x="10" y="2666">  method: 'POST',</tspan>
 <tspan x="10" y="2682">  url: '/test.echo',</tspan>
 <tspan x="10" y="2698">  statusCode: 200,</tspan>
-<tspan x="10" y="2714">  duration: 905,</tspan>
+<tspan x="10" y="2714">  duration: 625,</tspan>
 <tspan x="10" y="2730">  headers: { 'x-request-header-test': 'aa' },</tspan>
 <tspan x="10" y="2746">  data: 'aa',</tspan>
-<tspan x="10" y="2762">  responseText: 'POST /test.echo HTTP/1.1\r\nx-request-header-test: aa\r\nhost: 127.0.0.1:39192\\</tspan>
+<tspan x="10" y="2762">  responseText: 'POST /test.echo HTTP/1.1\r\nx-request-header-test: aa\r\nhost: 127.0.0.1:37307\\</tspan>
 <tspan x="10" y="2778">r\nconnection: close\r\ncontent-length: 2\r\n\r\naa' }</tspan>
 <tspan x="10" y="2794">[node test-case 72 of 82 passed] - testCase_ajax_post</tspan>
 <tspan x="10" y="2810">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="2826">[4932:0916/151901.499682:WARNING:audio_manager.cc(317)] Multiple instances of AudioManager detec\</tspan>
+<tspan x="10" y="2826">[4921:0916/152809.238359:WARNING:audio_manager.cc(317)] Multiple instances of AudioManager detec\</tspan>
 <tspan x="10" y="2842">ted</tspan>
-<tspan x="10" y="2858">[4932:0916/151901.499800:WARNING:audio_manager.cc(278)] Multiple instances of AudioManager detec\</tspan>
+<tspan x="10" y="2858">[4921:0916/152809.238435:WARNING:audio_manager.cc(278)] Multiple instances of AudioManager detec\</tspan>
 <tspan x="10" y="2874">ted</tspan>
-<tspan x="10" y="2890">[4932:0916/151901.618282:ERROR:bus.cc(427)] Failed to connect to the bus: //bin/dbus-launch term\</tspan>
+<tspan x="10" y="2890">[4921:0916/152809.335841:ERROR:bus.cc(427)] Failed to connect to the bus: //bin/dbus-launch term\</tspan>
 <tspan x="10" y="2906">inated abnormally without any error message</tspan>
-<tspan x="10" y="2922">[4962:0916/151901.618289:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple t\</tspan>
+<tspan x="10" y="2922">[4949:0916/152809.434291:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple t\</tspan>
 <tspan x="10" y="2938">hreads in process gpu-process. </tspan>
-<tspan x="10" y="2954">[4932:0916/151901.714861:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="2954">[4921:0916/152809.450348:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
 <tspan x="10" y="2970">l.</tspan>
-<tspan x="10" y="2986">[4932:0916/151901.723853:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="2986">[4921:0916/152809.454361:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
 <tspan x="10" y="3002">l.</tspan>
-<tspan x="10" y="3018">[4932:0916/151901.736011:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="3018">[4921:0916/152809.458995:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
 <tspan x="10" y="3034">l.</tspan>
-<tspan x="10" y="3050">[4932:0916/151901.745807:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="3050">[4921:0916/152809.460293:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
 <tspan x="10" y="3066">l.</tspan>
-<tspan x="10" y="3082">[4932:0916/151901.761453:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="3082">[4921:0916/152809.460574:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
 <tspan x="10" y="3098">l.</tspan>
-<tspan x="10" y="3114"></tspan>
-<tspan x="10" y="3130">browserTest - created screenshot file /home/travis/build/kaizhu256/node-sandbox2/tmp/build/scree\</tspan>
-<tspan x="10" y="3146">nshot.scrape.browser.http%3A%2F%2F127.0.0.1%3A39192%2Fassets.recurse1.png</tspan>
-<tspan x="10" y="3162"></tspan>
-<tspan x="10" y="3178">browserTest - created screenshot file /home/travis/build/kaizhu256/node-sandbox2/tmp/build/scree\</tspan>
-<tspan x="10" y="3194">nshot.scrape.browser.http%3A%2F%2F127.0.0.1%3A39192%2Fassets.recurse1.html</tspan>
-<tspan x="10" y="3210">[node test-case 73 of 82 passed] - testCase_middlewareForwardProxy_default</tspan>
-<tspan x="10" y="3226">[node test-case 74 of 82 passed] - testCase_onTimeout_timeout</tspan>
-<tspan x="10" y="3242">[node test-case 75 of 82 passed] - testCase_onFileModifiedRestart_watchFile</tspan>
-<tspan x="10" y="3258">[node test-case 76 of 82 passed] - testCase_ajax_assets</tspan>
-<tspan x="10" y="3274"></tspan>
-<tspan x="10" y="3290">browserTest - recurse 0 http://127.0.0.1:39192/assets.recurse1 -&gt; http://127.0.0.1:39192/assets.\</tspan>
-<tspan x="10" y="3306">recurse2</tspan>
+<tspan x="10" y="3114">[node test-case 73 of 82 passed] - testCase_middlewareForwardProxy_default</tspan>
+<tspan x="10" y="3130">[node test-case 74 of 82 passed] - testCase_onTimeout_timeout</tspan>
+<tspan x="10" y="3146">[node test-case 75 of 82 passed] - testCase_onFileModifiedRestart_watchFile</tspan>
+<tspan x="10" y="3162">[node test-case 76 of 82 passed] - testCase_ajax_assets</tspan>
+<tspan x="10" y="3178"></tspan>
+<tspan x="10" y="3194">browserTest - created screenshot file /home/travis/build/kaizhu256/node-sandbox2/tmp/build/scree\</tspan>
+<tspan x="10" y="3210">nshot.scrape.browser.http%3A%2F%2F127.0.0.1%3A37307%2Fassets.recurse1.png</tspan>
+<tspan x="10" y="3226"></tspan>
+<tspan x="10" y="3242">browserTest - created screenshot file /home/travis/build/kaizhu256/node-sandbox2/tmp/build/scree\</tspan>
+<tspan x="10" y="3258">nshot.scrape.browser.http%3A%2F%2F127.0.0.1%3A37307%2Fassets.recurse1.html</tspan>
+<tspan x="10" y="3274">[node test-case 77 of 82 passed] - testCase_onParallelList_default</tspan>
+<tspan x="10" y="3290"></tspan>
+<tspan x="10" y="3306">browserTest - opened http://127.0.0.1:37307?modeTest=1</tspan>
 <tspan x="10" y="3322"></tspan>
-<tspan x="10" y="3338">[node test-case 77 of 82 passed] - testCase_childProcessSpawnWithTimeout_default</tspan>
-<tspan x="10" y="3354">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="3370"></tspan>
-<tspan x="10" y="3386">browserTest - opened http://127.0.0.1:39192?modeTest=1</tspan>
-<tspan x="10" y="3402"></tspan>
-<tspan x="10" y="3418">[4932:0916/151904.424530:WARNING:backend_impl.cc(1802)] Destroying invalid entry.</tspan>
-<tspan x="10" y="3434">[4932:0916/151904.424557:ERROR:backend_impl.cc(1033)] Critical error found -8</tspan>
-<tspan x="10" y="3450">[4932:0916/151904.424638:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="3466"></tspan>
-<tspan x="10" y="3482">browserTest - created electron entry-page /tmp/npmTestPublished/node_modules/sandbox2/tmp/electr\</tspan>
-<tspan x="10" y="3498">on.15e8b458d210.cd4ed473a0947.html</tspan>
-<tspan x="10" y="3514"></tspan>
-<tspan x="10" y="3530">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="3546">[5035:0916/151904.799065:WARNING:audio_manager.cc(317)] Multiple instances of AudioManager detec\</tspan>
-<tspan x="10" y="3562">ted</tspan>
-<tspan x="10" y="3578">[5035:0916/151904.799134:WARNING:audio_manager.cc(278)] Multiple instances of AudioManager detec\</tspan>
-<tspan x="10" y="3594">ted</tspan>
-<tspan x="10" y="3610">[5061:0916/151904.841039:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple t\</tspan>
-<tspan x="10" y="3626">hreads in process gpu-process. </tspan>
-<tspan x="10" y="3642">[5035:0916/151904.884135:ERROR:bus.cc(427)] Failed to connect to the bus: //bin/dbus-launch term\</tspan>
-<tspan x="10" y="3658">inated abnormally without any error message</tspan>
-<tspan x="10" y="3674">[5035:0916/151904.930247:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="3690">l.</tspan>
-<tspan x="10" y="3706">[5035:0916/151904.938381:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="3722">l.</tspan>
-<tspan x="10" y="3738">[5035:0916/151904.949311:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="3754">l.</tspan>
-<tspan x="10" y="3770">[5035:0916/151904.957684:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="3786">l.</tspan>
-<tspan x="10" y="3802">[5035:0916/151904.966763:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="3818">l.</tspan>
-<tspan x="10" y="3834">[5035:0916/151905.224513:ERROR:backend_impl.cc(2015)] Corrupt Index file</tspan>
-<tspan x="10" y="3850">[node test-case 78 of 82 passed] - testCase_onParallelList_default</tspan>
-<tspan x="10" y="3866">[4932:0916/151905.362557:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="3882">[4932:0916/151905.362583:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="3898">[4932:0916/151905.363364:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="3914">[4932:0916/151905.363378:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="3930">[4932:0916/151905.363443:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="3946">[4932:0916/151905.363452:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="3962">[4932:0916/151905.364510:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="3978">[4932:0916/151905.364522:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="3994">[4932:0916/151905.365596:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4010">[4932:0916/151905.365609:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4026">[4932:0916/151905.368700:ERROR:entry_impl.cc(964)] Failed to save user data</tspan>
-<tspan x="10" y="4042">[4932:0916/151905.368729:ERROR:entry_impl.cc(964)] Failed to save user data</tspan>
-<tspan x="10" y="4058">[4932:0916/151905.389146:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4074">[4932:0916/151905.389171:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4090">[4932:0916/151905.389946:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4106">[4932:0916/151905.389958:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4122">[4932:0916/151905.390019:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4138">[4932:0916/151905.390029:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4154">[4932:0916/151905.391031:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4170">[4932:0916/151905.391042:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4186">[4932:0916/151905.391945:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4202">[4932:0916/151905.391957:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4218">[4932:0916/151905.394953:ERROR:entry_impl.cc(964)] Failed to save user data</tspan>
-<tspan x="10" y="4234">[4932:0916/151905.394973:ERROR:entry_impl.cc(964)] Failed to save user data</tspan>
-<tspan x="10" y="4250">[4932:0916/151905.447845:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4266">[4932:0916/151905.447871:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4282">[4932:0916/151905.448608:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4298">[4932:0916/151905.448619:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4314">[4932:0916/151905.449176:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4330">[4932:0916/151905.449188:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4346">[4932:0916/151905.452598:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4362">[4932:0916/151905.452615:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4378">[4932:0916/151905.453539:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4394">[4932:0916/151905.453552:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4410">[4932:0916/151905.454787:ERROR:entry_impl.cc(964)] Failed to save user data</tspan>
-<tspan x="10" y="4426">[4932:0916/151905.461064:ERROR:entry_impl.cc(964)] Failed to save user data</tspan>
-<tspan x="10" y="4442">[4932:0916/151905.461089:ERROR:entry_impl.cc(964)] Failed to save user data</tspan>
-<tspan x="10" y="4458">[4932:0916/151905.593909:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4474">[4932:0916/151905.593936:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4490">[4932:0916/151905.601600:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4506">[4932:0916/151905.601623:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4522">[4932:0916/151905.601723:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4538">[4932:0916/151905.601730:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4554">[4932:0916/151905.602816:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4570">[4932:0916/151905.602828:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4586">[4932:0916/151905.605126:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4602">[4932:0916/151905.605141:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4618">[4932:0916/151905.608551:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4634">[4932:0916/151905.608566:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4650">[4932:0916/151905.610439:ERROR:entry_impl.cc(964)] Failed to save user data</tspan>
-<tspan x="10" y="4666">[4932:0916/151905.902263:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4682">[4932:0916/151905.902290:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4698">[4932:0916/151905.902393:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4714">[4932:0916/151905.902402:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4730">[4932:0916/151905.904617:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4746">[4932:0916/151905.904629:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4762">[4932:0916/151905.904954:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4778">[4932:0916/151905.904965:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4794">[4932:0916/151905.905262:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4810">[4932:0916/151905.905289:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4826">[4932:0916/151905.908629:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4842">[4932:0916/151905.908642:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4858">[4932:0916/151905.918060:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4874">[4932:0916/151905.918082:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4890">[4932:0916/151905.920120:ERROR:entry_impl.cc(964)] Failed to save user data</tspan>
-<tspan x="10" y="4906"></tspan>
-<tspan x="10" y="4922">browserTest - opened http://127.0.0.1:39192/assets.recurse2</tspan>
-<tspan x="10" y="4938"></tspan>
-<tspan x="10" y="4954">server listening on http-port 32782</tspan>
-<tspan x="10" y="4970">&gt; [4932:0916/151906.519291:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="4986">[4932:0916/151906.519315:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="5002">[4932:0916/151906.520511:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="5018">[4932:0916/151906.520520:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="5034">[4932:0916/151906.520939:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="5050">[4932:0916/151906.520949:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="5066">[4932:0916/151906.523258:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="5082">[4932:0916/151906.523269:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="5098">[4932:0916/151906.525149:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="5114">[4932:0916/151906.525160:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="5130">[4932:0916/151906.534528:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="5146">[4932:0916/151906.534548:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="5162">[4932:0916/151906.538643:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="5178">[4932:0916/151906.538660:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="5194">[4932:0916/151906.541684:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="5210">[4932:0916/151906.541698:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="5226">[4932:0916/151906.543931:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="5242">[4932:0916/151906.543943:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="5258">[4932:0916/151906.622357:INFO:CONSOLE(73)] "server listening on http-port undefined", source: fi\</tspan>
-<tspan x="10" y="5274">le:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457fc70.236e0b05542de.html (7\</tspan>
-<tspan x="10" y="5290">3)</tspan>
-<tspan x="10" y="5306">[4932:0916/151906.696653:INFO:CONSOLE(73)] "[browser test-case 1 of 66 passed] - testCase_FormDa\</tspan>
-<tspan x="10" y="5322">ta_error", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457fc70.\</tspan>
-<tspan x="10" y="5338">236e0b05542de.html (73)</tspan>
-<tspan x="10" y="5354">[4932:0916/151906.711712:ERROR:entry_impl.cc(964)] Failed to save user data</tspan>
-<tspan x="10" y="5370">[4932:0916/151906.741408:INFO:CONSOLE(73)] "[browser test-case 2 of 66 passed] - testCase_ajaxPr\</tspan>
-<tspan x="10" y="5386">ogressUpdate_misc", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8\</tspan>
-<tspan x="10" y="5402">b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="5418">[4932:0916/151906.741950:INFO:CONSOLE(73)] "[browser test-case 3 of 66 passed] - testCase_ajax_a\</tspan>
-<tspan x="10" y="5434">bort", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457fc70.236e\</tspan>
-<tspan x="10" y="5450">0b05542de.html (73)</tspan>
-<tspan x="10" y="5466">[4932:0916/151906.775142:INFO:CONSOLE(73)] "[browser test-case 4 of 66 passed] - testCase_ajax_s\</tspan>
-<tspan x="10" y="5482">tandalone", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457fc70\</tspan>
-<tspan x="10" y="5498">.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="5514">[4932:0916/151906.781632:INFO:CONSOLE(73)] "[browser test-case 5 of 66 passed] - testCase_assert\</tspan>
-<tspan x="10" y="5530">Xxx_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457fc\</tspan>
-<tspan x="10" y="5546">70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="5562">[4932:0916/151906.792380:INFO:CONSOLE(73)] "[browser test-case 6 of 66 passed] - testCase_base64\</tspan>
-<tspan x="10" y="5578">Xxx_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457fc\</tspan>
-<tspan x="10" y="5594">70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="5610">[4932:0916/151906.804471:INFO:CONSOLE(73)] "[browser test-case 7 of 66 passed] - testCase_blobRe\</tspan>
-<tspan x="10" y="5626">ad_error", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457fc70.\</tspan>
-<tspan x="10" y="5642">236e0b05542de.html (73)</tspan>
-<tspan x="10" y="5658">[4932:0916/151906.808790:INFO:CONSOLE(73)] "[browser test-case 8 of 66 passed] - testCase_browse\</tspan>
-<tspan x="10" y="5674">r_nullCase", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457fc7\</tspan>
-<tspan x="10" y="5690">0.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="5706">[4932:0916/151906.845561:INFO:CONSOLE(73)] "[browser test-case 9 of 66 passed] - testCase_buffer\</tspan>
-<tspan x="10" y="5722">Create_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b45\</tspan>
-<tspan x="10" y="5738">7fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="5754">[4932:0916/151906.960267:INFO:CONSOLE(73)] "[browser test-case 10 of 66 passed] - testCase_buffe\</tspan>
-<tspan x="10" y="5770">rCreate_polyfill", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b\</tspan>
-<tspan x="10" y="5786">457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="5802">[4932:0916/151906.963895:INFO:CONSOLE(73)] "[browser test-case 11 of 66 passed] - testCase_buffe\</tspan>
-<tspan x="10" y="5818">rIndexOfSubBuffer_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/elect\</tspan>
-<tspan x="10" y="5834">ron.15e8b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="5850">[4932:0916/151906.972083:INFO:CONSOLE(73)] "[browser test-case 12 of 66 passed] - testCase_cooki\</tspan>
-<tspan x="10" y="5866">eXxx_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457f\</tspan>
-<tspan x="10" y="5882">c70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="5898">[4932:0916/151906.981392:INFO:CONSOLE(73)] "[browser test-case 13 of 66 passed] - testCase_dbTab\</tspan>
-<tspan x="10" y="5914">leCustomOrgXxx_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron\</tspan>
-<tspan x="10" y="5930">.15e8b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="5946">[4932:0916/151906.985233:INFO:CONSOLE(73)] "[browser test-case 14 of 66 passed] - testCase_debug\</tspan>
-<tspan x="10" y="5962">_inline_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4\</tspan>
-<tspan x="10" y="5978">57fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="5994">[4932:0916/151906.987879:INFO:CONSOLE(73)] "[browser test-case 15 of 66 passed] - testCase_domFr\</tspan>
-<tspan x="10" y="6010">agmentRender_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.1\</tspan>
-<tspan x="10" y="6026">5e8b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="6042">[4932:0916/151906.990580:INFO:CONSOLE(73)] "[browser test-case 16 of 66 passed] - testCase_echo_\</tspan>
-<tspan x="10" y="6058">default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457fc70.2\</tspan>
-<tspan x="10" y="6074">36e0b05542de.html (73)</tspan>
-<tspan x="10" y="6090">[4932:0916/151906.995539:INFO:CONSOLE(73)] "[browser test-case 17 of 66 passed] - testCase_envSa\</tspan>
-<tspan x="10" y="6106">nitize_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b45\</tspan>
-<tspan x="10" y="6122">7fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="6138">[4932:0916/151907.002220:INFO:CONSOLE(23)] "TypeError: Cannot read property 'testReport' of unde\</tspan>
-<tspan x="10" y="6154">fined", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457fc70.236\</tspan>
-<tspan x="10" y="6170">e0b05542de.html (23)</tspan>
-<tspan x="10" y="6186">[4932:0916/151907.003232:INFO:CONSOLE(73)] "[browser test-case 18 of 66 passed] - testCase_exit_\</tspan>
-<tspan x="10" y="6202">error", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457fc70.236\</tspan>
-<tspan x="10" y="6218">e0b05542de.html (73)</tspan>
-<tspan x="10" y="6234">[4932:0916/151907.004365:INFO:CONSOLE(73)] "[browser test-case 19 of 66 passed] - testCase_githu\</tspan>
-<tspan x="10" y="6250">bCorsUrlOverride_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electr\</tspan>
-<tspan x="10" y="6266">on.15e8b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="6282">[4932:0916/151907.007245:INFO:CONSOLE(73)] "[browser test-case 20 of 66 passed] - testCase_isNul\</tspan>
-<tspan x="10" y="6298">lOrUndefined_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.1\</tspan>
-<tspan x="10" y="6314">5e8b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="6330">[4932:0916/151907.058523:INFO:CONSOLE(73)] "[browser test-case 21 of 66 passed] - testCase_jslin\</tspan>
-<tspan x="10" y="6346">tAndPrintConditional_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/el\</tspan>
-<tspan x="10" y="6362">ectron.15e8b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="6378">[4932:0916/151907.061831:INFO:CONSOLE(73)] "[browser test-case 22 of 66 passed] - testCase_jsonC\</tspan>
-<tspan x="10" y="6394">opy_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457fc\</tspan>
-<tspan x="10" y="6410">70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="6426">[4932:0916/151907.066362:INFO:CONSOLE(73)] "[browser test-case 23 of 66 passed] - testCase_jsonS\</tspan>
-<tspan x="10" y="6442">tringifyOrdered_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electro\</tspan>
-<tspan x="10" y="6458">n.15e8b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="6474">[4932:0916/151907.100767:INFO:CONSOLE(73)] "[browser test-case 24 of 66 passed] - testCase_jwtA2\</tspan>
-<tspan x="10" y="6490">56GcmXxx_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b\</tspan>
-<tspan x="10" y="6506">457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="6522">[4932:0916/151907.110578:INFO:CONSOLE(73)] "[browser test-case 25 of 66 passed] - testCase_jwtHs\</tspan>
-<tspan x="10" y="6538">256Xxx_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b45\</tspan>
-<tspan x="10" y="6554">7fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="6570">[4932:0916/151907.117654:INFO:CONSOLE(73)] "[browser test-case 26 of 66 passed] - testCase_listG\</tspan>
-<tspan x="10" y="6586">etElementRandom_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electro\</tspan>
-<tspan x="10" y="6602">n.15e8b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="6618">[4932:0916/151907.124388:INFO:CONSOLE(73)] "[browser test-case 27 of 66 passed] - testCase_listS\</tspan>
-<tspan x="10" y="6634">huffle_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b45\</tspan>
-<tspan x="10" y="6650">7fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="6666">[4932:0916/151907.129516:INFO:CONSOLE(73)] "[browser test-case 28 of 66 passed] - testCase_norma\</tspan>
-<tspan x="10" y="6682">lizeValue_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8\</tspan>
-<tspan x="10" y="6698">b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="6714">[4932:0916/151907.135757:INFO:CONSOLE(73)] "[browser test-case 29 of 66 passed] - testCase_objec\</tspan>
-<tspan x="10" y="6730">tGetElementFirst_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electr\</tspan>
-<tspan x="10" y="6746">on.15e8b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="6762">[4932:0916/151907.140317:INFO:CONSOLE(73)] "[browser test-case 30 of 66 passed] - testCase_objec\</tspan>
-<tspan x="10" y="6778">tKeysTypeOf_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15\</tspan>
-<tspan x="10" y="6794">e8b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="6810">[4932:0916/151907.146412:INFO:CONSOLE(73)] "[browser test-case 31 of 66 passed] - testCase_objec\</tspan>
-<tspan x="10" y="6826">tLiteralize_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15\</tspan>
-<tspan x="10" y="6842">e8b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="6858">[4932:0916/151907.151875:INFO:CONSOLE(73)] "[browser test-case 32 of 66 passed] - testCase_objec\</tspan>
-<tspan x="10" y="6874">tSetDefault_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15\</tspan>
-<tspan x="10" y="6890">e8b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="6906">[4932:0916/151907.160654:INFO:CONSOLE(73)] "[browser test-case 33 of 66 passed] - testCase_objec\</tspan>
-<tspan x="10" y="6922">tSetOverride_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.1\</tspan>
-<tspan x="10" y="6938">5e8b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="6954">[4932:0916/151907.170347:INFO:CONSOLE(73)] "[browser test-case 34 of 66 passed] - testCase_objec\</tspan>
-<tspan x="10" y="6970">tTraverse_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8\</tspan>
-<tspan x="10" y="6986">b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="7002">[4932:0916/151907.170605:INFO:CONSOLE(73)] "[browser test-case 35 of 66 passed] - testCase_onErr\</tspan>
-<tspan x="10" y="7018">orDefault_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8\</tspan>
-<tspan x="10" y="7034">b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="7050">[4932:0916/151907.175571:INFO:CONSOLE(73)] "[browser test-case 36 of 66 passed] - testCase_onErr\</tspan>
-<tspan x="10" y="7066">orThrow_error", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457\</tspan>
-<tspan x="10" y="7082">fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="7098">[4932:0916/151907.182922:INFO:CONSOLE(73)] "[browser test-case 37 of 66 passed] - testCase_onNex\</tspan>
-<tspan x="10" y="7114">t_error", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457fc70.2\</tspan>
-<tspan x="10" y="7130">36e0b05542de.html (73)</tspan>
-<tspan x="10" y="7146">[4932:0916/151907.222203:INFO:CONSOLE(73)] "serverLog - {}", source: file:///tmp/npmTestPublishe\</tspan>
-<tspan x="10" y="7162">d/node_modules/sandbox2/tmp/electron.15e8b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="7178">[4932:0916/151907.230070:INFO:CONSOLE(73)] "[browser test-case 38 of 66 passed] - testCase_serve\</tspan>
-<tspan x="10" y="7194">rLog_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457f\</tspan>
-<tspan x="10" y="7210">c70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="7226"></tspan>
-<tspan x="10" y="7242">browserTest - created screenshot file /home/travis/build/kaizhu256/node-sandbox2/tmp/build/scree\</tspan>
-<tspan x="10" y="7258">nshot.scrape.browser.http%3A%2F%2F127.0.0.1%3A39192%2Fassets.recurse2.png</tspan>
-<tspan x="10" y="7274"></tspan>
-<tspan x="10" y="7290">browserTest - created screenshot file /home/travis/build/kaizhu256/node-sandbox2/tmp/build/scree\</tspan>
-<tspan x="10" y="7306">nshot.scrape.browser.http%3A%2F%2F127.0.0.1%3A39192%2Fassets.recurse2.html</tspan>
-<tspan x="10" y="7322">[4932:0916/151907.401035:INFO:CONSOLE(73)] "[browser test-case 39 of 66 passed] - testCase_sjclH\</tspan>
-<tspan x="10" y="7338">ashScryptXxx_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.1\</tspan>
-<tspan x="10" y="7354">5e8b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="7370">[4932:0916/151907.412040:INFO:CONSOLE(73)] "[browser test-case 40 of 66 passed] - testCase_sjclH\</tspan>
-<tspan x="10" y="7386">ashSha256Create_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electro\</tspan>
-<tspan x="10" y="7402">n.15e8b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="7418">[4932:0916/151907.429603:INFO:CONSOLE(73)] "[browser test-case 41 of 66 passed] - testCase_sjclH\</tspan>
-<tspan x="10" y="7434">macSha256Create_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electro\</tspan>
-<tspan x="10" y="7450">n.15e8b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="7466">[4932:0916/151907.437058:INFO:CONSOLE(73)] "[browser test-case 42 of 66 passed] - testCase_strin\</tspan>
-<tspan x="10" y="7482">gHtmlSafe_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8\</tspan>
-<tspan x="10" y="7498">b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="7514">[4932:0916/151907.446707:INFO:CONSOLE(73)] "[browser test-case 43 of 66 passed] - testCase_taskC\</tspan>
-<tspan x="10" y="7530">reate_multipleCallback", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron\</tspan>
-<tspan x="10" y="7546">.15e8b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="7562">[4932:0916/151907.474896:INFO:CONSOLE(73)] "[browser test-case 44 of 66 passed] - testCase_templ\</tspan>
-<tspan x="10" y="7578">ateRender_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8\</tspan>
-<tspan x="10" y="7594">b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="7610">[4932:0916/151907.475556:INFO:CONSOLE(73)] "[browser test-case 45 of 66 passed] - testCase_testR\</tspan>
-<tspan x="10" y="7626">unDefault_nop", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457\</tspan>
-<tspan x="10" y="7642">fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="7658">[4932:0916/151907.501871:INFO:CONSOLE(73)] "[browser test-case 46 of 66 passed] - testCase_throw\</tspan>
-<tspan x="10" y="7674">Error_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457\</tspan>
-<tspan x="10" y="7690">fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="7706">[4932:0916/151907.617856:INFO:CONSOLE(73)] "[browser test-case 47 of 66 passed] - testCase_uglif\</tspan>
-<tspan x="10" y="7722">y_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457fc70\</tspan>
-<tspan x="10" y="7738">.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="7754">[4932:0916/151907.649195:INFO:CONSOLE(73)] "[browser test-case 48 of 66 passed] - testCase_uiAni\</tspan>
-<tspan x="10" y="7770">mateSlideXxx_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.1\</tspan>
-<tspan x="10" y="7786">5e8b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="7802">[4932:0916/151907.683709:INFO:CONSOLE(73)] "[browser test-case 49 of 66 passed] - testCase_urlPa\</tspan>
-<tspan x="10" y="7818">rse_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457fc\</tspan>
-<tspan x="10" y="7834">70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="7850">[4932:0916/151907.713242:INFO:CONSOLE(73)] "[browser test-case 50 of 66 passed] - testCase_uuid4\</tspan>
-<tspan x="10" y="7866">Create_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b45\</tspan>
-<tspan x="10" y="7882">7fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="7898">[4932:0916/151907.778167:INFO:CONSOLE(73)] "[browser test-case 51 of 66 passed] - testCase_ajax_\</tspan>
-<tspan x="10" y="7914">assets", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457fc70.23\</tspan>
-<tspan x="10" y="7930">6e0b05542de.html (73)</tspan>
-<tspan x="10" y="7946">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="7962">[4932:0916/151907.806603:INFO:CONSOLE(73)] "[browser test-case 52 of 66 passed] - testCase_ajax_\</tspan>
-<tspan x="10" y="7978">404", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457fc70.236e0\</tspan>
-<tspan x="10" y="7994">b05542de.html (73)</tspan>
-<tspan x="10" y="8010">[4932:0916/151907.830697:INFO:CONSOLE(73)] "[browser test-case 53 of 66 passed] - testCase_ajax_\</tspan>
-<tspan x="10" y="8026">200", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457fc70.236e0\</tspan>
-<tspan x="10" y="8042">b05542de.html (73)</tspan>
-<tspan x="10" y="8058">[4932:0916/151907.857668:INFO:CONSOLE(73)] "[browser test-case 54 of 66 passed] - testCase_blobR\</tspan>
-<tspan x="10" y="8074">ead_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457fc\</tspan>
-<tspan x="10" y="8090">70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="8106">[4932:0916/151907.884245:INFO:CONSOLE(73)] "Uncaught TypeError: Cannot read property 'length' of\</tspan>
-<tspan x="10" y="8122"> undefined", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457fc7\</tspan>
-<tspan x="10" y="8138">0.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="8154">[4932:0916/151907.900215:INFO:CONSOLE(73)] "[browser test-case 55 of 66 passed] - testCase_FormD\</tspan>
-<tspan x="10" y="8170">ata_nullCase", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457f\</tspan>
-<tspan x="10" y="8186">c70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="8202">[4932:0916/151907.933198:INFO:CONSOLE(73)] "[browser test-case 56 of 66 passed] - testCase_ajax_\</tspan>
-<tspan x="10" y="8218">error", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457fc70.236\</tspan>
-<tspan x="10" y="8234">e0b05542de.html (73)</tspan>
-<tspan x="10" y="8250">[4932:0916/151907.962562:INFO:CONSOLE(73)] "[browser test-case 57 of 66 passed] - testCase_onPar\</tspan>
-<tspan x="10" y="8266">allel_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457\</tspan>
-<tspan x="10" y="8282">fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="8298">[4932:0916/151907.985814:INFO:CONSOLE(73)] "[browser test-case 58 of 66 passed] - testCase_profi\</tspan>
-<tspan x="10" y="8314">leXxx_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457\</tspan>
-<tspan x="10" y="8330">fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="8346">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="8362">[4932:0916/151908.017702:INFO:CONSOLE(73)] "[browser test-case 59 of 66 passed] - testCase_setTi\</tspan>
-<tspan x="10" y="8378">meoutOnError_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.1\</tspan>
-<tspan x="10" y="8394">5e8b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="8410">[4932:0916/151908.039232:INFO:CONSOLE(73)] "[browser test-case 60 of 66 passed] - testCase_taskC\</tspan>
-<tspan x="10" y="8426">reate_upsert", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457f\</tspan>
-<tspan x="10" y="8442">c70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="8458">[4932:0916/151908.087749:INFO:CONSOLE(73)] "[browser test-case 61 of 66 passed] - testCase_FormD\</tspan>
-<tspan x="10" y="8474">ata_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457fc\</tspan>
-<tspan x="10" y="8490">70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="8506">[4932:0916/151908.135333:INFO:CONSOLE(73)] "[object Object]", source: file:///tmp/npmTestPublish\</tspan>
-<tspan x="10" y="8522">ed/node_modules/sandbox2/tmp/electron.15e8b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="8538">[4932:0916/151908.160243:INFO:CONSOLE(73)] "[browser test-case 62 of 66 passed] - testCase_ajax_\</tspan>
-<tspan x="10" y="8554">post", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457fc70.236e\</tspan>
-<tspan x="10" y="8570">0b05542de.html (73)</tspan>
-<tspan x="10" y="8586">[4932:0916/151908.188587:INFO:CONSOLE(73)] "[browser test-case 63 of 66 passed] - testCase_taskC\</tspan>
-<tspan x="10" y="8602">reateCached_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15\</tspan>
-<tspan x="10" y="8618">e8b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="8634">[4932:0916/151908.225564:INFO:CONSOLE(73)] "[browser test-case 64 of 66 passed] - testCase_ajax_\</tspan>
-<tspan x="10" y="8650">timeout", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457fc70.2\</tspan>
-<tspan x="10" y="8666">36e0b05542de.html (73)</tspan>
-<tspan x="10" y="8682"></tspan>
-<tspan x="10" y="8698">browserTest - created electron entry-page /tmp/npmTestPublished/node_modules/sandbox2/tmp/electr\</tspan>
-<tspan x="10" y="8714">on.15e8b459c440.d959f2c1c206a.html</tspan>
-<tspan x="10" y="8730"></tspan>
-<tspan x="10" y="8746">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="8762">[5124:0916/151908.652854:WARNING:audio_manager.cc(317)] Multiple instances of AudioManager detec\</tspan>
-<tspan x="10" y="8778">ted</tspan>
-<tspan x="10" y="8794">[5124:0916/151908.652935:WARNING:audio_manager.cc(278)] Multiple instances of AudioManager detec\</tspan>
+<tspan x="10" y="3338"></tspan>
+<tspan x="10" y="3354">browserTest - recurse 0 http://127.0.0.1:37307/assets.recurse1 -&gt; http://127.0.0.1:37307/assets.\</tspan>
+<tspan x="10" y="3370">recurse2</tspan>
+<tspan x="10" y="3386"></tspan>
+<tspan x="10" y="3402">[node test-case 78 of 82 passed] - testCase_childProcessSpawnWithTimeout_default</tspan>
+<tspan x="10" y="3418">[4921:0916/152811.614015:WARNING:backend_impl.cc(1802)] Destroying invalid entry.</tspan>
+<tspan x="10" y="3434">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="3450"></tspan>
+<tspan x="10" y="3466">browserTest - created electron entry-page /tmp/npmTestPublished/node_modules/sandbox2/tmp/electr\</tspan>
+<tspan x="10" y="3482">on.15e8b4de79a0.9240695889f14.html</tspan>
+<tspan x="10" y="3498"></tspan>
+<tspan x="10" y="3514">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="3530">[5034:0916/152812.232060:WARNING:audio_manager.cc(317)] Multiple instances of AudioManager detec\</tspan>
+<tspan x="10" y="3546">ted</tspan>
+<tspan x="10" y="3562">[5034:0916/152812.232134:WARNING:audio_manager.cc(278)] Multiple instances of AudioManager detec\</tspan>
+<tspan x="10" y="3578">ted</tspan>
+<tspan x="10" y="3594">[5034:0916/152812.315525:ERROR:bus.cc(427)] Failed to connect to the bus: //bin/dbus-launch term\</tspan>
+<tspan x="10" y="3610">inated abnormally without any error message</tspan>
+<tspan x="10" y="3626">[5057:0916/152812.379933:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple t\</tspan>
+<tspan x="10" y="3642">hreads in process gpu-process. </tspan>
+<tspan x="10" y="3658">[5034:0916/152812.396427:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="3674">l.</tspan>
+<tspan x="10" y="3690">[5034:0916/152812.396654:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="3706">l.</tspan>
+<tspan x="10" y="3722">[5034:0916/152812.396719:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="3738">l.</tspan>
+<tspan x="10" y="3754">[5034:0916/152812.396766:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="3770">l.</tspan>
+<tspan x="10" y="3786">[5034:0916/152812.396919:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="3802">l.</tspan>
+<tspan x="10" y="3818">[5034:0916/152812.590017:ERROR:backend_impl.cc(2015)] Corrupt Index file</tspan>
+<tspan x="10" y="3834">[4921:0916/152812.809971:ERROR:backend_impl.cc(1033)] Critical error found -8</tspan>
+<tspan x="10" y="3850">[4921:0916/152812.810068:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="3866">[4921:0916/152812.810875:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="3882">[4921:0916/152812.810890:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="3898">[4921:0916/152812.811245:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="3914">[4921:0916/152812.811257:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="3930">[4921:0916/152812.811533:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="3946">[4921:0916/152812.811541:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="3962">[4921:0916/152812.812033:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="3978">[4921:0916/152812.812043:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="3994">[4921:0916/152812.812444:ERROR:entry_impl.cc(964)] Failed to save user data</tspan>
+<tspan x="10" y="4010">[4921:0916/152812.812457:ERROR:entry_impl.cc(964)] Failed to save user data</tspan>
+<tspan x="10" y="4026">[4921:0916/152812.859468:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4042">[4921:0916/152812.859491:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4058">[4921:0916/152812.860089:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4074">[4921:0916/152812.860100:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4090">[4921:0916/152812.860435:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4106">[4921:0916/152812.860444:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4122">[4921:0916/152812.861705:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4138">[4921:0916/152812.861725:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4154">[4921:0916/152812.862129:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4170">[4921:0916/152812.862138:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4186">[4921:0916/152812.864512:ERROR:entry_impl.cc(964)] Failed to save user data</tspan>
+<tspan x="10" y="4202">[4921:0916/152812.864526:ERROR:entry_impl.cc(964)] Failed to save user data</tspan>
+<tspan x="10" y="4218">[4921:0916/152812.977045:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4234">[4921:0916/152812.977069:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4250">[4921:0916/152812.977281:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4266">[4921:0916/152812.977290:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4282">[4921:0916/152812.977384:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4298">[4921:0916/152812.977391:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4314">[4921:0916/152812.979349:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4330">[4921:0916/152812.979365:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4346">[4921:0916/152812.980311:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4362">[4921:0916/152812.980326:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4378">[4921:0916/152812.985687:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4394">[4921:0916/152812.985707:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4410">[4921:0916/152812.988030:ERROR:entry_impl.cc(964)] Failed to save user data</tspan>
+<tspan x="10" y="4426"></tspan>
+<tspan x="10" y="4442">browserTest - opened http://127.0.0.1:37307/assets.recurse2</tspan>
+<tspan x="10" y="4458"></tspan>
+<tspan x="10" y="4474">[4921:0916/152813.244543:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4490">[4921:0916/152813.244568:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4506">[4921:0916/152813.245122:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4522">[4921:0916/152813.245134:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4538">[4921:0916/152813.245278:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4554">[4921:0916/152813.245287:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4570">[4921:0916/152813.248329:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4586">[4921:0916/152813.248344:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4602">[4921:0916/152813.252106:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4618">[4921:0916/152813.252121:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4634">[4921:0916/152813.265916:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4650">[4921:0916/152813.265949:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4666">[4921:0916/152813.283329:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4682">[4921:0916/152813.283349:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4698">[4921:0916/152813.290016:ERROR:entry_impl.cc(964)] Failed to save user data</tspan>
+<tspan x="10" y="4714">server listening on http-port 50357</tspan>
+<tspan x="10" y="4730">&gt; [4921:0916/152813.472265:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4746">[4921:0916/152813.472287:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4762">[4921:0916/152813.472868:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4778">[4921:0916/152813.472878:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4794">[4921:0916/152813.472986:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4810">[4921:0916/152813.472992:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4826">[4921:0916/152813.473355:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4842">[4921:0916/152813.473366:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4858">[4921:0916/152813.473878:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4874">[4921:0916/152813.473887:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4890">[4921:0916/152813.475281:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4906">[4921:0916/152813.475291:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4922">[4921:0916/152813.477142:ERROR:entry_impl.cc(964)] Failed to save user data</tspan>
+<tspan x="10" y="4938">[4921:0916/152813.837114:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4954">[4921:0916/152813.837134:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4970">[4921:0916/152813.837243:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="4986">[4921:0916/152813.837248:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="5002">[4921:0916/152813.837279:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="5018">[4921:0916/152813.837284:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="5034">[4921:0916/152813.837560:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="5050">[4921:0916/152813.837569:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="5066">[4921:0916/152813.837758:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="5082">[4921:0916/152813.837765:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="5098">[4921:0916/152813.838329:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="5114">[4921:0916/152813.838339:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="5130">[4921:0916/152813.847904:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="5146">[4921:0916/152813.847925:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="5162">[4921:0916/152813.850181:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="5178">[4921:0916/152813.850199:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="5194">[4921:0916/152813.852865:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="5210">[4921:0916/152813.852880:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="5226">[4921:0916/152813.854844:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="5242">[4921:0916/152813.854857:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="5258">[4921:0916/152813.887921:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="5274">[4921:0916/152813.887940:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="5290">[4921:0916/152813.889104:ERROR:entry_impl.cc(964)] Failed to save user data</tspan>
+<tspan x="10" y="5306">[4921:0916/152813.987417:INFO:CONSOLE(73)] "server listening on http-port undefined", source: fi\</tspan>
+<tspan x="10" y="5322">le:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb900.759b6be22533b.html (7\</tspan>
+<tspan x="10" y="5338">3)</tspan>
+<tspan x="10" y="5354">[4921:0916/152814.055631:INFO:CONSOLE(73)] "[browser test-case 1 of 66 passed] - testCase_FormDa\</tspan>
+<tspan x="10" y="5370">ta_error", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb900.\</tspan>
+<tspan x="10" y="5386">759b6be22533b.html (73)</tspan>
+<tspan x="10" y="5402">[4921:0916/152814.073694:INFO:CONSOLE(73)] "[browser test-case 2 of 66 passed] - testCase_ajaxPr\</tspan>
+<tspan x="10" y="5418">ogressUpdate_misc", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8\</tspan>
+<tspan x="10" y="5434">b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="5450">[4921:0916/152814.092640:INFO:CONSOLE(73)] "[browser test-case 3 of 66 passed] - testCase_ajax_a\</tspan>
+<tspan x="10" y="5466">bort", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb900.759b\</tspan>
+<tspan x="10" y="5482">6be22533b.html (73)</tspan>
+<tspan x="10" y="5498">[4921:0916/152814.117235:INFO:CONSOLE(73)] "[browser test-case 4 of 66 passed] - testCase_ajax_s\</tspan>
+<tspan x="10" y="5514">tandalone", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb900\</tspan>
+<tspan x="10" y="5530">.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="5546">[4921:0916/152814.136236:INFO:CONSOLE(73)] "[browser test-case 5 of 66 passed] - testCase_assert\</tspan>
+<tspan x="10" y="5562">Xxx_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb9\</tspan>
+<tspan x="10" y="5578">00.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="5594">[4921:0916/152814.149784:INFO:CONSOLE(73)] "[browser test-case 6 of 66 passed] - testCase_base64\</tspan>
+<tspan x="10" y="5610">Xxx_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb9\</tspan>
+<tspan x="10" y="5626">00.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="5642">[4921:0916/152814.150544:INFO:CONSOLE(73)] "[browser test-case 7 of 66 passed] - testCase_blobRe\</tspan>
+<tspan x="10" y="5658">ad_error", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb900.\</tspan>
+<tspan x="10" y="5674">759b6be22533b.html (73)</tspan>
+<tspan x="10" y="5690">[4921:0916/152814.150649:INFO:CONSOLE(73)] "[browser test-case 8 of 66 passed] - testCase_browse\</tspan>
+<tspan x="10" y="5706">r_nullCase", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb90\</tspan>
+<tspan x="10" y="5722">0.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="5738">[4921:0916/152814.186778:INFO:CONSOLE(73)] "[browser test-case 9 of 66 passed] - testCase_buffer\</tspan>
+<tspan x="10" y="5754">Create_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4d\</tspan>
+<tspan x="10" y="5770">db900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="5786"></tspan>
+<tspan x="10" y="5802">browserTest - created screenshot file /home/travis/build/kaizhu256/node-sandbox2/tmp/build/scree\</tspan>
+<tspan x="10" y="5818">nshot.scrape.browser.http%3A%2F%2F127.0.0.1%3A37307%2Fassets.recurse2.png</tspan>
+<tspan x="10" y="5834"></tspan>
+<tspan x="10" y="5850">browserTest - created screenshot file /home/travis/build/kaizhu256/node-sandbox2/tmp/build/scree\</tspan>
+<tspan x="10" y="5866">nshot.scrape.browser.http%3A%2F%2F127.0.0.1%3A37307%2Fassets.recurse2.html</tspan>
+<tspan x="10" y="5882">[4921:0916/152814.360071:INFO:CONSOLE(73)] "[browser test-case 10 of 66 passed] - testCase_buffe\</tspan>
+<tspan x="10" y="5898">rCreate_polyfill", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b\</tspan>
+<tspan x="10" y="5914">4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="5930">[4921:0916/152814.372342:INFO:CONSOLE(73)] "[browser test-case 11 of 66 passed] - testCase_buffe\</tspan>
+<tspan x="10" y="5946">rIndexOfSubBuffer_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/elect\</tspan>
+<tspan x="10" y="5962">ron.15e8b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="5978">[4921:0916/152814.380186:INFO:CONSOLE(73)] "[browser test-case 12 of 66 passed] - testCase_cooki\</tspan>
+<tspan x="10" y="5994">eXxx_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb\</tspan>
+<tspan x="10" y="6010">900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="6026">[4921:0916/152814.392411:INFO:CONSOLE(73)] "[browser test-case 13 of 66 passed] - testCase_dbTab\</tspan>
+<tspan x="10" y="6042">leCustomOrgXxx_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron\</tspan>
+<tspan x="10" y="6058">.15e8b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="6074">[4921:0916/152814.397565:INFO:CONSOLE(73)] "[browser test-case 14 of 66 passed] - testCase_debug\</tspan>
+<tspan x="10" y="6090">_inline_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4\</tspan>
+<tspan x="10" y="6106">ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="6122">[4921:0916/152814.414348:INFO:CONSOLE(73)] "[browser test-case 15 of 66 passed] - testCase_domFr\</tspan>
+<tspan x="10" y="6138">agmentRender_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.1\</tspan>
+<tspan x="10" y="6154">5e8b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="6170">[4921:0916/152814.428761:INFO:CONSOLE(73)] "[browser test-case 16 of 66 passed] - testCase_echo_\</tspan>
+<tspan x="10" y="6186">default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb900.7\</tspan>
+<tspan x="10" y="6202">59b6be22533b.html (73)</tspan>
+<tspan x="10" y="6218">[4921:0916/152814.448241:INFO:CONSOLE(73)] "[browser test-case 17 of 66 passed] - testCase_envSa\</tspan>
+<tspan x="10" y="6234">nitize_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4d\</tspan>
+<tspan x="10" y="6250">db900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="6266">[4921:0916/152814.467665:INFO:CONSOLE(23)] "TypeError: Cannot read property 'testReport' of unde\</tspan>
+<tspan x="10" y="6282">fined", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb900.759\</tspan>
+<tspan x="10" y="6298">b6be22533b.html (23)</tspan>
+<tspan x="10" y="6314">[4921:0916/152814.486821:INFO:CONSOLE(73)] "[browser test-case 18 of 66 passed] - testCase_exit_\</tspan>
+<tspan x="10" y="6330">error", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb900.759\</tspan>
+<tspan x="10" y="6346">b6be22533b.html (73)</tspan>
+<tspan x="10" y="6362">[4921:0916/152814.502167:INFO:CONSOLE(73)] "[browser test-case 19 of 66 passed] - testCase_githu\</tspan>
+<tspan x="10" y="6378">bCorsUrlOverride_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electr\</tspan>
+<tspan x="10" y="6394">on.15e8b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="6410">[4921:0916/152814.523312:INFO:CONSOLE(73)] "[browser test-case 20 of 66 passed] - testCase_isNul\</tspan>
+<tspan x="10" y="6426">lOrUndefined_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.1\</tspan>
+<tspan x="10" y="6442">5e8b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="6458">[4921:0916/152814.585326:INFO:CONSOLE(73)] "[browser test-case 21 of 66 passed] - testCase_jslin\</tspan>
+<tspan x="10" y="6474">tAndPrintConditional_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/el\</tspan>
+<tspan x="10" y="6490">ectron.15e8b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="6506">[4921:0916/152814.605463:INFO:CONSOLE(73)] "[browser test-case 22 of 66 passed] - testCase_jsonC\</tspan>
+<tspan x="10" y="6522">opy_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb9\</tspan>
+<tspan x="10" y="6538">00.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="6554">[4921:0916/152814.614622:INFO:CONSOLE(73)] "[browser test-case 23 of 66 passed] - testCase_jsonS\</tspan>
+<tspan x="10" y="6570">tringifyOrdered_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electro\</tspan>
+<tspan x="10" y="6586">n.15e8b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="6602">[4921:0916/152814.651732:INFO:CONSOLE(73)] "[browser test-case 24 of 66 passed] - testCase_jwtA2\</tspan>
+<tspan x="10" y="6618">56GcmXxx_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b\</tspan>
+<tspan x="10" y="6634">4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="6650">[4921:0916/152814.666994:INFO:CONSOLE(73)] "[browser test-case 25 of 66 passed] - testCase_jwtHs\</tspan>
+<tspan x="10" y="6666">256Xxx_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4d\</tspan>
+<tspan x="10" y="6682">db900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="6698">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="6714">[4921:0916/152814.686608:INFO:CONSOLE(73)] "[browser test-case 26 of 66 passed] - testCase_listG\</tspan>
+<tspan x="10" y="6730">etElementRandom_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electro\</tspan>
+<tspan x="10" y="6746">n.15e8b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="6762">[4921:0916/152814.702422:INFO:CONSOLE(73)] "[browser test-case 27 of 66 passed] - testCase_listS\</tspan>
+<tspan x="10" y="6778">huffle_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4d\</tspan>
+<tspan x="10" y="6794">db900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="6810">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="6826">[4921:0916/152814.722171:INFO:CONSOLE(73)] "[browser test-case 28 of 66 passed] - testCase_norma\</tspan>
+<tspan x="10" y="6842">lizeValue_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8\</tspan>
+<tspan x="10" y="6858">b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="6874">[4921:0916/152814.736928:INFO:CONSOLE(73)] "[browser test-case 29 of 66 passed] - testCase_objec\</tspan>
+<tspan x="10" y="6890">tGetElementFirst_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electr\</tspan>
+<tspan x="10" y="6906">on.15e8b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="6922">[4921:0916/152814.752790:INFO:CONSOLE(73)] "[browser test-case 30 of 66 passed] - testCase_objec\</tspan>
+<tspan x="10" y="6938">tKeysTypeOf_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15\</tspan>
+<tspan x="10" y="6954">e8b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="6970">[4921:0916/152814.770708:INFO:CONSOLE(73)] "[browser test-case 31 of 66 passed] - testCase_objec\</tspan>
+<tspan x="10" y="6986">tLiteralize_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15\</tspan>
+<tspan x="10" y="7002">e8b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="7018">[4921:0916/152814.790318:INFO:CONSOLE(73)] "[browser test-case 32 of 66 passed] - testCase_objec\</tspan>
+<tspan x="10" y="7034">tSetDefault_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15\</tspan>
+<tspan x="10" y="7050">e8b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="7066">[4921:0916/152814.808266:INFO:CONSOLE(73)] "[browser test-case 33 of 66 passed] - testCase_objec\</tspan>
+<tspan x="10" y="7082">tSetOverride_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.1\</tspan>
+<tspan x="10" y="7098">5e8b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="7114">[4921:0916/152814.824049:INFO:CONSOLE(73)] "[browser test-case 34 of 66 passed] - testCase_objec\</tspan>
+<tspan x="10" y="7130">tTraverse_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8\</tspan>
+<tspan x="10" y="7146">b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="7162">[4921:0916/152814.842568:INFO:CONSOLE(73)] "[browser test-case 35 of 66 passed] - testCase_onErr\</tspan>
+<tspan x="10" y="7178">orDefault_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8\</tspan>
+<tspan x="10" y="7194">b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="7210">[4921:0916/152814.855437:INFO:CONSOLE(73)] "[browser test-case 36 of 66 passed] - testCase_onErr\</tspan>
+<tspan x="10" y="7226">orThrow_error", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4dd\</tspan>
+<tspan x="10" y="7242">b900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="7258">[4921:0916/152814.865411:INFO:CONSOLE(73)] "[browser test-case 37 of 66 passed] - testCase_onNex\</tspan>
+<tspan x="10" y="7274">t_error", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb900.7\</tspan>
+<tspan x="10" y="7290">59b6be22533b.html (73)</tspan>
+<tspan x="10" y="7306">[4921:0916/152814.887368:INFO:CONSOLE(73)] "serverLog - {}", source: file:///tmp/npmTestPublishe\</tspan>
+<tspan x="10" y="7322">d/node_modules/sandbox2/tmp/electron.15e8b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="7338">[4921:0916/152814.899519:INFO:CONSOLE(73)] "[browser test-case 38 of 66 passed] - testCase_serve\</tspan>
+<tspan x="10" y="7354">rLog_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb\</tspan>
+<tspan x="10" y="7370">900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="7386">[4921:0916/152815.180180:INFO:CONSOLE(73)] "[browser test-case 39 of 66 passed] - testCase_sjclH\</tspan>
+<tspan x="10" y="7402">ashScryptXxx_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.1\</tspan>
+<tspan x="10" y="7418">5e8b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="7434">[4921:0916/152815.188257:INFO:CONSOLE(73)] "[browser test-case 40 of 66 passed] - testCase_sjclH\</tspan>
+<tspan x="10" y="7450">ashSha256Create_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electro\</tspan>
+<tspan x="10" y="7466">n.15e8b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="7482">[4921:0916/152815.205279:INFO:CONSOLE(73)] "[browser test-case 41 of 66 passed] - testCase_sjclH\</tspan>
+<tspan x="10" y="7498">macSha256Create_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electro\</tspan>
+<tspan x="10" y="7514">n.15e8b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="7530">[4921:0916/152815.215237:INFO:CONSOLE(73)] "[browser test-case 42 of 66 passed] - testCase_strin\</tspan>
+<tspan x="10" y="7546">gHtmlSafe_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8\</tspan>
+<tspan x="10" y="7562">b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="7578">[4921:0916/152815.240121:INFO:CONSOLE(73)] "[browser test-case 43 of 66 passed] - testCase_taskC\</tspan>
+<tspan x="10" y="7594">reate_multipleCallback", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron\</tspan>
+<tspan x="10" y="7610">.15e8b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="7626">[4921:0916/152815.260647:INFO:CONSOLE(73)] "[browser test-case 44 of 66 passed] - testCase_templ\</tspan>
+<tspan x="10" y="7642">ateRender_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8\</tspan>
+<tspan x="10" y="7658">b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="7674">[4921:0916/152815.274802:INFO:CONSOLE(73)] "[browser test-case 45 of 66 passed] - testCase_testR\</tspan>
+<tspan x="10" y="7690">unDefault_nop", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4dd\</tspan>
+<tspan x="10" y="7706">b900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="7722">[4921:0916/152815.282404:INFO:CONSOLE(73)] "[browser test-case 46 of 66 passed] - testCase_throw\</tspan>
+<tspan x="10" y="7738">Error_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4dd\</tspan>
+<tspan x="10" y="7754">b900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="7770">[4921:0916/152815.325708:INFO:CONSOLE(73)] "[browser test-case 47 of 66 passed] - testCase_uglif\</tspan>
+<tspan x="10" y="7786">y_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb900\</tspan>
+<tspan x="10" y="7802">.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="7818">[4921:0916/152815.338871:INFO:CONSOLE(73)] "[browser test-case 48 of 66 passed] - testCase_uiAni\</tspan>
+<tspan x="10" y="7834">mateSlideXxx_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.1\</tspan>
+<tspan x="10" y="7850">5e8b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="7866">[4921:0916/152815.346806:INFO:CONSOLE(73)] "[browser test-case 49 of 66 passed] - testCase_urlPa\</tspan>
+<tspan x="10" y="7882">rse_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb9\</tspan>
+<tspan x="10" y="7898">00.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="7914">[4921:0916/152815.353020:INFO:CONSOLE(73)] "[browser test-case 50 of 66 passed] - testCase_uuid4\</tspan>
+<tspan x="10" y="7930">Create_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4d\</tspan>
+<tspan x="10" y="7946">db900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="7962">[4921:0916/152815.379487:INFO:CONSOLE(73)] "[browser test-case 51 of 66 passed] - testCase_ajax_\</tspan>
+<tspan x="10" y="7978">200", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb900.759b6\</tspan>
+<tspan x="10" y="7994">be22533b.html (73)</tspan>
+<tspan x="10" y="8010">[4921:0916/152815.392805:INFO:CONSOLE(73)] "[browser test-case 52 of 66 passed] - testCase_ajax_\</tspan>
+<tspan x="10" y="8026">assets", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb900.75\</tspan>
+<tspan x="10" y="8042">9b6be22533b.html (73)</tspan>
+<tspan x="10" y="8058">[4921:0916/152815.410080:INFO:CONSOLE(73)] "[browser test-case 53 of 66 passed] - testCase_ajax_\</tspan>
+<tspan x="10" y="8074">404", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb900.759b6\</tspan>
+<tspan x="10" y="8090">be22533b.html (73)</tspan>
+<tspan x="10" y="8106">[4921:0916/152815.423746:INFO:CONSOLE(73)] "[browser test-case 54 of 66 passed] - testCase_blobR\</tspan>
+<tspan x="10" y="8122">ead_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb9\</tspan>
+<tspan x="10" y="8138">00.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="8154">[4921:0916/152815.441910:INFO:CONSOLE(73)] "Uncaught TypeError: Cannot read property 'length' of\</tspan>
+<tspan x="10" y="8170"> undefined", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb90\</tspan>
+<tspan x="10" y="8186">0.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="8202">[4921:0916/152815.454924:INFO:CONSOLE(73)] "[browser test-case 55 of 66 passed] - testCase_FormD\</tspan>
+<tspan x="10" y="8218">ata_nullCase", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb\</tspan>
+<tspan x="10" y="8234">900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="8250">[4921:0916/152815.477636:INFO:CONSOLE(73)] "[browser test-case 56 of 66 passed] - testCase_ajax_\</tspan>
+<tspan x="10" y="8266">error", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb900.759\</tspan>
+<tspan x="10" y="8282">b6be22533b.html (73)</tspan>
+<tspan x="10" y="8298">[4921:0916/152815.491900:INFO:CONSOLE(73)] "[browser test-case 57 of 66 passed] - testCase_onPar\</tspan>
+<tspan x="10" y="8314">allel_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4dd\</tspan>
+<tspan x="10" y="8330">b900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="8346">[4921:0916/152815.497946:INFO:CONSOLE(73)] "[browser test-case 58 of 66 passed] - testCase_profi\</tspan>
+<tspan x="10" y="8362">leXxx_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4dd\</tspan>
+<tspan x="10" y="8378">b900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="8394">[4921:0916/152815.504376:INFO:CONSOLE(73)] "[browser test-case 59 of 66 passed] - testCase_setTi\</tspan>
+<tspan x="10" y="8410">meoutOnError_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.1\</tspan>
+<tspan x="10" y="8426">5e8b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="8442">[4921:0916/152815.523804:INFO:CONSOLE(73)] "[browser test-case 60 of 66 passed] - testCase_taskC\</tspan>
+<tspan x="10" y="8458">reate_upsert", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb\</tspan>
+<tspan x="10" y="8474">900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="8490"></tspan>
+<tspan x="10" y="8506">browserTest - created electron entry-page /tmp/npmTestPublished/node_modules/sandbox2/tmp/electr\</tspan>
+<tspan x="10" y="8522">on.15e8b4df4b80.30c26ef340177.html</tspan>
+<tspan x="10" y="8538"></tspan>
+<tspan x="10" y="8554">[4921:0916/152815.555548:INFO:CONSOLE(73)] "[browser test-case 61 of 66 passed] - testCase_FormD\</tspan>
+<tspan x="10" y="8570">ata_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb9\</tspan>
+<tspan x="10" y="8586">00.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="8602">[4921:0916/152815.566023:INFO:CONSOLE(73)] "[object Object]", source: file:///tmp/npmTestPublish\</tspan>
+<tspan x="10" y="8618">ed/node_modules/sandbox2/tmp/electron.15e8b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="8634">[4921:0916/152815.572518:INFO:CONSOLE(73)] "[browser test-case 62 of 66 passed] - testCase_ajax_\</tspan>
+<tspan x="10" y="8650">post", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb900.759b\</tspan>
+<tspan x="10" y="8666">6be22533b.html (73)</tspan>
+<tspan x="10" y="8682">[4921:0916/152815.579099:INFO:CONSOLE(73)] "[browser test-case 63 of 66 passed] - testCase_ajax_\</tspan>
+<tspan x="10" y="8698">timeout", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb900.7\</tspan>
+<tspan x="10" y="8714">59b6be22533b.html (73)</tspan>
+<tspan x="10" y="8730">[4921:0916/152815.587993:INFO:CONSOLE(73)] "[browser test-case 64 of 66 passed] - testCase_taskC\</tspan>
+<tspan x="10" y="8746">reateCached_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15\</tspan>
+<tspan x="10" y="8762">e8b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="8778">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="8794">[5117:0916/152815.613743:WARNING:audio_manager.cc(317)] Multiple instances of AudioManager detec\</tspan>
 <tspan x="10" y="8810">ted</tspan>
-<tspan x="10" y="8826">[5124:0916/151908.732046:ERROR:bus.cc(427)] Failed to connect to the bus: //bin/dbus-launch term\</tspan>
-<tspan x="10" y="8842">inated abnormally without any error message</tspan>
-<tspan x="10" y="8858">[4932:0916/151908.789359:INFO:CONSOLE(73)] "[browser test-case 65 of 66 passed] - testCase_onTim\</tspan>
-<tspan x="10" y="8874">eout_timeout", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457f\</tspan>
-<tspan x="10" y="8890">c70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="8906">[5152:0916/151908.833109:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple t\</tspan>
-<tspan x="10" y="8922">hreads in process gpu-process. </tspan>
-<tspan x="10" y="8938">[5124:0916/151908.842202:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="8954">l.</tspan>
-<tspan x="10" y="8970">[5124:0916/151908.842731:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="8986">l.</tspan>
-<tspan x="10" y="9002">[5124:0916/151908.843276:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="8826">[5117:0916/152815.617620:WARNING:audio_manager.cc(278)] Multiple instances of AudioManager detec\</tspan>
+<tspan x="10" y="8842">ted</tspan>
+<tspan x="10" y="8858"></tspan>
+<tspan x="10" y="8874">browserTest - created electron entry-page /tmp/npmTestPublished/node_modules/sandbox2/tmp/electr\</tspan>
+<tspan x="10" y="8890">on.15e8b4df54a0.1b793d5bfd595.html</tspan>
+<tspan x="10" y="8906"></tspan>
+<tspan x="10" y="8922">[5117:0916/152815.706048:ERROR:bus.cc(427)] Failed to connect to the bus: //bin/dbus-launch term\</tspan>
+<tspan x="10" y="8938">inated abnormally without any error message</tspan>
+<tspan x="10" y="8954">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="8970">[5144:0916/152815.763982:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple t\</tspan>
+<tspan x="10" y="8986">hreads in process gpu-process. </tspan>
+<tspan x="10" y="9002">[5117:0916/152815.771510:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
 <tspan x="10" y="9018">l.</tspan>
-<tspan x="10" y="9034">[5124:0916/151908.843813:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="9034">[5117:0916/152815.771813:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
 <tspan x="10" y="9050">l.</tspan>
-<tspan x="10" y="9066">[5124:0916/151908.844352:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="9066">[5117:0916/152815.772173:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
 <tspan x="10" y="9082">l.</tspan>
-<tspan x="10" y="9098"></tspan>
-<tspan x="10" y="9114">browserTest - created electron entry-page /tmp/npmTestPublished/node_modules/sandbox2/tmp/electr\</tspan>
-<tspan x="10" y="9130">on.15e8b459d5b0.f4c8d5652fbd3.html</tspan>
-<tspan x="10" y="9146"></tspan>
-<tspan x="10" y="9162">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="9178">[5127:0916/151908.933877:WARNING:audio_manager.cc(317)] Multiple instances of AudioManager detec\</tspan>
-<tspan x="10" y="9194">ted</tspan>
-<tspan x="10" y="9210">[5127:0916/151908.939323:WARNING:audio_manager.cc(278)] Multiple instances of AudioManager detec\</tspan>
-<tspan x="10" y="9226">ted</tspan>
-<tspan x="10" y="9242">[5127:0916/151909.005901:ERROR:bus.cc(427)] Failed to connect to the bus: //bin/dbus-launch term\</tspan>
-<tspan x="10" y="9258">inated abnormally without any error message</tspan>
-<tspan x="10" y="9274">[5182:0916/151909.062277:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple t\</tspan>
-<tspan x="10" y="9290">hreads in process gpu-process. </tspan>
-<tspan x="10" y="9306">[5127:0916/151909.092417:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="9322">l.</tspan>
-<tspan x="10" y="9338">[5127:0916/151909.094026:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="9354">l.</tspan>
-<tspan x="10" y="9370">[5127:0916/151909.095659:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="9386">l.</tspan>
-<tspan x="10" y="9402">[5127:0916/151909.097127:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="9418">l.</tspan>
-<tspan x="10" y="9434">[5127:0916/151909.100309:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
-<tspan x="10" y="9450">l.</tspan>
-<tspan x="10" y="9466"></tspan>
-<tspan x="10" y="9482">browserTest - opened /home/travis/build/kaizhu256/node-sandbox2/tmp/build/screenshot.scrape.brow\</tspan>
-<tspan x="10" y="9498">ser.http%253A%252F%252F127.0.0.1%253A39192%252Fassets.recurse1.translateAfterScrape.ru.html</tspan>
+<tspan x="10" y="9098">[5117:0916/152815.772726:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="9114">l.</tspan>
+<tspan x="10" y="9130">[5117:0916/152815.773643:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="9146">l.</tspan>
+<tspan x="10" y="9162">[5116:0916/152815.775833:WARNING:audio_manager.cc(317)] Multiple instances of AudioManager detec\</tspan>
+<tspan x="10" y="9178">ted</tspan>
+<tspan x="10" y="9194">[5116:0916/152815.775901:WARNING:audio_manager.cc(278)] Multiple instances of AudioManager detec\</tspan>
+<tspan x="10" y="9210">ted</tspan>
+<tspan x="10" y="9226">[5116:0916/152815.873776:ERROR:bus.cc(427)] Failed to connect to the bus: //bin/dbus-launch term\</tspan>
+<tspan x="10" y="9242">inated abnormally without any error message</tspan>
+<tspan x="10" y="9258">[5172:0916/152815.928000:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple t\</tspan>
+<tspan x="10" y="9274">hreads in process gpu-process. </tspan>
+<tspan x="10" y="9290">[5116:0916/152815.937132:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="9306">l.</tspan>
+<tspan x="10" y="9322">[5116:0916/152815.937224:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="9338">l.</tspan>
+<tspan x="10" y="9354">[5116:0916/152815.938307:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="9370">l.</tspan>
+<tspan x="10" y="9386">[5116:0916/152815.938944:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="9402">l.</tspan>
+<tspan x="10" y="9418">[5116:0916/152815.940169:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="9434">l.</tspan>
+<tspan x="10" y="9450"></tspan>
+<tspan x="10" y="9466">browserTest - opened /home/travis/build/kaizhu256/node-sandbox2/tmp/build/screenshot.scrape.brow\</tspan>
+<tspan x="10" y="9482">ser.http%253A%252F%252F127.0.0.1%253A37307%252Fassets.recurse1.translateAfterScrape.zh-CN.html</tspan>
+<tspan x="10" y="9498"></tspan>
 <tspan x="10" y="9514"></tspan>
-<tspan x="10" y="9530"></tspan>
-<tspan x="10" y="9546">browserTest - opened /home/travis/build/kaizhu256/node-sandbox2/tmp/build/screenshot.scrape.brow\</tspan>
-<tspan x="10" y="9562">ser.http%253A%252F%252F127.0.0.1%253A39192%252Fassets.recurse1.translateAfterScrape.zh-CN.html</tspan>
-<tspan x="10" y="9578"></tspan>
-<tspan x="10" y="9594">[5124:0916/151909.586561:ERROR:backend_impl.cc(1033)] Critical error found -8</tspan>
-<tspan x="10" y="9610">[5124:0916/151909.587330:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="9626">[5124:0916/151909.587364:ERROR:entry_impl.cc(1039)] No file for b3020004</tspan>
-<tspan x="10" y="9642">[5124:0916/151909.588889:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
-<tspan x="10" y="9658">[5127:0916/151909.631496:WARNING:backend_impl.cc(1563)] Messed up entry found.</tspan>
-<tspan x="10" y="9674">[5127:0916/151909.647214:ERROR:entry_impl.cc(1039)] No file for 80000001</tspan>
-<tspan x="10" y="9690">[4932:0916/151910.278129:INFO:CONSOLE(73)] "[browser test-case 66 of 66 passed] - testCase_onPar\</tspan>
-<tspan x="10" y="9706">allelList_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8\</tspan>
-<tspan x="10" y="9722">b457fc70.236e0b05542de.html (73)</tspan>
-<tspan x="10" y="9738"></tspan>
-<tspan x="10" y="9754">browserTest - created screenshot file /home/travis/build/kaizhu256/node-sandbox2/tmp/build/scree\</tspan>
-<tspan x="10" y="9770">nshot.scrape.browser.http%3A%2F%2F127.0.0.1%3A39192%2Fassets.recurse1.translateAfterScrape.ru.pn\</tspan>
-<tspan x="10" y="9786">g</tspan>
-<tspan x="10" y="9802"></tspan>
-<tspan x="10" y="9818">browserTest - created screenshot file /home/travis/build/kaizhu256/node-sandbox2/tmp/build/scree\</tspan>
-<tspan x="10" y="9834">nshot.scrape.browser.http%3A%2F%2F127.0.0.1%3A39192%2Fassets.recurse1.translateAfterScrape.ru.ht\</tspan>
-<tspan x="10" y="9850">ml</tspan>
-<tspan x="10" y="9866"></tspan>
-<tspan x="10" y="9882">browserTest - merged coverage from file /tmp/npmTestPublished/node_modules/sandbox2/tmp/coverage\</tspan>
-<tspan x="10" y="9898">.npmTestPublished.browser.%2Fhome%2Ftravis%2Fbuild%2Fkaizhu256%2Fnode-sandbox2%2Ftmp%2Fbuild%2Fs\</tspan>
-<tspan x="10" y="9914">creenshot.scrape.browser.http%25253A%25252F%25252F127.0.0.1%25253A39192%25252Fassets.recurse1.tr\</tspan>
-<tspan x="10" y="9930">anslateAfterScrape.ru.html.json</tspan>
-<tspan x="10" y="9946"></tspan>
-<tspan x="10" y="9962"></tspan>
-<tspan x="10" y="9978">browserTest - merged test-report from file /tmp/npmTestPublished/node_modules/sandbox2/tmp/test-\</tspan>
-<tspan x="10" y="9994">report.npmTestPublished.browser.%2Fhome%2Ftravis%2Fbuild%2Fkaizhu256%2Fnode-sandbox2%2Ftmp%2Fbui\</tspan>
-<tspan x="10" y="10010">ld%2Fscreenshot.scrape.browser.http%25253A%25252F%25252F127.0.0.1%25253A39192%25252Fassets.recur\</tspan>
-<tspan x="10" y="10026">se1.translateAfterScrape.ru.html.json</tspan>
-<tspan x="10" y="10042"></tspan>
+<tspan x="10" y="9530">browserTest - opened /home/travis/build/kaizhu256/node-sandbox2/tmp/build/screenshot.scrape.brow\</tspan>
+<tspan x="10" y="9546">ser.http%253A%252F%252F127.0.0.1%253A37307%252Fassets.recurse1.translateAfterScrape.ru.html</tspan>
+<tspan x="10" y="9562"></tspan>
+<tspan x="10" y="9578">[5116:0916/152816.327824:WARNING:backend_impl.cc(1802)] Destroying invalid entry.</tspan>
+<tspan x="10" y="9594">[5116:0916/152816.363850:ERROR:rankings.cc(786)] Inconsistent LRU.</tspan>
+<tspan x="10" y="9610">[5116:0916/152816.363867:ERROR:backend_impl.cc(1033)] Critical error found -8</tspan>
+<tspan x="10" y="9626">[5116:0916/152816.365028:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="9642">[5116:0916/152816.365047:ERROR:entry_impl.cc(1039)] No file for c1030002</tspan>
+<tspan x="10" y="9658">[5116:0916/152816.366285:WARNING:storage_block-inl.h(131)] Failed data load.</tspan>
+<tspan x="10" y="9674">[4921:0916/152816.387366:INFO:CONSOLE(73)] "[browser test-case 65 of 66 passed] - testCase_onTim\</tspan>
+<tspan x="10" y="9690">eout_timeout", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb\</tspan>
+<tspan x="10" y="9706">900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="9722"></tspan>
+<tspan x="10" y="9738">browserTest - created screenshot file /home/travis/build/kaizhu256/node-sandbox2/tmp/build/scree\</tspan>
+<tspan x="10" y="9754">nshot.scrape.browser.http%3A%2F%2F127.0.0.1%3A37307%2Fassets.recurse1.translateAfterScrape.zh-CN\</tspan>
+<tspan x="10" y="9770">.png</tspan>
+<tspan x="10" y="9786"></tspan>
+<tspan x="10" y="9802">browserTest - created screenshot file /home/travis/build/kaizhu256/node-sandbox2/tmp/build/scree\</tspan>
+<tspan x="10" y="9818">nshot.scrape.browser.http%3A%2F%2F127.0.0.1%3A37307%2Fassets.recurse1.translateAfterScrape.zh-CN\</tspan>
+<tspan x="10" y="9834">.html</tspan>
+<tspan x="10" y="9850"></tspan>
+<tspan x="10" y="9866">browserTest - created screenshot file /home/travis/build/kaizhu256/node-sandbox2/tmp/build/scree\</tspan>
+<tspan x="10" y="9882">nshot.scrape.browser.http%3A%2F%2F127.0.0.1%3A37307%2Fassets.recurse1.translateAfterScrape.ru.pn\</tspan>
+<tspan x="10" y="9898">g</tspan>
+<tspan x="10" y="9914"></tspan>
+<tspan x="10" y="9930">browserTest - created screenshot file /home/travis/build/kaizhu256/node-sandbox2/tmp/build/scree\</tspan>
+<tspan x="10" y="9946">nshot.scrape.browser.http%3A%2F%2F127.0.0.1%3A37307%2Fassets.recurse1.translateAfterScrape.ru.ht\</tspan>
+<tspan x="10" y="9962">ml</tspan>
+<tspan x="10" y="9978"></tspan>
+<tspan x="10" y="9994">browserTest - merged coverage from file /tmp/npmTestPublished/node_modules/sandbox2/tmp/coverage\</tspan>
+<tspan x="10" y="10010">.npmTestPublished.browser.%2Fhome%2Ftravis%2Fbuild%2Fkaizhu256%2Fnode-sandbox2%2Ftmp%2Fbuild%2Fs\</tspan>
+<tspan x="10" y="10026">creenshot.scrape.browser.http%25253A%25252F%25252F127.0.0.1%25253A37307%25252Fassets.recurse1.tr\</tspan>
+<tspan x="10" y="10042">anslateAfterScrape.zh-CN.html.json</tspan>
 <tspan x="10" y="10058"></tspan>
-<tspan x="10" y="10074">browserTest - created screenshot file /home/travis/build/kaizhu256/node-sandbox2/tmp/build/scree\</tspan>
-<tspan x="10" y="10090">nshot.scrape.browser.http%3A%2F%2F127.0.0.1%3A39192%2Fassets.recurse1.translateAfterScrape.zh-CN\</tspan>
-<tspan x="10" y="10106">.png</tspan>
-<tspan x="10" y="10122"></tspan>
-<tspan x="10" y="10138">browserTest - created screenshot file /home/travis/build/kaizhu256/node-sandbox2/tmp/build/scree\</tspan>
-<tspan x="10" y="10154">nshot.scrape.browser.http%3A%2F%2F127.0.0.1%3A39192%2Fassets.recurse1.translateAfterScrape.zh-CN\</tspan>
-<tspan x="10" y="10170">.html</tspan>
-<tspan x="10" y="10186"></tspan>
-<tspan x="10" y="10202">browserTest - merged coverage from file /tmp/npmTestPublished/node_modules/sandbox2/tmp/coverage\</tspan>
-<tspan x="10" y="10218">.npmTestPublished.browser.%2Fhome%2Ftravis%2Fbuild%2Fkaizhu256%2Fnode-sandbox2%2Ftmp%2Fbuild%2Fs\</tspan>
-<tspan x="10" y="10234">creenshot.scrape.browser.http%25253A%25252F%25252F127.0.0.1%25253A39192%25252Fassets.recurse1.tr\</tspan>
-<tspan x="10" y="10250">anslateAfterScrape.zh-CN.html.json</tspan>
+<tspan x="10" y="10074"></tspan>
+<tspan x="10" y="10090">browserTest - merged test-report from file /tmp/npmTestPublished/node_modules/sandbox2/tmp/test-\</tspan>
+<tspan x="10" y="10106">report.npmTestPublished.browser.%2Fhome%2Ftravis%2Fbuild%2Fkaizhu256%2Fnode-sandbox2%2Ftmp%2Fbui\</tspan>
+<tspan x="10" y="10122">ld%2Fscreenshot.scrape.browser.http%25253A%25252F%25252F127.0.0.1%25253A37307%25252Fassets.recur\</tspan>
+<tspan x="10" y="10138">se1.translateAfterScrape.zh-CN.html.json</tspan>
+<tspan x="10" y="10154"></tspan>
+<tspan x="10" y="10170"></tspan>
+<tspan x="10" y="10186">browserTest - merged coverage from file /tmp/npmTestPublished/node_modules/sandbox2/tmp/coverage\</tspan>
+<tspan x="10" y="10202">.npmTestPublished.browser.%2Fhome%2Ftravis%2Fbuild%2Fkaizhu256%2Fnode-sandbox2%2Ftmp%2Fbuild%2Fs\</tspan>
+<tspan x="10" y="10218">creenshot.scrape.browser.http%25253A%25252F%25252F127.0.0.1%25253A37307%25252Fassets.recurse1.tr\</tspan>
+<tspan x="10" y="10234">anslateAfterScrape.ru.html.json</tspan>
+<tspan x="10" y="10250"></tspan>
 <tspan x="10" y="10266"></tspan>
-<tspan x="10" y="10282"></tspan>
-<tspan x="10" y="10298">browserTest - merged test-report from file /tmp/npmTestPublished/node_modules/sandbox2/tmp/test-\</tspan>
-<tspan x="10" y="10314">report.npmTestPublished.browser.%2Fhome%2Ftravis%2Fbuild%2Fkaizhu256%2Fnode-sandbox2%2Ftmp%2Fbui\</tspan>
-<tspan x="10" y="10330">ld%2Fscreenshot.scrape.browser.http%25253A%25252F%25252F127.0.0.1%25253A39192%25252Fassets.recur\</tspan>
-<tspan x="10" y="10346">se1.translateAfterScrape.zh-CN.html.json</tspan>
-<tspan x="10" y="10362"></tspan>
-<tspan x="10" y="10378">[node test-case 79 of 82 passed] - testCase_browserTest_default</tspan>
-<tspan x="10" y="10394">[node test-case 80 of 82 passed] - testCase_buildApp_default</tspan>
-<tspan x="10" y="10410">[4932:0916/151911.293337:INFO:CONSOLE(73)] "----------|-----------|-----------|-----------|-----\</tspan>
-<tspan x="10" y="10426">------|</tspan>
-<tspan x="10" y="10442">File      |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
-<tspan x="10" y="10458">----------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="10474">----------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="10490">All files |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="10282">browserTest - merged test-report from file /tmp/npmTestPublished/node_modules/sandbox2/tmp/test-\</tspan>
+<tspan x="10" y="10298">report.npmTestPublished.browser.%2Fhome%2Ftravis%2Fbuild%2Fkaizhu256%2Fnode-sandbox2%2Ftmp%2Fbui\</tspan>
+<tspan x="10" y="10314">ld%2Fscreenshot.scrape.browser.http%25253A%25252F%25252F127.0.0.1%25253A37307%25252Fassets.recur\</tspan>
+<tspan x="10" y="10330">se1.translateAfterScrape.ru.html.json</tspan>
+<tspan x="10" y="10346"></tspan>
+<tspan x="10" y="10362">[node test-case 79 of 82 passed] - testCase_browserTest_default</tspan>
+<tspan x="10" y="10378">[4921:0916/152817.904106:INFO:CONSOLE(73)] "[browser test-case 66 of 66 passed] - testCase_onPar\</tspan>
+<tspan x="10" y="10394">allelList_default", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8\</tspan>
+<tspan x="10" y="10410">b4ddb900.759b6be22533b.html (73)</tspan>
+<tspan x="10" y="10426">[node test-case 80 of 82 passed] - testCase_buildApp_default</tspan>
+<tspan x="10" y="10442">[4921:0916/152818.920136:INFO:CONSOLE(73)] "----------|-----------|-----------|-----------|-----\</tspan>
+<tspan x="10" y="10458">------|</tspan>
+<tspan x="10" y="10474">File      |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
+<tspan x="10" y="10490">----------|-----------|-----------|-----------|-----------|</tspan>
 <tspan x="10" y="10506">----------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="10522">", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457fc70.236e0b05\</tspan>
-<tspan x="10" y="10538">542de.html (73)</tspan>
-<tspan x="10" y="10554">[4932:0916/151911.302142:INFO:CONSOLE(73)] "created coverage file /tmp/build/coverage.html/index\</tspan>
-<tspan x="10" y="10570">.html", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457fc70.236\</tspan>
-<tspan x="10" y="10586">e0b05542de.html (73)</tspan>
-<tspan x="10" y="10602">[4932:0916/151911.310118:INFO:CONSOLE(73)] "----------|-----------|-----------|-----------|-----\</tspan>
-<tspan x="10" y="10618">------|</tspan>
-<tspan x="10" y="10634">File      |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
-<tspan x="10" y="10650">----------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="10666">----------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="10682">All files |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="10522">All files |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="10538">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="10554">", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb900.759b6be2\</tspan>
+<tspan x="10" y="10570">2533b.html (73)</tspan>
+<tspan x="10" y="10586">[4921:0916/152818.929247:INFO:CONSOLE(73)] "created coverage file /tmp/build/coverage.html/index\</tspan>
+<tspan x="10" y="10602">.html", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb900.759\</tspan>
+<tspan x="10" y="10618">b6be22533b.html (73)</tspan>
+<tspan x="10" y="10634">[4921:0916/152818.941812:INFO:CONSOLE(73)] "----------|-----------|-----------|-----------|-----\</tspan>
+<tspan x="10" y="10650">------|</tspan>
+<tspan x="10" y="10666">File      |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
+<tspan x="10" y="10682">----------|-----------|-----------|-----------|-----------|</tspan>
 <tspan x="10" y="10698">----------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="10714">", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457fc70.236e0b05\</tspan>
-<tspan x="10" y="10730">542de.html (73)</tspan>
-<tspan x="10" y="10746">[4932:0916/151911.317018:INFO:CONSOLE(73)] "created coverage file /tmp/build/coverage.html/index\</tspan>
-<tspan x="10" y="10762">.html", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b457fc70.236\</tspan>
-<tspan x="10" y="10778">e0b05542de.html (73)</tspan>
-<tspan x="10" y="10794"></tspan>
-<tspan x="10" y="10810">browserTest - created screenshot file /home/travis/build/kaizhu256/node-sandbox2/tmp/build/scree\</tspan>
-<tspan x="10" y="10826">nshot.npmTestPublished.browser.%2F.png</tspan>
-<tspan x="10" y="10842"></tspan>
-<tspan x="10" y="10858">browserTest - created screenshot file /home/travis/build/kaizhu256/node-sandbox2/tmp/build/scree\</tspan>
-<tspan x="10" y="10874">nshot.npmTestPublished.browser.%2F.html</tspan>
-<tspan x="10" y="10890"></tspan>
-<tspan x="10" y="10906">browserTest - merged coverage from file /tmp/npmTestPublished/node_modules/sandbox2/tmp/coverage\</tspan>
-<tspan x="10" y="10922">.npmTestPublished.browser.%2F.json</tspan>
-<tspan x="10" y="10938"></tspan>
+<tspan x="10" y="10714">All files |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="10730">----------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="10746">", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb900.759b6be2\</tspan>
+<tspan x="10" y="10762">2533b.html (73)</tspan>
+<tspan x="10" y="10778">[4921:0916/152818.951431:INFO:CONSOLE(73)] "created coverage file /tmp/build/coverage.html/index\</tspan>
+<tspan x="10" y="10794">.html", source: file:///tmp/npmTestPublished/node_modules/sandbox2/tmp/electron.15e8b4ddb900.759\</tspan>
+<tspan x="10" y="10810">b6be22533b.html (73)</tspan>
+<tspan x="10" y="10826"></tspan>
+<tspan x="10" y="10842">browserTest - merged coverage from file /tmp/npmTestPublished/node_modules/sandbox2/tmp/coverage\</tspan>
+<tspan x="10" y="10858">.npmTestPublished.browser.%2Fassets.script_only.html.json</tspan>
+<tspan x="10" y="10874"></tspan>
+<tspan x="10" y="10890">[node test-case 81 of 82 passed] - testCase_webpage_error</tspan>
+<tspan x="10" y="10906"></tspan>
+<tspan x="10" y="10922">browserTest - created screenshot file /home/travis/build/kaizhu256/node-sandbox2/tmp/build/scree\</tspan>
+<tspan x="10" y="10938">nshot.npmTestPublished.browser.%2F.png</tspan>
 <tspan x="10" y="10954"></tspan>
-<tspan x="10" y="10970">browserTest - merged test-report from file /tmp/npmTestPublished/node_modules/sandbox2/tmp/test-\</tspan>
-<tspan x="10" y="10986">report.npmTestPublished.browser.%2F.json</tspan>
+<tspan x="10" y="10970">browserTest - created screenshot file /home/travis/build/kaizhu256/node-sandbox2/tmp/build/scree\</tspan>
+<tspan x="10" y="10986">nshot.npmTestPublished.browser.%2F.html</tspan>
 <tspan x="10" y="11002"></tspan>
-<tspan x="10" y="11018">[node test-case 81 of 82 passed] - testCase_webpage_default</tspan>
-<tspan x="10" y="11034"></tspan>
-<tspan x="10" y="11050">browserTest - merged coverage from file /tmp/npmTestPublished/node_modules/sandbox2/tmp/coverage\</tspan>
-<tspan x="10" y="11066">.npmTestPublished.browser.%2Fassets.script_only.html.json</tspan>
-<tspan x="10" y="11082"></tspan>
-<tspan x="10" y="11098">[node test-case 82 of 82 passed] - testCase_webpage_error</tspan>
-<tspan x="10" y="11114">----------------------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="11130">File                  |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
+<tspan x="10" y="11018">browserTest - merged coverage from file /tmp/npmTestPublished/node_modules/sandbox2/tmp/coverage\</tspan>
+<tspan x="10" y="11034">.npmTestPublished.browser.%2F.json</tspan>
+<tspan x="10" y="11050"></tspan>
+<tspan x="10" y="11066"></tspan>
+<tspan x="10" y="11082">browserTest - merged test-report from file /tmp/npmTestPublished/node_modules/sandbox2/tmp/test-\</tspan>
+<tspan x="10" y="11098">report.npmTestPublished.browser.%2F.json</tspan>
+<tspan x="10" y="11114"></tspan>
+<tspan x="10" y="11130">[node test-case 82 of 82 passed] - testCase_webpage_default</tspan>
 <tspan x="10" y="11146">----------------------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="11162">   sandbox2/          |       100 |       100 |       100 |       100 |</tspan>
-<tspan x="10" y="11178">      example.js      |       100 |       100 |       100 |       100 |</tspan>
-<tspan x="10" y="11194">      lib.utility2.js |       100 |       100 |       100 |       100 |</tspan>
-<tspan x="10" y="11210">      test.js         |       100 |       100 |       100 |       100 |</tspan>
-<tspan x="10" y="11226">----------------------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="11242">All files             |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="11162">File                  |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
+<tspan x="10" y="11178">----------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="11194">   sandbox2/          |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="11210">      example.js      |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="11226">      lib.utility2.js |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="11242">      test.js         |       100 |       100 |       100 |       100 |</tspan>
 <tspan x="10" y="11258">----------------------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="11274"></tspan>
-<tspan x="10" y="11290">created coverage file /tmp/npmTestPublished/node_modules/sandbox2/tmp/build/coverage.html/index.\</tspan>
-<tspan x="10" y="11306">html</tspan>
-<tspan x="10" y="11322"></tspan>
-<tspan x="10" y="11338">-------------------------------------------------------</tspan>
-<tspan x="10" y="11354">| test-report - npmTestPublished - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537\</tspan>
-<tspan x="10" y="11370">.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Electron/1.6.11 Safari/537.36 - 2017-09-16T15:19:06.\</tspan>
-<tspan x="10" y="11386">610Z</tspan>
-<tspan x="10" y="11402">|    3621 ms            0 failed       66 passed      |</tspan>
-<tspan x="10" y="11418">-------------------------------------------------------</tspan>
-<tspan x="10" y="11434">| test-report - npmTestPublished - node - linux v6.11.3 - 2017-09-16T15:18:40.802Z</tspan>
-<tspan x="10" y="11450">|   37965 ms            0 failed       82 passed      |</tspan>
-<tspan x="10" y="11466">-------------------------------------------------------</tspan>
-<tspan x="10" y="11482"></tspan>
-<tspan x="10" y="11498">created test-report file /home/travis/build/kaizhu256/node-sandbox2/tmp/build/test-report.html</tspan>
+<tspan x="10" y="11274">All files             |       100 |       100 |       100 |       100 |</tspan>
+<tspan x="10" y="11290">----------------------|-----------|-----------|-----------|-----------|</tspan>
+<tspan x="10" y="11306"></tspan>
+<tspan x="10" y="11322">created coverage file /tmp/npmTestPublished/node_modules/sandbox2/tmp/build/coverage.html/index.\</tspan>
+<tspan x="10" y="11338">html</tspan>
+<tspan x="10" y="11354"></tspan>
+<tspan x="10" y="11370">-------------------------------------------------------</tspan>
+<tspan x="10" y="11386">| test-report - npmTestPublished - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537\</tspan>
+<tspan x="10" y="11402">.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Electron/1.6.11 Safari/537.36 - 2017-09-16T15:28:13.\</tspan>
+<tspan x="10" y="11418">976Z</tspan>
+<tspan x="10" y="11434">|    3882 ms            0 failed       66 passed      |</tspan>
+<tspan x="10" y="11450">-------------------------------------------------------</tspan>
+<tspan x="10" y="11466">| test-report - npmTestPublished - node - linux v6.11.3 - 2017-09-16T15:27:49.071Z</tspan>
+<tspan x="10" y="11482">|   36967 ms            0 failed       82 passed      |</tspan>
+<tspan x="10" y="11498">-------------------------------------------------------</tspan>
 <tspan x="10" y="11514"></tspan>
-<tspan x="10" y="11530"></tspan>
-<tspan x="10" y="11546">npmTestPublished - 0 failed tests</tspan>
+<tspan x="10" y="11530">created test-report file /home/travis/build/kaizhu256/node-sandbox2/tmp/build/test-report.html</tspan>
+<tspan x="10" y="11546"></tspan>
 <tspan x="10" y="11562"></tspan>
-<tspan x="10" y="11578"></tspan>
-<tspan x="10" y="11594">[MODE_BUILD=npmTestPublished] - 2017-09-16T15:19:21.254Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="11578">npmTestPublished - 0 failed tests</tspan>
+<tspan x="10" y="11594"></tspan>
 <tspan x="10" y="11610"></tspan>
-<tspan x="10" y="11626">process exited with code 0</tspan>
-<tspan x="10" y="11642">EXIT_CODE - 0</tspan>
+<tspan x="10" y="11626">[MODE_BUILD=npmTestPublished] - 2017-09-16T15:28:28.337Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="11642"></tspan>
+<tspan x="10" y="11658">process exited with code 0</tspan>
+<tspan x="10" y="11674">EXIT_CODE - 0</tspan>
 </text>
 </svg>
