@@ -2,7 +2,7 @@
 <rect height="2110" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
-<tspan x="10" y="42">[MODE_BUILD=npmTest] - 2017-09-16T15:29:18.774Z - npm-testing /home/travis/build/kaizhu256/node-\</tspan>
+<tspan x="10" y="42">[MODE_BUILD=npmTest] - 2017-09-16T15:31:22.936Z - npm-testing /home/travis/build/kaizhu256/node-\</tspan>
 <tspan x="10" y="58">sandbox2</tspan>
 <tspan x="10" y="74"></tspan>
 <tspan x="10" y="90"></tspan>
@@ -11,7 +11,7 @@
 <tspan x="10" y="138"></tspan>
 <tspan x="10" y="154">npmTest - merged test-report from file /home/travis/build/kaizhu256/node-sandbox2/tmp/build/test\</tspan>
 <tspan x="10" y="170">-report.json</tspan>
-<tspan x="10" y="186">&gt; server listening on http-port 59858</tspan>
+<tspan x="10" y="186">&gt; server listening on http-port 62474</tspan>
 <tspan x="10" y="202">apidocCreate - readExample /home/travis/build/kaizhu256/node-sandbox2/package.json</tspan>
 <tspan x="10" y="218">apidocCreate - readExample /home/travis/build/kaizhu256/node-sandbox2/.gitignore</tspan>
 <tspan x="10" y="234">apidocCreate - readExample /home/travis/build/kaizhu256/node-sandbox2/lib.sandbox2.js</tspan>
@@ -33,46 +33,46 @@
 <tspan x="10" y="490">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 <tspan x="10" y="506"></tspan>
 <tspan x="10" y="522">browserTest - created electron entry-page /home/travis/build/kaizhu256/node-sandbox2/tmp/electro\</tspan>
-<tspan x="10" y="538">n.15e8b4ef0de0.aa14f2154f552.html</tspan>
+<tspan x="10" y="538">n.15e8b50d5610.edbcb72975c92.html</tspan>
 <tspan x="10" y="554"></tspan>
 <tspan x="10" y="570">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="586">&gt; [5669:0916/152920.122264:WARNING:audio_manager.cc(317)] Multiple instances of AudioManager det\</tspan>
-<tspan x="10" y="602">ected</tspan>
-<tspan x="10" y="618">[5669:0916/152920.122324:WARNING:audio_manager.cc(278)] Multiple instances of AudioManager detec\</tspan>
+<tspan x="10" y="586">[5670:0916/153124.174766:WARNING:audio_manager.cc(317)] Multiple instances of AudioManager detec\</tspan>
+<tspan x="10" y="602">ted</tspan>
+<tspan x="10" y="618">[5670:0916/153124.174922:WARNING:audio_manager.cc(278)] Multiple instances of AudioManager detec\</tspan>
 <tspan x="10" y="634">ted</tspan>
-<tspan x="10" y="650">server listening on http-port 38065</tspan>
-<tspan x="10" y="666">[5669:0916/152920.186461:ERROR:bus.cc(427)] Failed to connect to the bus: //bin/dbus-launch term\</tspan>
+<tspan x="10" y="650">&gt; server listening on http-port 35786</tspan>
+<tspan x="10" y="666">[5670:0916/153124.256918:ERROR:bus.cc(427)] Failed to connect to the bus: //bin/dbus-launch term\</tspan>
 <tspan x="10" y="682">inated abnormally without any error message</tspan>
-<tspan x="10" y="698">[5702:0916/152920.188813:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple t\</tspan>
+<tspan x="10" y="698">[5698:0916/153124.305341:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple t\</tspan>
 <tspan x="10" y="714">hreads in process gpu-process. </tspan>
-<tspan x="10" y="730">[5669:0916/152920.219716:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="730">[5670:0916/153124.322951:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
 <tspan x="10" y="746">l.</tspan>
-<tspan x="10" y="762">[5669:0916/152920.220585:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="762">[5670:0916/153124.323669:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
 <tspan x="10" y="778">l.</tspan>
-<tspan x="10" y="794">[5669:0916/152920.221633:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="794">[5670:0916/153124.323822:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
 <tspan x="10" y="810">l.</tspan>
-<tspan x="10" y="826">[5669:0916/152920.222499:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="826">[5670:0916/153124.323952:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
 <tspan x="10" y="842">l.</tspan>
-<tspan x="10" y="858">[5669:0916/152920.223217:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
+<tspan x="10" y="858">[5670:0916/153124.324029:ERROR:browser_gpu_channel_host_factory.cc(125)] Failed to create channe\</tspan>
 <tspan x="10" y="874">l.</tspan>
 <tspan x="10" y="890"></tspan>
-<tspan x="10" y="906">browserTest - opened http://127.0.0.1:59858/index.default.html?modeTest=1</tspan>
+<tspan x="10" y="906">browserTest - opened http://127.0.0.1:62474/index.default.html?modeTest=1</tspan>
 <tspan x="10" y="922"></tspan>
-<tspan x="10" y="938">[5669:0916/152920.757223:INFO:CONSOLE(73)] "[browser test-case 1 of 1 passed] - testCase_browser\</tspan>
-<tspan x="10" y="954">_nullCase", source: file:///home/travis/build/kaizhu256/node-sandbox2/tmp/electron.15e8b4ef0de0.\</tspan>
-<tspan x="10" y="970">aa14f2154f552.html (73)</tspan>
-<tspan x="10" y="986">[5669:0916/152921.771770:INFO:CONSOLE(73)] "----------|-----------|-----------|-----------|-----\</tspan>
+<tspan x="10" y="938">[5670:0916/153124.939434:INFO:CONSOLE(73)] "[browser test-case 1 of 1 passed] - testCase_browser\</tspan>
+<tspan x="10" y="954">_nullCase", source: file:///home/travis/build/kaizhu256/node-sandbox2/tmp/electron.15e8b50d5610.\</tspan>
+<tspan x="10" y="970">edbcb72975c92.html (73)</tspan>
+<tspan x="10" y="986">[5670:0916/153125.954362:INFO:CONSOLE(73)] "----------|-----------|-----------|-----------|-----\</tspan>
 <tspan x="10" y="1002">------|</tspan>
 <tspan x="10" y="1018">File      |   % Stmts |% Branches |   % Funcs |   % Lines |</tspan>
 <tspan x="10" y="1034">----------|-----------|-----------|-----------|-----------|</tspan>
 <tspan x="10" y="1050">----------|-----------|-----------|-----------|-----------|</tspan>
 <tspan x="10" y="1066">All files |       100 |       100 |       100 |       100 |</tspan>
 <tspan x="10" y="1082">----------|-----------|-----------|-----------|-----------|</tspan>
-<tspan x="10" y="1098">", source: file:///home/travis/build/kaizhu256/node-sandbox2/tmp/electron.15e8b4ef0de0.aa14f2154\</tspan>
-<tspan x="10" y="1114">f552.html (73)</tspan>
-<tspan x="10" y="1130">[5669:0916/152921.776843:INFO:CONSOLE(73)] "created coverage file /tmp/build/coverage.html/index\</tspan>
-<tspan x="10" y="1146">.html", source: file:///home/travis/build/kaizhu256/node-sandbox2/tmp/electron.15e8b4ef0de0.aa14\</tspan>
-<tspan x="10" y="1162">f2154f552.html (73)</tspan>
+<tspan x="10" y="1098">", source: file:///home/travis/build/kaizhu256/node-sandbox2/tmp/electron.15e8b50d5610.edbcb7297\</tspan>
+<tspan x="10" y="1114">5c92.html (73)</tspan>
+<tspan x="10" y="1130">[5670:0916/153125.962359:INFO:CONSOLE(73)] "created coverage file /tmp/build/coverage.html/index\</tspan>
+<tspan x="10" y="1146">.html", source: file:///home/travis/build/kaizhu256/node-sandbox2/tmp/electron.15e8b50d5610.edbc\</tspan>
+<tspan x="10" y="1162">b72975c92.html (73)</tspan>
 <tspan x="10" y="1178">[node test-case 6 of 7 passed] - testCase_buildApp_default</tspan>
 <tspan x="10" y="1194"></tspan>
 <tspan x="10" y="1210">browserTest - created screenshot file /home/travis/build/kaizhu256/node-sandbox2/tmp/build/scree\</tspan>
@@ -109,19 +109,19 @@
 <tspan x="10" y="1706">-------------------------------------------------------</tspan>
 <tspan x="10" y="1722">| test-report - npmTest - browser - /index.default.html - Mozilla/5.0 (X11; Linux x86_64) AppleW\</tspan>
 <tspan x="10" y="1738">ebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Electron/1.6.11 Safari/537.36 - 2017-09-16T\</tspan>
-<tspan x="10" y="1754">15:29:20.708Z</tspan>
-<tspan x="10" y="1770">|      13 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="1754">15:31:24.888Z</tspan>
+<tspan x="10" y="1770">|      16 ms            0 failed        1 passed      |</tspan>
 <tspan x="10" y="1786">-------------------------------------------------------</tspan>
-<tspan x="10" y="1802">| test-report - npmTest - node - linux v6.11.3 - 2017-09-16T15:29:19.133Z</tspan>
-<tspan x="10" y="1818">|   16127 ms            0 failed        7 passed      |</tspan>
+<tspan x="10" y="1802">| test-report - npmTest - node - linux v6.11.3 - 2017-09-16T15:31:23.212Z</tspan>
+<tspan x="10" y="1818">|   16296 ms            0 failed        7 passed      |</tspan>
 <tspan x="10" y="1834">-------------------------------------------------------</tspan>
 <tspan x="10" y="1850">| test-report - npmTestPublished - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537\</tspan>
-<tspan x="10" y="1866">.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Electron/1.6.11 Safari/537.36 - 2017-09-16T15:28:13.\</tspan>
-<tspan x="10" y="1882">976Z</tspan>
-<tspan x="10" y="1898">|    3882 ms            0 failed       66 passed      |</tspan>
+<tspan x="10" y="1866">.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Electron/1.6.11 Safari/537.36 - 2017-09-16T15:30:18.\</tspan>
+<tspan x="10" y="1882">060Z</tspan>
+<tspan x="10" y="1898">|    3532 ms            0 failed       66 passed      |</tspan>
 <tspan x="10" y="1914">-------------------------------------------------------</tspan>
-<tspan x="10" y="1930">| test-report - npmTestPublished - node - linux v6.11.3 - 2017-09-16T15:27:49.071Z</tspan>
-<tspan x="10" y="1946">|   36967 ms            0 failed       82 passed      |</tspan>
+<tspan x="10" y="1930">| test-report - npmTestPublished - node - linux v6.11.3 - 2017-09-16T15:29:51.926Z</tspan>
+<tspan x="10" y="1946">|   38306 ms            0 failed       82 passed      |</tspan>
 <tspan x="10" y="1962">-------------------------------------------------------</tspan>
 <tspan x="10" y="1978"></tspan>
 <tspan x="10" y="1994">created test-report file /home/travis/build/kaizhu256/node-sandbox2/tmp/build/test-report.html</tspan>
@@ -130,6 +130,6 @@
 <tspan x="10" y="2042">npmTest - 0 failed tests</tspan>
 <tspan x="10" y="2058"></tspan>
 <tspan x="10" y="2074"></tspan>
-<tspan x="10" y="2090">[MODE_BUILD=npmTest] - 2017-09-16T15:29:36.946Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="2090">[MODE_BUILD=npmTest] - 2017-09-16T15:31:41.226Z - EXIT_CODE - 0</tspan>
 </text>
 </svg>
