@@ -9,7 +9,6 @@
 # [$ /bin/sh .task.sh]
 # shCryptoTravisEncrypt scrapeitall
 #!! [
-    #!! '2017.07.15 uglifyjs-lite',
     #!! '2017.07.24 db-lite', master
     #!! '2017.07.24 swgg', master
     #!! '2017.07.25 elasticsearch-lite', master
@@ -18,6 +17,7 @@
     #!! '2017.09.06 jslint-lite',
     #!! '2017.09.12 apidoc-lite', master
     #!! '2017.09.14 swagger-ui-lite', master
+    #!! '2017.09.15 uglifyjs-lite', master
     #!! '2017.09.01 utility2'
 #!! ]
 
