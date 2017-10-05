@@ -307,7 +307,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function ok(value, message) {
-  if (!value) fail(value, true, message, &#x27;==&#x27;, assert.ok);
+  if (!value) fail(value, true, message, &#x27;==&#x27;, ok);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -333,7 +333,7 @@
     this.message = getMessage(this);
     this.generatedMessage = true;
   }
-  var stackStartFunction = options.stackStartFunction || fail;
+  const stackStartFunction = options.stackStartFunction || fail;
   Error.captureStackTrace(this, stackStartFunction);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -383,7 +383,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function ok(value, message) {
-  if (!value) fail(value, true, message, &#x27;==&#x27;, assert.ok);
+  if (!value) fail(value, true, message, &#x27;==&#x27;, ok);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -409,7 +409,7 @@
     this.message = getMessage(this);
     this.generatedMessage = true;
   }
-  var stackStartFunction = options.stackStartFunction || fail;
+  const stackStartFunction = options.stackStartFunction || fail;
   Error.captureStackTrace(this, stackStartFunction);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -425,8 +425,8 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function deepEqual(actual, expected, message) {
-  if (!_deepEqual(actual, expected, false)) {
-    fail(actual, expected, message, &#x27;deepEqual&#x27;, assert.deepEqual);
+  if (!innerDeepEqual(actual, expected, false)) {
+    fail(actual, expected, message, &#x27;deepEqual&#x27;, deepEqual);
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -442,8 +442,8 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function deepStrictEqual(actual, expected, message) {
-  if (!_deepEqual(actual, expected, true)) {
-    fail(actual, expected, message, &#x27;deepStrictEqual&#x27;, assert.deepStrictEqual);
+  if (!innerDeepEqual(actual, expected, true)) {
+    fail(actual, expected, message, &#x27;deepStrictEqual&#x27;, deepStrictEqual);
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -458,8 +458,8 @@
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">doesNotThrow = function (block, error, message) {
-  _throws(false, block, error, message);
+    <li>description and source-code<pre class="apidocCodePre">function doesNotThrow(block, error, message) {
+  innerThrows(false, block, error, message);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -509,7 +509,7 @@
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">ifError = function (err) { if (err) throw err; }</pre></li>
+    <li>description and source-code<pre class="apidocCodePre">function ifError(err) { if (err) throw err; }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
@@ -523,8 +523,8 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function notDeepEqual(actual, expected, message) {
-  if (_deepEqual(actual, expected, false)) {
-    fail(actual, expected, message, &#x27;notDeepEqual&#x27;, assert.notDeepEqual);
+  if (innerDeepEqual(actual, expected, false)) {
+    fail(actual, expected, message, &#x27;notDeepEqual&#x27;, notDeepEqual);
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -540,8 +540,9 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function notDeepStrictEqual(actual, expected, message) {
-  if (_deepEqual(actual, expected, true)) {
-    fail(actual, expected, message, &#x27;notDeepStrictEqual&#x27;, notDeepStrictEqual);
+  if (innerDeepEqual(actual, expected, true)) {
+    fail(actual, expected, message, &#x27;notDeepStrictEqual&#x27;,
+         notDeepStrictEqual);
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -558,7 +559,7 @@
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function notEqual(actual, expected, message) {
   if (actual == expected) {
-    fail(actual, expected, message, &#x27;!=&#x27;, assert.notEqual);
+    fail(actual, expected, message, &#x27;!=&#x27;, notEqual);
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -575,7 +576,7 @@
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function notStrictEqual(actual, expected, message) {
   if (actual === expected) {
-    fail(actual, expected, message, &#x27;!==&#x27;, assert.notStrictEqual);
+    fail(actual, expected, message, &#x27;!==&#x27;, notStrictEqual);
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -591,7 +592,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function ok(value, message) {
-  if (!value) fail(value, true, message, &#x27;==&#x27;, assert.ok);
+  if (!value) fail(value, true, message, &#x27;==&#x27;, ok);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -607,7 +608,7 @@
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function strictEqual(actual, expected, message) {
   if (actual !== expected) {
-    fail(actual, expected, message, &#x27;===&#x27;, assert.strictEqual);
+    fail(actual, expected, message, &#x27;===&#x27;, strictEqual);
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -622,8 +623,8 @@
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">throws = function (block, error, message) {
-  _throws(true, block, error, message);
+    <li>description and source-code<pre class="apidocCodePre">function throws(block, error, message) {
+  innerThrows(true, block, error, message);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -654,7 +655,7 @@
     this.message = getMessage(this);
     this.generatedMessage = true;
   }
-  var stackStartFunction = options.stackStartFunction || fail;
+  const stackStartFunction = options.stackStartFunction || fail;
   Error.captureStackTrace(this, stackStartFunction);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>

@@ -5,7 +5,7 @@
     },
     &quot;href&quot;: &quot;file:///home/travis/build/kaizhu256/node-sandbox2/tmp/build/apidoc.html&quot;,
     &quot;url&quot;: &quot;file:///home/travis/build/kaizhu256/node-sandbox2/tmp/build/apidoc.html&quot;,
-    &quot;bodyTextContent&quot;: &quot;description and source-codefunction AssertionError(options) {\n  this.name = 'AssertionError';\n  this.actual = options.actual;\n  this.expected = options.expected;\n  this.operator = options.operator;\n  if (options.message) {\n    this.message = options.message;\n    this.generatedMessage = false;\n  } else {\n    this.message = getMessage(this);\n    this.generatedMessage = true;\n  }\n  var stackStartFunction = options.stackStartFunction || fail;\n  Error.captureStackTrace(this, stackStartFunction);\n}\n    example usagen/a\n\n                                    description and source-codefunction AssertionError(options) {\n  this.name = 'AssertionError';\n  this.actual = options.actual;\n  this.expected = options.expected;\n  this.operator = options.operator;\n  if (options.message) {\n    this.message = options.message;\n    this.generatedMessage = false;\n  } else {\n    this.message = getMessage(this);\n    this.generatedMessage = true;\n  }\n  var stackStartFunction = options.stackStartFunction || fail;\n  Error.captureStackTrace(this, stackStartFunction);\n}\n    example usagen/a\n\n                                                            description and source-codefunction fail(actual, expected, message, operator, stackStartFunction) {\n  throw new assert.AssertionError({\n    message: message,\n    actual: actual,\n    expected: expected,\n    operator: operator,\n    stackStartFunction: stackStartFunction\n  });\n}\n    example usagen/a\n\n                                                                                                            description and source-codefunction AssertionError(options) {\n  this.name = 'AssertionError';\n  this.actual = options.actual;\n  this.expected = options.expected;\n  this.operator = options.operator;\n  if (options.message) {\n    this.message = options.message;\n    this.generatedMessage = false;\n  } else {\n    this.message = getMessage(this);\n    this.generatedMessage = true;\n  }\n  var stackStartFunction = options.stackStartFunction || fail;\n  Error.captureStackTrace(this, stackStartFunction);\n}\n    example usagen/a&quot;
+    &quot;bodyTextContent&quot;: &quot;description and source-codefunction AssertionError(options) {\n  this.name = 'AssertionError';\n  this.actual = options.actual;\n  this.expected = options.expected;\n  this.operator = options.operator;\n  if (options.message) {\n    this.message = options.message;\n    this.generatedMessage = false;\n  } else {\n    this.message = getMessage(this);\n    this.generatedMessage = true;\n  }\n  const stackStartFunction = options.stackStartFunction || fail;\n  Error.captureStackTrace(this, stackStartFunction);\n}\n    example usagen/a\n\n                                    description and source-codefunction AssertionError(options) {\n  this.name = 'AssertionError';\n  this.actual = options.actual;\n  this.expected = options.expected;\n  this.operator = options.operator;\n  if (options.message) {\n    this.message = options.message;\n    this.generatedMessage = false;\n  } else {\n    this.message = getMessage(this);\n    this.generatedMessage = true;\n  }\n  const stackStartFunction = options.stackStartFunction || fail;\n  Error.captureStackTrace(this, stackStartFunction);\n}\n    example usagen/a\n\n                                                            description and source-codefunction fail(actual, expected, message, operator, stackStartFunction) {\n  throw new assert.AssertionError({\n    message: message,\n    actual: actual,\n    expected: expected,\n    operator: operator,\n    stackStartFunction: stackStartFunction\n  });\n}\n    example usagen/a\n\n                                                                                                            description and source-codefunction AssertionError(options) {\n  this.name = 'AssertionError';\n  this.actual = options.actual;\n  this.expected = options.expected;\n  this.operator = options.operator;\n  if (options.message) {\n    this.message = options.message;\n    this.generatedMessage = false;\n  } else {\n    this.message = getMessage(this);\n    this.generatedMessage = true;\n  }\n  const stackStartFunction = options.stackStartFunction || fail;\n  Error.captureStackTrace(this, stackStartFunction);\n}\n    example usagen/a&quot;
 }"><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
@@ -308,7 +308,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function ok(value, message) {
-  if (!value) fail(value, true, message, '==', assert.ok);
+  if (!value) fail(value, true, message, '==', ok);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -334,7 +334,7 @@
     this.message = getMessage(this);
     this.generatedMessage = true;
   }
-  var stackStartFunction = options.stackStartFunction || fail;
+  const stackStartFunction = options.stackStartFunction || fail;
   Error.captureStackTrace(this, stackStartFunction);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -384,7 +384,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function ok(value, message) {
-  if (!value) fail(value, true, message, '==', assert.ok);
+  if (!value) fail(value, true, message, '==', ok);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -410,7 +410,7 @@
     this.message = getMessage(this);
     this.generatedMessage = true;
   }
-  var stackStartFunction = options.stackStartFunction || fail;
+  const stackStartFunction = options.stackStartFunction || fail;
   Error.captureStackTrace(this, stackStartFunction);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -426,8 +426,8 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function deepEqual(actual, expected, message) {
-  if (!_deepEqual(actual, expected, false)) {
-    fail(actual, expected, message, 'deepEqual', assert.deepEqual);
+  if (!innerDeepEqual(actual, expected, false)) {
+    fail(actual, expected, message, 'deepEqual', deepEqual);
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -443,8 +443,8 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function deepStrictEqual(actual, expected, message) {
-  if (!_deepEqual(actual, expected, true)) {
-    fail(actual, expected, message, 'deepStrictEqual', assert.deepStrictEqual);
+  if (!innerDeepEqual(actual, expected, true)) {
+    fail(actual, expected, message, 'deepStrictEqual', deepStrictEqual);
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -459,8 +459,8 @@
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">doesNotThrow = function (block, error, message) {
-  _throws(false, block, error, message);
+    <li>description and source-code<pre class="apidocCodePre">function doesNotThrow(block, error, message) {
+  innerThrows(false, block, error, message);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -510,7 +510,7 @@
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">ifError = function (err) { if (err) throw err; }</pre></li>
+    <li>description and source-code<pre class="apidocCodePre">function ifError(err) { if (err) throw err; }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
@@ -524,8 +524,8 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function notDeepEqual(actual, expected, message) {
-  if (_deepEqual(actual, expected, false)) {
-    fail(actual, expected, message, 'notDeepEqual', assert.notDeepEqual);
+  if (innerDeepEqual(actual, expected, false)) {
+    fail(actual, expected, message, 'notDeepEqual', notDeepEqual);
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -541,8 +541,9 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function notDeepStrictEqual(actual, expected, message) {
-  if (_deepEqual(actual, expected, true)) {
-    fail(actual, expected, message, 'notDeepStrictEqual', notDeepStrictEqual);
+  if (innerDeepEqual(actual, expected, true)) {
+    fail(actual, expected, message, 'notDeepStrictEqual',
+         notDeepStrictEqual);
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -559,7 +560,7 @@
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function notEqual(actual, expected, message) {
   if (actual == expected) {
-    fail(actual, expected, message, '!=', assert.notEqual);
+    fail(actual, expected, message, '!=', notEqual);
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -576,7 +577,7 @@
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function notStrictEqual(actual, expected, message) {
   if (actual === expected) {
-    fail(actual, expected, message, '!==', assert.notStrictEqual);
+    fail(actual, expected, message, '!==', notStrictEqual);
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -592,7 +593,7 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function ok(value, message) {
-  if (!value) fail(value, true, message, '==', assert.ok);
+  if (!value) fail(value, true, message, '==', ok);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -608,7 +609,7 @@
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function strictEqual(actual, expected, message) {
   if (actual !== expected) {
-    fail(actual, expected, message, '===', assert.strictEqual);
+    fail(actual, expected, message, '===', strictEqual);
   }
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -623,8 +624,8 @@
         </a>
     </h2>
     <ul>
-    <li>description and source-code<pre class="apidocCodePre">throws = function (block, error, message) {
-  _throws(true, block, error, message);
+    <li>description and source-code<pre class="apidocCodePre">function throws(block, error, message) {
+  innerThrows(true, block, error, message);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -655,7 +656,7 @@
     this.message = getMessage(this);
     this.generatedMessage = true;
   }
-  var stackStartFunction = options.stackStartFunction || fail;
+  const stackStartFunction = options.stackStartFunction || fail;
   Error.captureStackTrace(this, stackStartFunction);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
