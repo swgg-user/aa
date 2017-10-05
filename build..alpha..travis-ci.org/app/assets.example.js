@@ -161,8 +161,7 @@ instruction
 
 
 
-    // init-after
-    // run browser js-env code - init-after
+    // run browser js-env code - init-test
     /* istanbul ignore next */
     case 'browser':
         local.testRunBrowser = function (event) {
@@ -250,7 +249,7 @@ instruction
 
 
 
-    // run node js-env code - init-after
+    // run node js-env code - init-test
     /* istanbul ignore next */
     case 'node':
         // init exports
@@ -289,7 +288,7 @@ instruction
                     return 'the greatest app in the world!';
                 case 'npm_package_name':
                     return 'sandbox2';
-                case 'npm_package_nameAlias':
+                case 'npm_package_nameLib':
                     return 'sandbox2';
                 case 'npm_package_version':
                     return '0.0.1';
@@ -309,7 +308,7 @@ instruction
         local.assetsDict['/assets.sandbox2.js'] =
             local.assetsDict['/assets.sandbox2.js'] ||
             local.fs.readFileSync(
-                local.sandbox2.__dirname + '/lib.sandbox2.js',
+                local.__dirname + '/lib.sandbox2.js',
                 'utf8'
             ).replace((/^#!/), '//');
         /* jslint-ignore-end */

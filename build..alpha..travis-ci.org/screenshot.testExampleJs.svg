@@ -6,8 +6,8 @@
 <tspan x="10" y="58">&gt; [ ! -f npm_scripts.sh ] || ./npm_scripts.sh postinstall</tspan>
 <tspan x="10" y="74"></tspan>
 <tspan x="10" y="90">/tmp/app</tspan>
-<tspan x="10" y="106">└── sandbox2@0.0.1  (git://github.com/kaizhu256/node-sandbox2.git#5c80359b55c0f0bdcd983afc6f6cc2\</tspan>
-<tspan x="10" y="122">d78f7fa05b)</tspan>
+<tspan x="10" y="106">└── sandbox2@0.0.1  (git://github.com/kaizhu256/node-sandbox2.git#0c0144a508b6f0b6ba1ce7b5b7be85\</tspan>
+<tspan x="10" y="122">3137b157ae)</tspan>
 <tspan x="10" y="138"></tspan>
 <tspan x="10" y="154">npm WARN enoent ENOENT: no such file or directory, open '/tmp/app/package.json'</tspan>
 <tspan x="10" y="170">npm WARN app No description</tspan>
