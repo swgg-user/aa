@@ -5,21 +5,25 @@
 # shCryptoWithGithubOrg npmtest shGithubRepoListTouch npmtest/node-npmtest-sandbox2 '[npm publishAfterCommitAfterBuild]'
 # shCryptoWithGithubOrg npmtest utility2 clis.dbTableCustomOrgUpdate
 # GITHUB_ORG=npmtest utility2 cli.dbTableCustomOrgCrudGetManyByQuery '{"query":{"buildState":{"$ne":"passed"}},"shuffle":true}'
-# GITHUB_ORG=npmtest utility2 cli.dbTableCustomOrgCrudGetManyByQuery '{"query":{"buildState":"passed"},"limit":1,"shuffle":true}'
+# GITHUB_OR=npmtest utility2 cli.dbTableCustomOrgCrudGetManyByQuery '{"query":{"buildState":"passed"},"limit":1,"shuffle":true}'
 # [$ /bin/sh .task.sh]
 # shCryptoTravisEncrypt scrapeitall
 #!! [
-    #!! '2017.07.24 db-lite', master
-    #!! '2017.07.24 swgg', master
-    #!! '2017.07.25 elasticsearch-lite', master
-    #!! '2017.08.30 electron-lite',
-    #!! '2017.09.01 istanbul-lite',
+    #!! '00.00.01 google-maps-lite',
+    #!! '2017.07.24 swgg',
     #!! '2017.09.06 jslint-lite',
-    #!! '2017.09.12 apidoc-lite', master
-    #!! '2017.09.14 swagger-ui-lite', master
-    #!! '2017.09.15 uglifyjs-lite', master
-    #!! '2017.09.01 utility2'
+    #!! '2017.09.12 apidoc-lite', // master
+    #!! '2017.09.14 swagger-ui-lite', // master
+    #!! '2017.09.15 uglifyjs-lite', // master
+    #!! '2017.09.16 db-lite', // master
+    #!! '2017.09.16 github-crud',
+    #!! '2017.09.31 itunes-search-lite', // master
+    #!! '2017.10.01 elasticsearch-lite',
+    #!! '2017.10.02 electron-lite', // master
+    #!! '2017.10.04 istanbul-lite', // master
+    #!! '2017.09.29 utility2'
 #!! ]
+
 
 shInitCustomOrg() {
     # init env
