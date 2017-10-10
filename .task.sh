@@ -9,8 +9,6 @@
 # [$ /bin/sh .task.sh]
 # shCryptoTravisEncrypt scrapeitall
 #!! [
-    #!! '00.00.01 google-maps-lite',
-    #!! '2017.07.24 swgg',
     #!! '2017.09.06 jslint-lite',
     #!! '2017.09.12 apidoc-lite', // master
     #!! '2017.09.14 swagger-ui-lite', // master
@@ -19,8 +17,11 @@
     #!! '2017.09.16 github-crud',
     #!! '2017.09.31 itunes-search-lite', // master
     #!! '2017.10.01 elasticsearch-lite',
+    #!! '2017.10.01 api-google', // master
     #!! '2017.10.02 electron-lite', // master
+    #!! '2017.10.02 google-maps-lite', // master
     #!! '2017.10.04 istanbul-lite', // master
+    #!! '2017.10.05 swgg',
     #!! '2017.09.29 utility2'
 #!! ]
 
