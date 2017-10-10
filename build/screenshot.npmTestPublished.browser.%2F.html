@@ -2,8 +2,8 @@
     &quot;hrefDict&quot;: {
         &quot;https://github.com/kaizhu256/node-utility2&quot;: &quot;sandbox2 (v2017.9.16)&quot;
     },
-    &quot;href&quot;: &quot;http://127.0.0.1:62368/?modeTest=1&quot;,
-    &quot;url&quot;: &quot;http://127.0.0.1:62368/&quot;,
+    &quot;href&quot;: &quot;http://127.0.0.1:42260/?modeTest=1&quot;,
+    &quot;url&quot;: &quot;http://127.0.0.1:42260/&quot;,
     &quot;bodyTextContent&quot;: &quot;edit or paste script below to cover and test\n// remove comment below to disable jslint\n/*jslint\n    browser: true,\n    es6: true\n*/\n/*global window*/\n(function () {\n    \&quot;use strict\&quot;;\n    var testCaseDict;\n    testCaseDict = {};\n    testCaseDict.modeTest = true;\n\n    // comment this testCase to disable the failed assertion demo\n    testCaseDict.testCase_failed_assertion_demo = function (\n        options,\n        onError\n    ) {\n    /*\n     * this function will demo a failed assertion test\n     */\n        // jslint-hack\n        window.utility2.nop(options);\n        window.utility2.assert(false, \&quot;this is a failed assertion demo\&quot;);\n        onError();\n    };\n\n    testCaseDict.testCase_passed_ajax_demo = function (options, onError) {\n    /*\n     * this function will demo a passed ajax test\n     */\n        var data;\n        options = {url: \&quot;/\&quot;};\n        // test ajax request for main-page \&quot;/\&quot;\n        window.utility2.ajax(options, function (error, xhr) {\n            try {\n                // validate no error occurred\n                window.utility2.assert(!error, error);\n                // validate \&quot;200 ok\&quot; status\n                window.utility2.assert(xhr.statusCode === 200, xhr.statusCode);\n                // validate non-empty data\n                data = xhr.responseText;\n                window.utility2.assert(data &amp;&amp; data.length > 0, data);\n                onError();\n            } catch (errorCaught) {\n                onError(errorCaught);\n            }\n        });\n    };&quot;
 }"><head>
 <meta charset="UTF-8">
@@ -81,7 +81,7 @@ textarea[readonly] {
 </h1>
 <h3>the zero-dependency, swiss-army-knife utility for building, testing, and deploying webapps</h3>
 
-<h4><a download="" href="http://127.0.0.1:62368/assets.app.js">download standalone app</a></h4>
+<h4><a download="" href="http://127.0.0.1:42260/assets.app.js">download standalone app</a></h4>
 <button class="onclick onreset" id="testRunButton2">run internal test</button><br>
 
 
@@ -211,7 +211,7 @@ textarea[readonly] {
 <h4>
     <span>version</span>-
         2017.9.16<br>
-    <span>test date</span>- 2017-10-05T15:20:50.834Z<br>
+    <span>test date</span>- 2017-10-10T05:34:10.504Z<br>
     <span>commit info</span>-
         
         undefined<br>
@@ -227,7 +227,7 @@ textarea[readonly] {
     </tr>
 </thead>
 <tbody><tr>
-    <td>4024 ms</td>
+    <td>4022 ms</td>
     <td class="testPassed">0</td>
     <td>66</td>
     <td>0</td>
@@ -237,9 +237,9 @@ textarea[readonly] {
 
 <div class="testReportPlatformDiv">
 <h4>
-    1. browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Electron/1.6.14 Safari/537.36 - 2017-10-05T15:20:50.681Z<br>
+    1. browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Electron/1.6.14 Safari/537.36 - 2017-10-10T05:34:10.418Z<br>
     
-    <span>time-elapsed</span>- 4024 ms<br>
+    <span>time-elapsed</span>- 4022 ms<br>
     <span>tests failed</span>- 0<br>
     <span>tests passed</span>- 66<br>
     <span>tests pending</span>- 0<br>
@@ -255,21 +255,21 @@ textarea[readonly] {
 
 <tr>
     <td>1</td>
-    <td>1472 ms</td>
+    <td>1269 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_FormData_default</td>
 </tr>
 
 <tr>
     <td>2</td>
-    <td>4 ms</td>
+    <td>5 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_FormData_error</td>
 </tr>
 
 <tr>
     <td>3</td>
-    <td>1288 ms</td>
+    <td>1130 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_FormData_nullCase</td>
 </tr>
@@ -283,77 +283,77 @@ textarea[readonly] {
 
 <tr>
     <td>5</td>
-    <td>1184 ms</td>
+    <td>1083 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_ajax_200</td>
 </tr>
 
 <tr>
     <td>6</td>
-    <td>1190 ms</td>
+    <td>1071 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_ajax_404</td>
 </tr>
 
 <tr>
     <td>7</td>
-    <td>3 ms</td>
+    <td>1 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_ajax_abort</td>
 </tr>
 
 <tr>
     <td>8</td>
-    <td>1179 ms</td>
+    <td>1057 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_ajax_assets</td>
 </tr>
 
 <tr>
     <td>9</td>
-    <td>1254 ms</td>
+    <td>1132 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_ajax_error</td>
 </tr>
 
 <tr>
     <td>10</td>
-    <td>1344 ms</td>
+    <td>1237 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_ajax_post</td>
 </tr>
 
 <tr>
     <td>11</td>
-    <td>13 ms</td>
+    <td>9 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_ajax_standalone</td>
 </tr>
 
 <tr>
     <td>12</td>
-    <td>1345 ms</td>
+    <td>1222 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_ajax_timeout</td>
 </tr>
 
 <tr>
     <td>13</td>
-    <td>9 ms</td>
+    <td>8 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_assertXxx_default</td>
 </tr>
 
 <tr>
     <td>14</td>
-    <td>31 ms</td>
+    <td>11 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_base64Xxx_default</td>
 </tr>
 
 <tr>
     <td>15</td>
-    <td>1105 ms</td>
+    <td>1021 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_blobRead_default</td>
 </tr>
@@ -374,21 +374,21 @@ textarea[readonly] {
 
 <tr>
     <td>18</td>
-    <td>80 ms</td>
+    <td>92 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_bufferCreate_default</td>
 </tr>
 
 <tr>
     <td>19</td>
-    <td>250 ms</td>
+    <td>217 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_bufferCreate_polyfill</td>
 </tr>
 
 <tr>
     <td>20</td>
-    <td>1 ms</td>
+    <td>2 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_bufferIndexOfSubBuffer_default</td>
 </tr>
@@ -402,21 +402,21 @@ textarea[readonly] {
 
 <tr>
     <td>22</td>
-    <td>30 ms</td>
+    <td>7 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_dbTableCustomOrgXxx_default</td>
 </tr>
 
 <tr>
     <td>23</td>
-    <td>1 ms</td>
+    <td>0 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_debug_inline_default</td>
 </tr>
 
 <tr>
     <td>24</td>
-    <td>3 ms</td>
+    <td>1 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_domFragmentRender_default</td>
 </tr>
@@ -430,14 +430,14 @@ textarea[readonly] {
 
 <tr>
     <td>26</td>
-    <td>3 ms</td>
+    <td>2 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_envSanitize_default</td>
 </tr>
 
 <tr>
     <td>27</td>
-    <td>5 ms</td>
+    <td>3 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_exit_error</td>
 </tr>
@@ -458,7 +458,7 @@ textarea[readonly] {
 
 <tr>
     <td>30</td>
-    <td>52 ms</td>
+    <td>98 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_jslintAndPrintConditional_default</td>
 </tr>
@@ -479,14 +479,14 @@ textarea[readonly] {
 
 <tr>
     <td>33</td>
-    <td>27 ms</td>
+    <td>35 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_jwtA256GcmXxx_default</td>
 </tr>
 
 <tr>
     <td>34</td>
-    <td>6 ms</td>
+    <td>3 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_jwtHs256Xxx_default</td>
 </tr>
@@ -500,7 +500,7 @@ textarea[readonly] {
 
 <tr>
     <td>36</td>
-    <td>2 ms</td>
+    <td>1 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_listShuffle_default</td>
 </tr>
@@ -521,14 +521,14 @@ textarea[readonly] {
 
 <tr>
     <td>39</td>
-    <td>1 ms</td>
+    <td>0 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_objectKeysTypeOf_default</td>
 </tr>
 
 <tr>
     <td>40</td>
-    <td>4 ms</td>
+    <td>3 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_objectLiteralize_default</td>
 </tr>
@@ -542,28 +542,28 @@ textarea[readonly] {
 
 <tr>
     <td>42</td>
-    <td>2 ms</td>
+    <td>1 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_objectSetOverride_default</td>
 </tr>
 
 <tr>
     <td>43</td>
-    <td>1 ms</td>
+    <td>0 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_objectTraverse_default</td>
 </tr>
 
 <tr>
     <td>44</td>
-    <td>1 ms</td>
+    <td>0 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_onErrorDefault_default</td>
 </tr>
 
 <tr>
     <td>45</td>
-    <td>1 ms</td>
+    <td>0 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_onErrorThrow_error</td>
 </tr>
@@ -577,49 +577,49 @@ textarea[readonly] {
 
 <tr>
     <td>47</td>
-    <td>3024 ms</td>
+    <td>3020 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_onParallelList_default</td>
 </tr>
 
 <tr>
     <td>48</td>
-    <td>502 ms</td>
+    <td>374 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_onParallel_default</td>
 </tr>
 
 <tr>
     <td>49</td>
-    <td>1503 ms</td>
+    <td>1501 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_onTimeout_timeout</td>
 </tr>
 
 <tr>
     <td>50</td>
-    <td>505 ms</td>
+    <td>389 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_profileXxx_default</td>
 </tr>
 
 <tr>
     <td>51</td>
-    <td>7 ms</td>
+    <td>4 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_serverLog_default</td>
 </tr>
 
 <tr>
     <td>52</td>
-    <td>495 ms</td>
+    <td>380 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_setTimeoutOnError_default</td>
 </tr>
 
 <tr>
     <td>53</td>
-    <td>158 ms</td>
+    <td>117 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_sjclHashScryptXxx_default</td>
 </tr>
@@ -640,14 +640,14 @@ textarea[readonly] {
 
 <tr>
     <td>56</td>
-    <td>11 ms</td>
+    <td>1 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_stringHtmlSafe_default</td>
 </tr>
 
 <tr>
     <td>57</td>
-    <td>381 ms</td>
+    <td>314 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_taskCreateCached_default</td>
 </tr>
@@ -661,14 +661,14 @@ textarea[readonly] {
 
 <tr>
     <td>59</td>
-    <td>300 ms</td>
+    <td>253 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_taskCreate_upsert</td>
 </tr>
 
 <tr>
     <td>60</td>
-    <td>4 ms</td>
+    <td>3 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_templateRender_default</td>
 </tr>
@@ -689,7 +689,7 @@ textarea[readonly] {
 
 <tr>
     <td>63</td>
-    <td>41 ms</td>
+    <td>27 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_uglify_default</td>
 </tr>
@@ -710,7 +710,7 @@ textarea[readonly] {
 
 <tr>
     <td>66</td>
-    <td>0 ms</td>
+    <td>1 ms</td>
     <td class="testPassed">passed</td>
     <td>testCase_uuid4Create_default</td>
 </tr>
@@ -965,7 +965,7 @@ textarea[readonly] {
 </table>
 </div></div>
 <div class="footer">
-    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Thu Oct 05 2017 15:20:55 GMT+0000 (UTC)</div>
+    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Oct 10 2017 05:34:15 GMT+0000 (UTC)</div>
 </div>
 
 </x-istanbul-html>
