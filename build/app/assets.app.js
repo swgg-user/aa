@@ -47,6 +47,7 @@ instruction
         ? window
         : global;
     local.local = local.global.utility2_app = local.global.utility2_app_old || local;
+    local.global.utility2_app_old = null;
 }());
 
 
@@ -90,6 +91,7 @@ instruction
         ? window
         : global;
     local.local = local.global.utility2_rollup = local.global.utility2_rollup_old || local;
+    local.global.utility2_rollup_old = null;
 }());
 /* script-end /assets.utility2.rollup.begin.js */
 
@@ -3855,7 +3857,7 @@ vendor\\)s\\{0,1\\}\\(\\b\\|_\\)\
                 console.assert(!error, error);
             });
         };
-        local.cliDict.touchlist = function () {
+        local.cliDict.touchList = function () {
         /*
          * fileRemoteList commitMessage
          * touch comma-separated fileRemoteList on github
@@ -15366,6 +15368,7 @@ local.assetsDict['/assets.utility2.rollup.begin.js'] = '\
         ? window\n\
         : global;\n\
     local.local = local.global.utility2_rollup = local.global.utility2_rollup_old || local;\n\
+    local.global.utility2_rollup_old = null;\n\
 }());\n\
 ';
 
@@ -19684,12 +19687,6 @@ instruction\n\
                     local.jslintAndPrintConditional(local.assetsDict[key], key);
                 });
             });
-            // init assets.swgg.swagger.json
-            if (local.fs.existsSync('assets.swgg.swagger.json')) {
-                local.swgg.apiDictUpdate(JSON.parse(
-                    local.fs.readFileSync('assets.swgg.swagger.json')
-                ));
-            }
             return module.exports;
         };
 
@@ -20554,20 +20551,20 @@ instruction\n\
             if (!(local.modeTest || options.modeTest)) {
                 return;
             }
-            local.global.utility2_modeTestRun = true;
-            if (!options.testRunBeforeDone) {
-                options.testRunBeforeTimer = options.testRunBeforeTimer ||
-                    setTimeout(function () {
-                        local.testRunBefore();
-                        local.onReadyAfter(function () {
-                            options.testRunBeforeDone = true;
-                            local.testRunDefault(options);
-                        });
+            if (!local.global.utility2_modeTestRun) {
+                local.global.utility2_modeTestRun = 1;
+                setTimeout(function () {
+                    local.testRunBefore();
+                    local.onReadyAfter(function () {
+                        local.testRunDefault(options);
                     });
+                });
                 return;
             }
-            // reset testRunBefore
-            options.testRunBeforeDone = options.testRunBeforeTimer = null;
+            if (local.global.utility2_modeTestRun !== 1) {
+                return;
+            }
+            local.global.utility2_modeTestRun = 2;
             // visual notification - testRun
             local.ajaxProgressUpdate();
             // mock serverLog
@@ -20687,6 +20684,7 @@ instruction\n\
             /*
              * this function will create the test-report after all tests isDone
              */
+                local.global.utility2_modeTestRun = 0;
                 local.ajaxProgressUpdate();
                 // stop testPlatform timer
                 local.timeElapsedPoll(testPlatform);
@@ -21638,10 +21636,10 @@ local.assetsDict['/assets.swgg.html'] = local.assetsDict['/assets.index.default.
 .swggUiContainer .marginTop10 {\n\
     margin-top: 1rem;\n\
 }\n\
-.swggUiContainer pre,\n\
 .swggUiContainer select[multiple] {\n\
     height: 10rem;\n\
 }\n\
+.swggUiContainer pre,\n\
 .swggUiContainer textarea {\n\
     font-family: Menlo, Monaco, Consolas, Courier New, monospace;\n\
     font-size: small;\n\
@@ -21941,14 +21939,20 @@ border: 0;\n\
         style="width: 8rem;"\n\
         type="text"\n\
     >\n\
+    <button class="eventDelegateClick onEventUiReload td3">Explore</button>\n\
     <button\n\
         class="eventDelegateClick onEventUiReload td3"\n\
         id="swggApiKeyClearButton1"\n\
     >Clear api-keys</button>\n\
-    <button class="eventDelegateClick onEventUiReload td3">Explore</button>\n\
 </div>\n\
+<div class="coverageHack reset"></div>\n\
 </div>\n\
 <div class="swggAjaxProgressDiv" style="margin-top: 1rem; text-align: center;">fetching resource-list ...</div>\n\
+<div class="utility2FooterDiv">\n\
+    [ this document was created with\n\
+    <a href="https://github.com/kaizhu256/node-swgg" target="_blank">swgg</a>\n\
+    ]\n\
+</div>\n\
 <script>\n\
 /*jslint\n\
     bitwise: true,\n\
@@ -21966,7 +21970,7 @@ document.querySelector(".swggUiContainer > .header > .td2").value =\n\
         "assets.swgg.swagger.json";\n\
 </script>\n\
 <script src="assets.utility2.rollup.js"></script>\n\
-<script>window.swgg.uiEventListenerDict[".onEventUiReload"]();</script>\n\
+<script>window.swgg.uiEventListenerDict[".onEventUiReload"]({ swggInit: true });</script>\n\
 </body>\n\
 </html>\n\
 ');
@@ -22695,11 +22699,11 @@ local.templateUiMain = '\
         type="text"\n\
         value="{{apiKeyValue}}"\n\
     >\n\
+    <button class="eventDelegateClick onEventUiReload td3">Explore</button>\n\
     <button\n\
         class="eventDelegateClick onEventUiReload td3"\n\
         id="swggApiKeyClearButton1"\n\
     >Clear api-keys</button>\n\
-    <button class="eventDelegateClick onEventUiReload td3">Explore</button>\n\
 </div>\n\
 <div class="info reset">\n\
     {{#if info}}\n\
@@ -23071,9 +23075,10 @@ swgg\n\
                     'Bearer ' + options.jwtEncrypted;
             }
             // init url
-            options.url = (((local.normalizeValue('list', local.swaggerJson.schemes)[0] ||
+            options.url = (((local.normalizeValue('list', self['x-schemes'] ||
+                local.swaggerJson.schemes)[0] ||
                 local.urlParse('').protocol.slice(0, -1)) + '://' +
-                (local.swaggerJson.host || local.urlParse('').host) +
+                (self['x-host'] || local.swaggerJson.host || local.urlParse('').host) +
                 local.swaggerJsonBasePath) + options.inPath + '?' + options.inQuery.slice(1))
                 .replace((/\?$/), '');
             if (!(options.headers['Content-Type'] || options.headers['content-type'])) {
@@ -23099,7 +23104,7 @@ swgg\n\
          */
             var tmp;
             // init options
-            options = local.normalizeValue('dict', options);
+            options = options || {};
             // init apiDict
             local.apiDict = local.apiDict || {};
             // init swaggerJson
@@ -23311,17 +23316,27 @@ swgg\n\
                 self._method = self._method.toUpperCase();
                 // init _keyPath
                 self._keyPath = self._method + ' ' + self._path.replace((/\{.*?\}/g), '');
-                // init _idField.format and _idField.type
-                if (self._schemaName) {
-                    self.parameters.forEach(function (param) {
-                        if (param.name === self._idField) {
-                            param.format = options.definitions[self._schemaName]
-                                .properties[self._idAlias].format;
-                            param.type = options.definitions[self._schemaName]
-                                .properties[self._idAlias].type;
-                        }
-                    });
-                }
+                self.parameters.forEach(function (param) {
+                    // init _idField.format and _idField.type
+                    if (self._schemaName && param.name === self._idField) {
+                        param.format = options.definitions[self._schemaName]
+                            .properties[self._idAlias].format;
+                        param.type = options.definitions[self._schemaName]
+                            .properties[self._idAlias].type;
+                    }
+                    // copy x-ref from x-definitionsParameters
+                    if (param['x-ref']) {
+                        // validate x-ref
+                        local.assert(
+                            options['x-definitionsParameters'][param['x-ref']],
+                            param['x-ref']
+                        );
+                        local.objectSetDefault(
+                            param,
+                            local.jsonCopy(options['x-definitionsParameters'][param['x-ref']])
+                        );
+                    }
+                });
                 switch (self.operationId.split('.')[0]) {
                 // add extra file-upload forms
                 case 'fileUploadManyByForm':
@@ -24838,24 +24853,30 @@ swgg\n\
          * this function will reload the ui
          */
             var notify, tmp;
-            switch (event && event.target && event.target.id) {
+            event = event || {};
             // clear all apiKeyValue's from localStorage
-            case 'swggApiKeyClearButton1':
+            if (event.target && event.target.id === 'swggApiKeyClearButton1') {
                 local.apiKeyValue = '';
                 Object.keys(localStorage).forEach(function (key) {
                     if (key.indexOf('utility2_swgg_apiKeyKey_') === 0) {
                         localStorage.removeItem(key);
                     }
                 });
-                break;
-            // persist apiKeyValue to localStorage
-            case 'swggApiKeyInput1':
-                local.apiKeyValue = event.target.value;
-                local.localStorageSetItemOrClear(local.apiKeyKey, event.target.value);
-                break;
+            // restore apiKeyValue
+            } else if (event.swggInit) {
+                local.apiKeyKey = 'utility2_swgg_apiKeyKey_' + encodeURIComponent(
+                    document.querySelector('.swggUiContainer > .header > .td2').value
+                );
+                local.apiKeyValue = localStorage.getItem(local.apiKeyKey) || '';
+            // save apiKeyValue
+            } else {
+                local.apiKeyValue = document.querySelector('#swggApiKeyInput1').value;
+                local.localStorageSetItemOrClear(local.apiKeyKey, local.apiKeyValue);
             }
             // if keyup-event is not return-key, then return
-            if (event && event.type === 'keyup' && event.keyCode !== 13) {
+            if ((event.type === 'keyup' && event.code !== 'Enter') ||
+                    // do not reload ui during test
+                    local.global.utility2_modeTestRun >= 2) {
                 return;
             }
             notify = function (message) {
@@ -25067,14 +25088,13 @@ swgg\n\
          */
             var resource, options;
             options = local.uiState = local.jsonCopy(local.swaggerJson);
+            // init apiKeyValue
+            options.apiKeyValue = local.apiKeyValue;
             // init title
             document.querySelector('head > title').textContent =
                 local.templateRender(local.templateUiTitle, options).trim();
             // init url
             options.url = document.querySelector('.swggUiContainer > .header > .td2').value;
-            // init apiKeyValue
-            local.apiKeyKey = 'utility2_swgg_apiKeyKey_' + encodeURIComponent(options.url);
-            local.apiKeyValue = options.apiKeyValue = localStorage[local.apiKeyKey] || '';
             // templateRender main
             document.querySelector('.swggUiContainer').innerHTML =
                 local.templateRender(local.templateUiMain, options);
@@ -25649,14 +25669,10 @@ swgg\n\
     // run node js-env code - init-after
     /* istanbul ignore next */
     case 'node':
-        // init cli
-        switch (process.argv[2]) {
-        case 'swagger-ui':
-            local.replStart();
-            local.global.local = local;
-            local.assetsDict['/'] = local.assetsDict['/assets.swgg.html'];
-            local.testRunServer({});
-            break;
+        if (local.fs.existsSync(local.__dirname + '/assets.swgg.swagger.json')) {
+            local.swgg.apiDictUpdate(JSON.parse(
+                local.fs.readFileSync(local.__dirname + '/assets.swgg.swagger.json')
+            ));
         }
         break;
     }
@@ -25729,6 +25745,7 @@ swgg\n\
         ? window
         : global;
     local.local = local.global.utility2_rollup = local.global.utility2_rollup_old || local;
+    local.global.utility2_rollup_old = null;
 }());
 /* script-end /assets.utility2.rollup.begin.js */
 
