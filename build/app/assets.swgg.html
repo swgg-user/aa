@@ -7,6 +7,7 @@
 <title>swgg</title>
 <style>
 /*csslint
+    box-model: false,
     box-sizing: false,
     universal-selector: false
 */
@@ -31,6 +32,20 @@ button {
     overflow-y: hidden;
     transition: border-bottom 250ms, border-top 250ms, margin-bottom 250ms, margin-top 250ms, max-height 250ms, min-height 250ms, padding-bottom 250ms, padding-top 250ms;
 }
+@keyframes uiAnimateSpin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.uiAnimateSpin {
+    animation: uiAnimateSpin 2s linear infinite;
+    border: 0.5rem solid #999;
+    border-radius: 50%;
+    border-top: 0.5rem solid #7d7;
+    display: inline-block;
+    height: 2rem;
+    vertical-align: middle;
+    width: 2rem;
+}
 .utility2FooterDiv {
     margin-top: 20px;
     text-align: center;
@@ -52,9 +67,6 @@ button {
     universal-selector: false
 */
 /* animate */
-.uiAnimateFade {
-    transition: opacity 250ms;
-}
 @keyframes uiAnimateShake {
     100% {
         transform: translateX(0);
@@ -89,12 +101,6 @@ button {
 .swggUiContainer > * {
     margin-top: 1rem;
 }
-.swggUiContainer a {
-    text-decoration: none;
-}
-.swggUiContainer a:hover {
-    color: black;
-}
 .swggUiContainer a,
 .swggUiContainer input,
 .swggUiContainer span {
@@ -111,6 +117,13 @@ button {
 .swggUiContainer .cursorPointer input {
     cursor: pointer;
 }
+.swggUiContainer .code,
+.swggUiContainer .operation > .content .code {
+    background: #ddd;
+    border: 1px solid #777;
+    color: #555;
+    max-height: 50rem;
+}
 .swggUiContainer .flex1 {
     flex: 1;
 }
@@ -119,6 +132,12 @@ button {
 }
 .swggUiContainer .fontWeightBold {
     font-weight: bold;
+}
+.swggUiContainer .header a {
+    text-decoration: none;
+}
+.swggUiContainer .header a:hover {
+    color: black;
 }
 .swggUiContainer input {
     height: 1.5rem;
@@ -140,6 +159,7 @@ button {
     font-size: small;
     line-height: 1.25rem;
     max-height: 20rem;
+    min-height: 1.75rem;
     overflow: auto;
     padding: 0.25rem;
     white-space: pre;
@@ -165,103 +185,26 @@ button {
 /* border */
 /* border-bottom-bold */
 .swggUiContainer .borderBottom {
-    border-bottom: 1px solid #bbb;
-    margin-bottom: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-.swggUiContainer .borderBottomBold {
     border-bottom: 1px solid #777;
     margin-bottom: 0.5rem;
     padding-bottom: 0.5rem;
 }
 /* border-top */
-.swggUiContainer .borderTop {
-    border-top: 1px solid #bbb;
-    margin-top: 0.5rem;
-    padding-top: 0.5rem;
-}
-/* border-top-bold */
-.swggUiContainer .borderTopBold,
+.swggUiContainer .borderTop,
 .swggUiContainer .resourceList {
     border-top: 1px solid #777;
     margin-top: 0.5rem;
     padding-top: 0.5rem;
 }
 /* border-error*/
-.swggUiContainer .error {
+.swggUiContainer .error,
+.swggUiContainer .operation > .content .error {
     border: 5px solid #b00;
 }
 
 
 
-/* datatable color */
-.swggUiContainer .datatable tbody > tr > td {
-    background: #efe;
-}
-.swggUiContainer .datatable tbody > tr > td:nth-child(odd) {
-    background: #dfd;
-}
-.swggUiContainer .datatable tbody > tr:nth-child(odd) > td {
-    background: #cfc;
-}
-.swggUiContainer .datatable tbody > tr:nth-child(odd) > td:nth-child(odd) {
-    background: #beb;
-}
-.swggUiContainer .datatable tbody > tr:hover > td {
-    background: #aea;
-}
-.swggUiContainer .datatable tbody > tr:hover > td:nth-child(odd) {
-    background: #9e9;
-}
-.swggUiContainer .datatable tbody > tr > td:hover,
-.swggUiContainer .datatable tbody > tr > td:hover:nth-child(odd),
-.swggUiContainer .datatable tbody > tr:nth-child(odd) > td:hover,
-.swggUiContainer .datatable tbody > tr:nth-child(odd) > td:hover:nth-child(odd),
-.swggUiContainer .datatable th:hover {
-    background: #7d7;
-}
-.swggUiContainer .datatable tbody > tr.selected > td {
-    background: #fee;
-}
-.swggUiContainer .datatable tbody > tr.selected > td:nth-child(odd) {
-    background: #fdd;
-}
-.swggUiContainer .datatable tbody > tr.selected:nth-child(odd) > td {
-    background: #ecc;
-}
-.swggUiContainer .datatable tbody > tr.selected:nth-child(odd) > td:nth-child(odd) {
-    background: #ebb;
-}
-.swggUiContainer .datatable th {
-    background: #9e9;
-}
-
-
-
 /* section */
-.swggUiContainer .datatable {
-    background: #fff;
-    background: rgba(255,255,255,0.875);
-    margin: 2rem;
-    overflow: auto;
-    padding: 1rem;
-}
-.swggUiContainer .datatable input[type=checkbox] {
-    width: 1.5rem;
-}
-.swggUiContainer .datatable .sortAsc,
-.swggUiContainer .datatable .sortDsc {
-    display: none;
-}
-.swggUiContainer .datatable td,
-.swggUiContainer .datatable th {
-    max-width: 10rem;
-    overflow: auto;
-    padding: 0.5rem;
-}
-.swggUiContainer .datatable th:first-child {
-    padding-right: 2rem;
-}
 .swggUiContainer > .header {
     background: #8c0;
     padding: 0.5rem;
@@ -277,7 +220,7 @@ button {
     height: 2rem;
 }
 .swggUiContainer > .header > .td3 {
-border: 0;
+    border: 0;
     color: #fff;
     padding: 6px 8px;
     background: #580;
@@ -287,7 +230,6 @@ border: 0;
 }
 .swggUiContainer > .info a {
     color: #370;
-    text-decoration: underline;
 }
 .swggUiContainer > .info > .fontWeightBold {
     font-size: x-large;
@@ -295,27 +237,9 @@ border: 0;
 .swggUiContainer > .info > ul {
     margin-left: 2rem;
 }
-.swggUiContainer > .modal {
-    background: black;
-    background: rgba(0,0,0,0.5);
-    display: flex;
-    height: 100%;
-    left: 0;
-    margin: 0;
-    margin-top: 4px;
-    padding: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-}
-.swggUiContainer .modal button {
-    padding: 0.5rem;
-}
 .swggUiContainer .operation {
     background: #dfd;
     font-size: smaller;
-    outline: none;
 }
 .swggUiContainer .operation > .content {
     padding: 1rem;
@@ -330,8 +254,10 @@ border: 0;
 .swggUiContainer .operation > .content .tr {
     margin-left: 0.5rem;
 }
+.swggUiContainer .operation > .header:focus,
 .swggUiContainer .operation > .header:hover {
     background: #bfb;
+    outline: none;
 }
 .swggUiContainer .operation > .header > span {
     padding: 2px 0 2px 0;
@@ -346,18 +272,6 @@ border: 0;
     height: 1.5rem;
     text-align: center;
     width: 5rem;
-}
-.swggUiContainer .operation > .header > .td2 {
-    flex: 3;
-}
-.swggUiContainer .operation > .header > .td3 {
-    color: #777;
-    flex: 2;
-    text-decoration: none;
-}
-.swggUiContainer .operation > .header > .td4 {
-    flex: 2;
-    padding-right: 1rem;
 }
 .swggUiContainer .operation .paramDef pre,
 .swggUiContainer .operation .paramDef textarea {
@@ -381,15 +295,16 @@ border: 0;
 .swggUiContainer .operation .responseList > .td2 {
     flex: 4;
 }
-.swggUiContainer .resource {
+.swggUiContainer .resource > .header {
     outline: none;
 }
 .swggUiContainer .resource > .header > .td1 {
     font-size: large;
 }
-.swggUiContainer .resource > .header > .td2,
-.swggUiContainer .resource > .header > .td3 {
-    border-right: 1px solid #777;
+.swggUiContainer .resource > .header > .td2 {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    padding-left: 1rem;
     padding-right: 1rem;
 }
 
@@ -423,7 +338,7 @@ border: 0;
     bitwise: true,
     browser: true,
     maxerr: 8,
-    maxlen: 96,
+    maxlen: 100,
     node: true,
     nomen: true,
     regexp: true,
@@ -484,9 +399,14 @@ border: 0;
         id="swggApiKeyClearButton1"
     >Clear api-keys</button>
 </div>
-<div class="coverageHack reset"></div>
+<div class="info reset">
 </div>
-<div class="swggAjaxProgressDiv" style="margin-top: 1rem; text-align: center;">fetching resource-list ...</div>
+<pre class="code" id="swggAjaxProgressPre1">
+</pre>
+<div class="color777 reset">
+</div>
+<div id="swggAjaxProgressDiv1" style="text-align: center;"><span>loading script &nbsp;</span><span class="uiAnimateSpin"></span></div>
+</div>
 <div class="utility2FooterDiv">
     [ this document was created with
     <a href="https://github.com/kaizhu256/node-swgg" target="_blank">swgg</a>
@@ -497,7 +417,7 @@ border: 0;
     bitwise: true,
     browser: true,
     maxerr: 8,
-    maxlen: 96,
+    maxlen: 100,
     node: true,
     nomen: true,
     regexp: true,

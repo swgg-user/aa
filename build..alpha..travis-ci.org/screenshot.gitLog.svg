@@ -1,122 +1,125 @@
-<svg height="1902" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="1902" fill="#555" width="720"></rect>
+<svg height="1950" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="1950" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">2017-10-10 13:32:10 +0800</tspan>
+<tspan x="10" y="26">2017-10-29 04:42:29 +0800</tspan>
 <tspan x="10" y="42">update.versions</tspan>
 <tspan x="10" y="58"></tspan>
-<tspan x="10" y="74">2017-10-05 23:17:59 +0800</tspan>
+<tspan x="10" y="74">2017-10-10 13:32:10 +0800</tspan>
 <tspan x="10" y="90">update.versions</tspan>
 <tspan x="10" y="106"></tspan>
-<tspan x="10" y="122">2017-09-16 22:28:09 +0700</tspan>
-<tspan x="10" y="138">minor</tspan>
+<tspan x="10" y="122">2017-10-05 23:17:59 +0800</tspan>
+<tspan x="10" y="138">update.versions</tspan>
 <tspan x="10" y="154"></tspan>
-<tspan x="10" y="170">2017-09-16 22:16:47 +0700</tspan>
-<tspan x="10" y="186">- npm publish 2017.9.16</tspan>
-<tspan x="10" y="202">- fix timeoutDefault bug in function browserTest</tspan>
-<tspan x="10" y="218"></tspan>
-<tspan x="10" y="234">2017-09-14 06:55:55 +0700</tspan>
-<tspan x="10" y="250">fix build</tspan>
+<tspan x="10" y="170">2017-09-16 22:28:09 +0700</tspan>
+<tspan x="10" y="186">minor</tspan>
+<tspan x="10" y="202"></tspan>
+<tspan x="10" y="218">2017-09-16 22:16:47 +0700</tspan>
+<tspan x="10" y="234">- npm publish 2017.9.16</tspan>
+<tspan x="10" y="250">- fix timeoutDefault bug in function browserTest</tspan>
 <tspan x="10" y="266"></tspan>
-<tspan x="10" y="282">2017-09-14 06:34:31 +0700</tspan>
-<tspan x="10" y="298">update.scripts</tspan>
+<tspan x="10" y="282">2017-09-14 06:55:55 +0700</tspan>
+<tspan x="10" y="298">fix build</tspan>
 <tspan x="10" y="314"></tspan>
-<tspan x="10" y="330">2017-09-14 06:33:02 +0700</tspan>
-<tspan x="10" y="346">update</tspan>
+<tspan x="10" y="330">2017-09-14 06:34:31 +0700</tspan>
+<tspan x="10" y="346">update.scripts</tspan>
 <tspan x="10" y="362"></tspan>
-<tspan x="10" y="378">2017-09-03 20:46:23 +0800</tspan>
-<tspan x="10" y="394">buildApp</tspan>
+<tspan x="10" y="378">2017-09-14 06:33:02 +0700</tspan>
+<tspan x="10" y="394">update</tspan>
 <tspan x="10" y="410"></tspan>
-<tspan x="10" y="426">2017-09-03 20:18:09 +0800</tspan>
-<tspan x="10" y="442">version</tspan>
+<tspan x="10" y="426">2017-09-03 20:46:23 +0800</tspan>
+<tspan x="10" y="442">buildApp</tspan>
 <tspan x="10" y="458"></tspan>
-<tspan x="10" y="474">2017-09-01 14:11:24 +0800</tspan>
-<tspan x="10" y="490">shCustomOrgRepoListCreate example</tspan>
+<tspan x="10" y="474">2017-09-03 20:18:09 +0800</tspan>
+<tspan x="10" y="490">version</tspan>
 <tspan x="10" y="506"></tspan>
-<tspan x="10" y="522">2017-07-16 04:36:53 +0800</tspan>
-<tspan x="10" y="538">version</tspan>
+<tspan x="10" y="522">2017-09-01 14:11:24 +0800</tspan>
+<tspan x="10" y="538">shCustomOrgRepoListCreate example</tspan>
 <tspan x="10" y="554"></tspan>
-<tspan x="10" y="570">2017-06-04 16:19:10 +0800</tspan>
-<tspan x="10" y="586">update build</tspan>
+<tspan x="10" y="570">2017-07-16 04:36:53 +0800</tspan>
+<tspan x="10" y="586">version</tspan>
 <tspan x="10" y="602"></tspan>
-<tspan x="10" y="618">2017-06-04 16:13:08 +0800</tspan>
+<tspan x="10" y="618">2017-06-04 16:19:10 +0800</tspan>
 <tspan x="10" y="634">update build</tspan>
 <tspan x="10" y="650"></tspan>
-<tspan x="10" y="666">2017-06-04 15:52:55 +0800</tspan>
-<tspan x="10" y="682">test npm install -g</tspan>
+<tspan x="10" y="666">2017-06-04 16:13:08 +0800</tspan>
+<tspan x="10" y="682">update build</tspan>
 <tspan x="10" y="698"></tspan>
-<tspan x="10" y="714">2017-06-03 13:13:05 +0800</tspan>
-<tspan x="10" y="730">update build</tspan>
+<tspan x="10" y="714">2017-06-04 15:52:55 +0800</tspan>
+<tspan x="10" y="730">test npm install -g</tspan>
 <tspan x="10" y="746"></tspan>
-<tspan x="10" y="762">2017-05-21 22:29:53 +0800</tspan>
-<tspan x="10" y="778">update</tspan>
+<tspan x="10" y="762">2017-06-03 13:13:05 +0800</tspan>
+<tspan x="10" y="778">update build</tspan>
 <tspan x="10" y="794"></tspan>
-<tspan x="10" y="810">2017-04-28 17:07:40 +0800</tspan>
+<tspan x="10" y="810">2017-05-21 22:29:53 +0800</tspan>
 <tspan x="10" y="826">update</tspan>
 <tspan x="10" y="842"></tspan>
-<tspan x="10" y="858">2017-04-28 00:35:28 +0800</tspan>
-<tspan x="10" y="874">npmdoc</tspan>
+<tspan x="10" y="858">2017-04-28 17:07:40 +0800</tspan>
+<tspan x="10" y="874">update</tspan>
 <tspan x="10" y="890"></tspan>
-<tspan x="10" y="906">2017-04-26 20:16:20 +0800</tspan>
-<tspan x="10" y="922">update</tspan>
+<tspan x="10" y="906">2017-04-28 00:35:28 +0800</tspan>
+<tspan x="10" y="922">npmdoc</tspan>
 <tspan x="10" y="938"></tspan>
-<tspan x="10" y="954">2017-04-26 19:51:20 +0800</tspan>
-<tspan x="10" y="970">test mysql</tspan>
+<tspan x="10" y="954">2017-04-26 20:16:20 +0800</tspan>
+<tspan x="10" y="970">update</tspan>
 <tspan x="10" y="986"></tspan>
-<tspan x="10" y="1002">2017-04-26 19:35:35 +0800</tspan>
-<tspan x="10" y="1018">shCustomOrgBuildCi old passed builds</tspan>
+<tspan x="10" y="1002">2017-04-26 19:51:20 +0800</tspan>
+<tspan x="10" y="1018">test mysql</tspan>
 <tspan x="10" y="1034"></tspan>
-<tspan x="10" y="1050">2017-04-26 18:55:47 +0800</tspan>
-<tspan x="10" y="1066">update build</tspan>
+<tspan x="10" y="1050">2017-04-26 19:35:35 +0800</tspan>
+<tspan x="10" y="1066">shCustomOrgBuildCi old passed builds</tspan>
 <tspan x="10" y="1082"></tspan>
-<tspan x="10" y="1098">2017-04-26 18:37:53 +0800</tspan>
+<tspan x="10" y="1098">2017-04-26 18:55:47 +0800</tspan>
 <tspan x="10" y="1114">update build</tspan>
 <tspan x="10" y="1130"></tspan>
-<tspan x="10" y="1146">2017-04-26 11:22:25 +0800</tspan>
-<tspan x="10" y="1162">update</tspan>
+<tspan x="10" y="1146">2017-04-26 18:37:53 +0800</tspan>
+<tspan x="10" y="1162">update build</tspan>
 <tspan x="10" y="1178"></tspan>
-<tspan x="10" y="1194">2017-04-26 09:39:27 +0800</tspan>
+<tspan x="10" y="1194">2017-04-26 11:22:25 +0800</tspan>
 <tspan x="10" y="1210">update</tspan>
 <tspan x="10" y="1226"></tspan>
-<tspan x="10" y="1242">2017-04-26 01:49:44 +0800</tspan>
+<tspan x="10" y="1242">2017-04-26 09:39:27 +0800</tspan>
 <tspan x="10" y="1258">update</tspan>
 <tspan x="10" y="1274"></tspan>
-<tspan x="10" y="1290">2017-04-25 17:28:23 +0800</tspan>
+<tspan x="10" y="1290">2017-04-26 01:49:44 +0800</tspan>
 <tspan x="10" y="1306">update</tspan>
 <tspan x="10" y="1322"></tspan>
-<tspan x="10" y="1338">2017-04-25 14:45:56 +0800</tspan>
-<tspan x="10" y="1354">fix build</tspan>
+<tspan x="10" y="1338">2017-04-25 17:28:23 +0800</tspan>
+<tspan x="10" y="1354">update</tspan>
 <tspan x="10" y="1370"></tspan>
-<tspan x="10" y="1386">2017-04-25 11:17:16 +0800</tspan>
-<tspan x="10" y="1402">update</tspan>
+<tspan x="10" y="1386">2017-04-25 14:45:56 +0800</tspan>
+<tspan x="10" y="1402">fix build</tspan>
 <tspan x="10" y="1418"></tspan>
-<tspan x="10" y="1434">2017-04-25 10:40:32 +0800</tspan>
-<tspan x="10" y="1450">update build</tspan>
+<tspan x="10" y="1434">2017-04-25 11:17:16 +0800</tspan>
+<tspan x="10" y="1450">update</tspan>
 <tspan x="10" y="1466"></tspan>
-<tspan x="10" y="1482">2017-04-25 10:37:33 +0800</tspan>
-<tspan x="10" y="1498">update</tspan>
+<tspan x="10" y="1482">2017-04-25 10:40:32 +0800</tspan>
+<tspan x="10" y="1498">update build</tspan>
 <tspan x="10" y="1514"></tspan>
-<tspan x="10" y="1530">2017-04-25 01:01:03 +0800</tspan>
+<tspan x="10" y="1530">2017-04-25 10:37:33 +0800</tspan>
 <tspan x="10" y="1546">update</tspan>
 <tspan x="10" y="1562"></tspan>
-<tspan x="10" y="1578">2017-04-25 00:59:01 +0800</tspan>
+<tspan x="10" y="1578">2017-04-25 01:01:03 +0800</tspan>
 <tspan x="10" y="1594">update</tspan>
 <tspan x="10" y="1610"></tspan>
-<tspan x="10" y="1626">2017-04-24 23:43:51 +0800</tspan>
+<tspan x="10" y="1626">2017-04-25 00:59:01 +0800</tspan>
 <tspan x="10" y="1642">update</tspan>
 <tspan x="10" y="1658"></tspan>
-<tspan x="10" y="1674">2017-04-24 09:56:39 +0800</tspan>
-<tspan x="10" y="1690">squash</tspan>
+<tspan x="10" y="1674">2017-04-24 23:43:51 +0800</tspan>
+<tspan x="10" y="1690">update</tspan>
 <tspan x="10" y="1706"></tspan>
-<tspan x="10" y="1722">2017-04-17 15:29:56 +0800</tspan>
-<tspan x="10" y="1738">test with 2</tspan>
+<tspan x="10" y="1722">2017-04-24 09:56:39 +0800</tspan>
+<tspan x="10" y="1738">squash</tspan>
 <tspan x="10" y="1754"></tspan>
-<tspan x="10" y="1770">2017-04-17 15:29:30 +0800</tspan>
-<tspan x="10" y="1786">update cron task</tspan>
+<tspan x="10" y="1770">2017-04-17 15:29:56 +0800</tspan>
+<tspan x="10" y="1786">test with 2</tspan>
 <tspan x="10" y="1802"></tspan>
-<tspan x="10" y="1818">2017-04-11 16:53:02 +0800</tspan>
-<tspan x="10" y="1834">initial app</tspan>
+<tspan x="10" y="1818">2017-04-17 15:29:30 +0800</tspan>
+<tspan x="10" y="1834">update cron task</tspan>
 <tspan x="10" y="1850"></tspan>
-<tspan x="10" y="1866">2014-03-26 02:31:50 +0700</tspan>
-<tspan x="10" y="1882">add blank README.md</tspan>
+<tspan x="10" y="1866">2017-04-11 16:53:02 +0800</tspan>
+<tspan x="10" y="1882">initial app</tspan>
+<tspan x="10" y="1898"></tspan>
+<tspan x="10" y="1914">2014-03-26 02:31:50 +0700</tspan>
+<tspan x="10" y="1930">add blank README.md</tspan>
 </text>
 </svg>

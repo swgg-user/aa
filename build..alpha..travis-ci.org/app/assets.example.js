@@ -99,13 +99,13 @@
 /*
 example.js
 
-this script will run a web demo of sandbox2
+this script will run a web-demo of sandbox2
 
 instruction
     1. save this script as example.js
     2. run the shell command:
         $ npm install sandbox2 && PORT=8081 node example.js
-    3. open a browser to http://127.0.0.1:8081 and play with the web demo
+    3. open a browser to http://127.0.0.1:8081 and play with the web-demo
     4. edit this script to suit your needs
 */
 
@@ -116,7 +116,7 @@ instruction
     bitwise: true,
     browser: true,
     maxerr: 8,
-    maxlen: 96,
+    maxlen: 100,
     node: true,
     nomen: true,
     regexp: true,
