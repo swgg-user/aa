@@ -10,23 +10,25 @@
 # shCryptoTravisEncrypt scrapeitall
 #!! [
   #!! '00.00.01 swgg-github',
-  #!! '00.00.01 swgg-wechat',
-  #!! '2017.09.15 uglifyjs-lite', // master
-  #!! '2017.09.16 db-lite', // master
-  #!! '2017.09.16 github-crud',
+  #!! '00.00.01 swgg-npm',
   #!! '2017.09.31 itunes-search-lite', // master
   #!! '2017.10.01 elasticsearch-lite',
-  #!! '2017.10.02 electron-lite', // master
   #!! '2017.10.04 istanbul-lite', // master
   #!! '2017.10.08 jslint-lite', // master
-  #!! '2017.10.18 swgg-facebook', // master
-  #!! '2017.10.22 swgg-google-maps',
   #!! '2017.10.23 apidoc-lite',
-  #!! '2017.10.23 swgg-google-translate', // master
-  #!! '2017.10.23 swgg-google',
-  #!! '2017.10.28 swgg',
   #!! '2017.10.28 swagger-ui-lite',
-  #!! '2017.10.17 utility2', // master
+  #!! '2017.10.28 uglifyjs-lite', // master
+  #!! '2017.11.06 swgg-facebook',
+  #!! '2017.11.07 db-lite', // master
+  #!! '2017.11.15 electron-lite', // master
+  #!! '2017.11.15 github-crud', // master
+  #!! '2017.11.15 swgg-google',
+  #!! '2017.11.20 swgg-wechat', // master
+  #!! '2017.11.20 swgg',
+  #!! '2017.11.21 swgg-wechat-pay', // master
+  #!! '2017.11.21 swgg-google-maps',
+  #!! '2017.11.22 swgg-google-translate',
+  #!! '2017.11.15 utility2'
 #!! ]
 
 

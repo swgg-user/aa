@@ -9,6 +9,7 @@
     regexp: true,
     stupid: true
 */
+require('./.a00.js');
 (function () {
     'use strict';
     var local;
