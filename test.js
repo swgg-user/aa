@@ -3,13 +3,12 @@
     bitwise: true,
     browser: true,
     maxerr: 8,
-    maxlen: 96,
+    maxlen: 100,
     node: true,
     nomen: true,
     regexp: true,
     stupid: true
 */
-require('./.a00.js');
 (function () {
     'use strict';
     var local;
@@ -38,22 +37,11 @@ require('./.a00.js');
         local.global = local.modeJs === 'browser'
             ? window
             : global;
-        switch (local.modeJs) {
-        // re-init local from window.local
-        case 'browser':
-            local = local.global.utility2.objectSetDefault(
-                local.global.utility2_rollup || local.global.local,
-                local.global.utility2
-            );
-            break;
-        // re-init local from example.js
-        case 'node':
-            local = (local.global.utility2_rollup ||
-                require('utility2')).requireReadme();
-            break;
-        }
-        // init exports
-        local.global.local = local;
+        // re-init local
+        local = local.global.local = (local.global.utility2 ||
+            require('utility2')).requireReadme();
+        // init test
+        local.testRunInit(local);
     }());
 
 

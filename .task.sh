@@ -13,22 +13,25 @@
   #!! '00.00.01 swgg-npm',
   #!! '2017.09.31 itunes-search-lite', // master
   #!! '2017.10.01 elasticsearch-lite',
-  #!! '2017.10.04 istanbul-lite', // master
-  #!! '2017.10.08 jslint-lite', // master
-  #!! '2017.10.23 apidoc-lite',
-  #!! '2017.10.28 swagger-ui-lite',
+
   #!! '2017.10.28 uglifyjs-lite', // master
-  #!! '2017.11.06 swgg-facebook',
   #!! '2017.11.07 db-lite', // master
   #!! '2017.11.15 electron-lite', // master
   #!! '2017.11.15 github-crud', // master
-  #!! '2017.11.15 swgg-google',
+  #!! '2017.11.21 istanbul-lite', // master
+  #!! '2018.01.12 jslint-lite', // master
+  #!! '2018.01.13 apidoc-lite' // master,
+  #!! '2018.01.14 swagger-ui-lite',
+
+  #!! '2017.11.06 swgg-facebook',
   #!! '2017.11.20 swgg-wechat', // master
-  #!! '2017.11.20 swgg',
   #!! '2017.11.21 swgg-wechat-pay', // master
   #!! '2017.11.21 swgg-google-maps',
   #!! '2017.11.22 swgg-google-translate',
-  #!! '2017.11.15 utility2'
+  #!! '2018.01.12 swgg' // master,
+  #!! '2018.01.12 swgg swgg-google // master',
+
+  #!! '2018.01.13 utility2'
 #!! ]
 
 
