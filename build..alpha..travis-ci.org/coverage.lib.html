@@ -197,18 +197,18 @@
     <h1>Code coverage report for <span class="entity">node-sandbox2/test.js</span></h1>
     <h2>
         
-        Statements: <span class="metric">96.55% <small>(56 / 58)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Statements: <span class="metric">96.3% <small>(52 / 54)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Branches: <span class="metric">89.58% <small>(43 / 48)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Branches: <span class="metric">88.64% <small>(39 / 44)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
         Functions: <span class="metric">92.86% <small>(13 / 14)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Lines: <span class="metric">96.55% <small>(56 / 58)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Lines: <span class="metric">96.3% <small>(52 / 54)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
-        Ignored: <span class="metric">1 branch</span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Ignored: <span class="metric">18 statements, 7 functions, 9 branches</span> &nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
     <div class="path"><a href="../index.html">All files</a> &#187; <a href="index.html">node-sandbox2/</a> &#187; test.js</div>
 </div>
@@ -419,18 +419,7 @@
 203
 204
 205
-206
-207
-208
-209
-210
-211
-212
-213
-214
-215
-216
-217</td><td class="line-coverage"><span class="cline-any cline-neutral">&nbsp;</span>
+206</td><td class="line-coverage"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -469,19 +458,8 @@
 <span class="cline-any cline-yes">2</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2</span>
@@ -584,8 +562,8 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2</span>
-<span class="cline-any cline-yes">2</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
@@ -595,8 +573,8 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2</span>
-<span class="cline-any cline-yes">2</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
@@ -606,8 +584,8 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2</span>
-<span class="cline-any cline-yes">2</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
@@ -617,8 +595,8 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2</span>
-<span class="cline-any cline-yes">2</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
@@ -651,7 +629,7 @@
     bitwise: true,
     browser: true,
     maxerr: 8,
-    maxlen: 96,
+    maxlen: 100,
     node: true,
     nomen: true,
     regexp: true,
@@ -685,22 +663,11 @@
         local.global = local.modeJs === 'browser'
             ? window
             : global;
-        switch (local.modeJs) {
-        // re-init local from window.local
-        case 'browser':
-            local = local.global.utility2.objectSetDefault(
-                local.global.utility2_rollup || local.global.local,
-                local.global.utility2
-            );
-            break;
-        // re-init local from example.js
-        case 'node':
-            local = (local.global.utility2_rollup ||
-                require('utility2')).requireReadme();
-            break;
-        }
-        // init exports
-        local.global.local = local;
+        // re-init local
+        local = local.global.local = (local.global.utility2 ||
+            require('utility2')).requireReadme();
+        // init test
+        local.testRunInit(local);
     }());
 &nbsp;
 &nbsp;
@@ -769,91 +736,91 @@
     // run node js-env code - init-after
     /* istanbul ignore next */
     case 'node':
-        local.testCase_buildApidoc_default = local.testCase_buildApidoc_default || function (
+        local.testCase_buildApidoc_default = local.testCase_buildApidoc_default || <span class="fstat-skip" title="function not covered" ><span class="branch-1 cbranch-skip" title="branch not covered" >function (</span></span>
             options,
             onError
         ) {
         /*
          * this function will test buildApidoc's default handling-behavior
          */
-            options = { modulePathList: module.paths };
-            local.buildApidoc(options, onError);
+<span class="cstat-skip" title="statement not covered" >            options = { modulePathList: module.paths };</span>
+<span class="cstat-skip" title="statement not covered" >            local.buildApidoc(options, onError);</span>
         };
 &nbsp;
-        local.testCase_buildApp_default = local.testCase_buildApp_default || function (
+        local.testCase_buildApp_default = local.testCase_buildApp_default || <span class="fstat-skip" title="function not covered" ><span class="branch-1 cbranch-skip" title="branch not covered" >function (</span></span>
             options,
             onError
         ) {
         /*
          * this function will test buildApp's default handling-behavior
          */
-            local.testCase_buildReadme_default(options, local.onErrorThrow);
-            local.testCase_buildLib_default(options, local.onErrorThrow);
-            local.testCase_buildTest_default(options, local.onErrorThrow);
-            local.testCase_buildCustomOrg_default(options, local.onErrorThrow);
-            options = [];
-            local.buildApp(options, onError);
+<span class="cstat-skip" title="statement not covered" >            local.testCase_buildReadme_default(options, local.onErrorThrow);</span>
+<span class="cstat-skip" title="statement not covered" >            local.testCase_buildLib_default(options, local.onErrorThrow);</span>
+<span class="cstat-skip" title="statement not covered" >            local.testCase_buildTest_default(options, local.onErrorThrow);</span>
+<span class="cstat-skip" title="statement not covered" >            local.testCase_buildCustomOrg_default(options, local.onErrorThrow);</span>
+<span class="cstat-skip" title="statement not covered" >            options = [];</span>
+<span class="cstat-skip" title="statement not covered" >            local.buildApp(options, onError);</span>
         };
 &nbsp;
         local.testCase_buildCustomOrg_default = local.testCase_buildCustomOrg_default ||
-            function (options, onError) {
+<span class="fstat-skip" title="function not covered" ><span class="branch-1 cbranch-skip" title="branch not covered" >            function (options, onError) {</span></span>
             /*
              * this function will test buildCustomOrg's default handling-behavior
              */
-                options = {};
-                local.buildCustomOrg(options, onError);
+<span class="cstat-skip" title="statement not covered" >                options = {};</span>
+<span class="cstat-skip" title="statement not covered" >                local.buildCustomOrg(options, onError);</span>
             };
 &nbsp;
-        local.testCase_buildLib_default = local.testCase_buildLib_default || function (
+        local.testCase_buildLib_default = local.testCase_buildLib_default || <span class="fstat-skip" title="function not covered" ><span class="branch-1 cbranch-skip" title="branch not covered" >function (</span></span>
             options,
             onError
         ) {
         /*
          * this function will test buildLib's default handling-behavior
          */
-            options = {};
-            local.buildLib(options, onError);
+<span class="cstat-skip" title="statement not covered" >            options = {};</span>
+<span class="cstat-skip" title="statement not covered" >            local.buildLib(options, onError);</span>
         };
 &nbsp;
-        local.testCase_buildReadme_default = local.testCase_buildReadme_default || function (
+        local.testCase_buildReadme_default = local.testCase_buildReadme_default || <span class="fstat-skip" title="function not covered" ><span class="branch-1 cbranch-skip" title="branch not covered" >function (</span></span>
             options,
             onError
         ) {
         /*
          * this function will test buildReadme's default handling-behavior
          */
-            options = {};
-            local.buildReadme(options, onError);
+<span class="cstat-skip" title="statement not covered" >            options = {};</span>
+<span class="cstat-skip" title="statement not covered" >            local.buildReadme(options, onError);</span>
         };
 &nbsp;
-        local.testCase_buildTest_default = local.testCase_buildTest_default || function (
+        local.testCase_buildTest_default = local.testCase_buildTest_default || <span class="fstat-skip" title="function not covered" ><span class="branch-1 cbranch-skip" title="branch not covered" >function (</span></span>
             options,
             onError
         ) {
         /*
          * this function will test buildTest's default handling-behavior
          */
-            options = {};
-            local.buildTest(options, onError);
+<span class="cstat-skip" title="statement not covered" >            options = {};</span>
+<span class="cstat-skip" title="statement not covered" >            local.buildTest(options, onError);</span>
         };
 &nbsp;
-        local.testCase_webpage_default = local.testCase_webpage_default || function (
+        local.testCase_webpage_default = local.testCase_webpage_default || <span class="fstat-skip" title="function not covered" ><span class="branch-1 cbranch-skip" title="branch not covered" >function (</span></span>
             options,
             onError
         ) {
         /*
          * this function will test webpage's default handling-behavior
          */
-            options = {
+<span class="cstat-skip" title="statement not covered" >            options = {</span>
                 fileScreenshotBase: local.env.npm_config_dir_build +
                     '/screenshot.' + local.env.MODE_BUILD + '.browser.%2F',
                 modeCoverageMerge: true,
                 url: local.assetsDict['/']
                     .indexOf('&lt;script src="assets.test.js"&gt;&lt;/script&gt;') &gt;= 0
-                    ? <span class="branch-0 cbranch-skip" title="branch not covered" >local.serverLocalHost + '?modeTest=1'</span>
+                    ? local.serverLocalHost + '?modeTest=1'
                     : local.serverLocalHost + '/index.default.html?modeTest=1'
             };
-            local.browserTest(options, onError);
+<span class="cstat-skip" title="statement not covered" >            local.browserTest(options, onError);</span>
         };
 &nbsp;
         // run test-server
@@ -866,7 +833,7 @@
 </table></pre>
 </div>
 <div class="footer">
-    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Sat Oct 28 2017 20:46:49 GMT+0000 (UTC)</div>
+    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Mon Jan 15 2018 05:12:49 GMT+0000 (UTC)</div>
 </div>
 </body>
 </html>
