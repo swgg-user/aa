@@ -2,13 +2,13 @@
 <rect height="766" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
-<tspan x="10" y="42">[MODE_BUILD=buildApidoc] - 2018-01-15T05:12:50.513Z - npm-testing /home/travis/build/kaizhu256/n\</tspan>
+<tspan x="10" y="42">[MODE_BUILD=buildApidoc] - 2018-01-19T05:35:25.297Z - npm-testing /home/travis/build/kaizhu256/n\</tspan>
 <tspan x="10" y="58">ode-sandbox2</tspan>
 <tspan x="10" y="74"></tspan>
 <tspan x="10" y="90"></tspan>
 <tspan x="10" y="106">buildApidoc - merged test-report from file /home/travis/build/kaizhu256/node-sandbox2/tmp/build/\</tspan>
 <tspan x="10" y="122">test-report.json</tspan>
-<tspan x="10" y="138">&gt; server listening on http-port 36634</tspan>
+<tspan x="10" y="138">&gt; server listening on http-port 38159</tspan>
 <tspan x="10" y="154">apidocCreate - readExample /home/travis/build/kaizhu256/node-sandbox2/package.json</tspan>
 <tspan x="10" y="170">apidocCreate - readExample /home/travis/build/kaizhu256/node-sandbox2/.gitignore</tspan>
 <tspan x="10" y="186">apidocCreate - readExample /home/travis/build/kaizhu256/node-sandbox2/lib.sandbox2.js</tspan>
@@ -28,16 +28,16 @@
 <tspan x="10" y="410">test-report.json</tspan>
 <tspan x="10" y="426"></tspan>
 <tspan x="10" y="442">-------------------------------------------------------</tspan>
-<tspan x="10" y="458">| test-report - buildApidoc - node - linux v6.12.3 - 2018-01-15T05:12:50.718Z</tspan>
-<tspan x="10" y="474">|     117 ms            0 failed        1 passed      |</tspan>
+<tspan x="10" y="458">| test-report - buildApidoc - node - linux v6.12.3 - 2018-01-19T05:35:25.522Z</tspan>
+<tspan x="10" y="474">|     120 ms            0 failed        1 passed      |</tspan>
 <tspan x="10" y="490">-------------------------------------------------------</tspan>
 <tspan x="10" y="506">| test-report - npmTest - browser - /index.default.html - Mozilla/5.0 (X11; Linux x86_64) AppleW\</tspan>
-<tspan x="10" y="522">ebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Electron/1.6.15 Safari/537.36 - 2018-01-15T\</tspan>
-<tspan x="10" y="538">05:12:33.191Z</tspan>
-<tspan x="10" y="554">|      17 ms            0 failed        9 passed      |</tspan>
+<tspan x="10" y="522">ebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Electron/1.6.15 Safari/537.36 - 2018-01-19T\</tspan>
+<tspan x="10" y="538">05:35:07.873Z</tspan>
+<tspan x="10" y="554">|      16 ms            0 failed        9 passed      |</tspan>
 <tspan x="10" y="570">-------------------------------------------------------</tspan>
-<tspan x="10" y="586">| test-report - npmTest - node - linux v6.12.3 - 2018-01-15T05:12:31.778Z</tspan>
-<tspan x="10" y="602">|   16019 ms            0 failed        8 passed      |</tspan>
+<tspan x="10" y="586">| test-report - npmTest - node - linux v6.12.3 - 2018-01-19T05:35:06.069Z</tspan>
+<tspan x="10" y="602">|   16343 ms            0 failed        8 passed      |</tspan>
 <tspan x="10" y="618">-------------------------------------------------------</tspan>
 <tspan x="10" y="634"></tspan>
 <tspan x="10" y="650">created test-report file /home/travis/build/kaizhu256/node-sandbox2/tmp/build/test-report.html</tspan>
@@ -46,6 +46,6 @@
 <tspan x="10" y="698">buildApidoc - 0 failed tests</tspan>
 <tspan x="10" y="714"></tspan>
 <tspan x="10" y="730"></tspan>
-<tspan x="10" y="746">[MODE_BUILD=buildApidoc] - 2018-01-15T05:12:52.847Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="746">[MODE_BUILD=buildApidoc] - 2018-01-19T05:35:27.859Z - EXIT_CODE - 0</tspan>
 </text>
 </svg>
