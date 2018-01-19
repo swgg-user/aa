@@ -11,27 +11,27 @@
 #!! [
   #!! '00.00.01 swgg-github',
   #!! '00.00.01 swgg-npm',
-  #!! '2017.09.31 itunes-search-lite', // master
-  #!! '2017.10.01 elasticsearch-lite',
+  #!! '2017.09.31 itunes-search-lite', // 52 - master
+  #!! '2017.10.01 elasticsearch-lite', // 58
 
-  #!! '2017.10.28 uglifyjs-lite', // master
-  #!! '2017.11.07 db-lite', // master
-  #!! '2017.11.15 electron-lite', // master
-  #!! '2017.11.15 github-crud', // master
-  #!! '2017.11.21 istanbul-lite', // master
-  #!! '2018.01.12 jslint-lite', // master
-  #!! '2018.01.13 apidoc-lite' // master,
-  #!! '2018.01.14 swagger-ui-lite',
+  #!! '2017.11.07 db-lite', // 148 - master
+  #!! '2017.11.15 electron-lite', // 305 - master
+  #!! '2017.11.15 github-crud', // 107 - master
+  #!! '2017.11.21 istanbul-lite', // 530 - master
+  #!! '2018.01.12 jslint-lite', // 686 - master
+  #!! '2018.01.13 apidoc-lite', // 142 - master
+  #!! '2018.01.14 swagger-ui-lite', // 293 - master
+  #!! '2018.01.15 uglifyjs-lite', // 44 - master
 
   #!! '2017.11.06 swgg-facebook',
-  #!! '2017.11.20 swgg-wechat', // master
-  #!! '2017.11.21 swgg-wechat-pay', // master
-  #!! '2017.11.21 swgg-google-maps',
-  #!! '2017.11.22 swgg-google-translate',
-  #!! '2018.01.12 swgg' // master,
-  #!! '2018.01.12 swgg swgg-google // master',
+  #!! '2017.11.20 swgg-wechat', // 21 - master
+  #!! '2017.11.21 swgg-wechat-pay', // 21 - master
+  #!! '2017.11.22 swgg-google-translate', // 26
+  #!! '2018.01.12 swgg' // 42,152 - master,
+  #!! '2018.01.12 swgg swgg-google-all, // 45 - master'
+  #!! '2018.01.15 swgg-google-maps', // 38 - master
 
-  #!! '2018.01.13 utility2'
+  #!! '2018.01.13 utility2' // 3,419 - master
 #!! ]
 
 
